@@ -1,0 +1,21 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign mpn = current_variant.metafields['mm-google-shopping'].mpn
+  assign ean = current_variant.barcode
+-%}
+
+<p class="product__text inline-richtext caption-with-letter-spacing" id="ProductIdentifiers-{{ section.id }}">
+  MPN:
+  {%- if mpn != blank -%}
+    {{ mpn }}
+  {%- else -%}
+    no disponible
+  {%- endif -%}
+  –
+  EAN13:
+  {%- if ean != blank -%}
+    {{ ean }}
+  {%- else -%}
+    no disponible
+  {%- endif -%}
+</p>
