@@ -98,7 +98,13 @@
                 </p>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
+                  {% comment %} CUSTOM START: vendor + sku line {% endcomment %}
+                  {% render 'custom-product-vendor-sku', product: product, section: section %}
+                  {% comment %} CUSTOM END: vendor + sku line {% endcomment %}
                   <h1>{{ product.title | escape }}</h1>
+                  {% comment %} CUSTOM START: product identifiers {% endcomment %}
+                  {% render 'custom-product-identifiers', product: product, section: section %}
+                  {% comment %} CUSTOM END: product identifiers {% endcomment %}
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
                       {{ product.title | escape }}
@@ -163,9 +169,6 @@
                   <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
                   {{- product.selected_or_first_available_variant.sku -}}
                 </p>
-                {% comment %} CUSTOM START: product identifiers {% endcomment %}
-                {% render 'custom-product-identifiers', product: product, section: section %}
-                {% comment %} CUSTOM END: product identifiers {% endcomment %}
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}

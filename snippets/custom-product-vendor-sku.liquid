@@ -1,0 +1,14 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign sku = current_variant.sku
+-%}
+
+<p
+  class="product__text inline-richtext h2{% if sku == blank %} visibility-hidden{% endif %}"
+  id="ProductVendorSku-{{ section.id }}"
+>
+  {{ product.vendor | escape }}
+  {%- if sku != blank -%}
+    – {{ sku }}
+  {%- endif -%}
+</p>
