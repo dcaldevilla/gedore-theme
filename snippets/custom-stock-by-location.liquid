@@ -1,7 +1,6 @@
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
   assign store_availabilities = current_variant.store_availabilities
-  assign store_availabilities = current_variant.store_availabilities | where: 'pick_up_enabled', true
   assign vitoria_available = false
   assign vitoria_quantity = nil
   assign alemania_available = false
@@ -23,24 +22,18 @@
     endif
 
     if is_vitoria
-      assign location_handle = availability.location.name | handleize
-
-      if location_handle == 'almacen-vitoria'
-        assign vitoria_available = availability.available
-        assign vitoria_quantity = availability.quantity
-        if vitoria_quantity == blank
-          assign vitoria_quantity = availability.quantity_available
-        endif
+      assign vitoria_available = availability.available
+      assign vitoria_quantity = availability.quantity
+      if vitoria_quantity == blank
+        assign vitoria_quantity = availability.quantity_available
       endif
     endif
 
     if is_alemania
-      if location_handle == 'almacen-alemania'
-        assign alemania_available = availability.available
-        assign alemania_quantity = availability.quantity
-        if alemania_quantity == blank
-          assign alemania_quantity = availability.quantity_available
-        endif
+      assign alemania_available = availability.available
+      assign alemania_quantity = availability.quantity
+      if alemania_quantity == blank
+        assign alemania_quantity = availability.quantity_available
       endif
     endif
   endfor
