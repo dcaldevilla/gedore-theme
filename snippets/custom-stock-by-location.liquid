@@ -7,6 +7,25 @@
   assign alemania_available = false
   assign alemania_quantity = 0
   assign alemania_has_quantity = false
+  assign use_alemania_metafield = false
+
+  assign alemania_metafield = current_variant.metafields.stock.alemania
+  if alemania_metafield != blank
+    assign alemania_metafield_value = alemania_metafield.value
+    if alemania_metafield_value == blank
+      assign alemania_metafield_value = alemania_metafield
+    endif
+
+    if alemania_metafield_value != blank
+      assign use_alemania_metafield = true
+      assign alemania_has_quantity = true
+      assign alemania_quantity = alemania_metafield_value | plus: 0
+
+      if alemania_quantity > 0
+        assign alemania_available = true
+      endif
+    endif
+  endif
 
   for availability in store_availabilities
     assign location_name = availability.location.name | downcase | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u'
@@ -39,7 +58,7 @@
       endif
     endif
 
-    if is_alemania
+    if is_alemania and use_alemania_metafield == false
       if availability.available
         assign alemania_available = true
       endif
