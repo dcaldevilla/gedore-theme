@@ -23,22 +23,24 @@
     endif
 
     if is_vitoria
-    assign location_handle = availability.location.name | handleize
+      assign location_handle = availability.location.name | handleize
 
-    if location_handle == 'almacen-vitoria'
-      assign vitoria_available = availability.available
-      assign vitoria_quantity = availability.quantity
-      if vitoria_quantity == blank
-        assign vitoria_quantity = availability.quantity_available
+      if location_handle == 'almacen-vitoria'
+        assign vitoria_available = availability.available
+        assign vitoria_quantity = availability.quantity
+        if vitoria_quantity == blank
+          assign vitoria_quantity = availability.quantity_available
+        endif
       endif
     endif
 
     if is_alemania
-    if location_handle == 'almacen-alemania'
-      assign alemania_available = availability.available
-      assign alemania_quantity = availability.quantity
-      if alemania_quantity == blank
-        assign alemania_quantity = availability.quantity_available
+      if location_handle == 'almacen-alemania'
+        assign alemania_available = availability.available
+        assign alemania_quantity = availability.quantity
+        if alemania_quantity == blank
+          assign alemania_quantity = availability.quantity_available
+        endif
       endif
     endif
   endfor
