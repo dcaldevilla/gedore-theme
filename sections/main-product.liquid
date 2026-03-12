@@ -210,6 +210,9 @@
                   <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
                   {{- product.selected_or_first_available_variant.sku -}}
                 </p>
+                {% comment %} CUSTOM START: product identifiers {% endcomment %}
+                {% render 'custom-product-identifiers', product: product, section: section %}
+                {% comment %} CUSTOM END: product identifiers {% endcomment %}
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
