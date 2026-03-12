@@ -1,13 +1,28 @@
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
+  assign store_availabilities = current_variant.store_availabilities
   assign store_availabilities = current_variant.store_availabilities | where: 'pick_up_enabled', true
-
   assign vitoria_available = false
   assign vitoria_quantity = nil
   assign alemania_available = false
   assign alemania_quantity = nil
 
   for availability in store_availabilities
+    assign location_name = availability.location.name | downcase
+    assign location_handle = availability.location.name | handleize
+
+    assign is_vitoria = false
+    assign is_alemania = false
+
+    if location_name contains 'vitoria' or location_handle contains 'vitoria'
+      assign is_vitoria = true
+    endif
+
+    if location_name contains 'alemania' or location_handle contains 'alemania'
+      assign is_alemania = true
+    endif
+
+    if is_vitoria
     assign location_handle = availability.location.name | handleize
 
     if location_handle == 'almacen-vitoria'
@@ -18,6 +33,7 @@
       endif
     endif
 
+    if is_alemania
     if location_handle == 'almacen-alemania'
       assign alemania_available = availability.available
       assign alemania_quantity = availability.quantity
