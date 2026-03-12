@@ -1,0 +1,55 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign store_availabilities = current_variant.store_availabilities | where: 'pick_up_enabled', true
+
+  assign vitoria_available = false
+  assign vitoria_quantity = nil
+  assign alemania_available = false
+  assign alemania_quantity = nil
+
+  for availability in store_availabilities
+    assign location_handle = availability.location.name | handleize
+
+    if location_handle == 'almacen-vitoria'
+      assign vitoria_available = availability.available
+      assign vitoria_quantity = availability.quantity
+      if vitoria_quantity == blank
+        assign vitoria_quantity = availability.quantity_available
+      endif
+    endif
+
+    if location_handle == 'almacen-alemania'
+      assign alemania_available = availability.available
+      assign alemania_quantity = availability.quantity
+      if alemania_quantity == blank
+        assign alemania_quantity = availability.quantity_available
+      endif
+    endif
+  endfor
+-%}
+
+<div class="product__inventory caption-with-letter-spacing" id="StockByLocation-{{ section.id }}">
+  <p><strong>Stock por almacén</strong></p>
+  <ul>
+    <li>
+      Almacén Vitoria:
+      {% if vitoria_quantity != blank %}
+        {{ vitoria_quantity }} uds.
+      {% elsif vitoria_available %}
+        Disponible
+      {% else %}
+        Sin stock
+      {% endif %}
+    </li>
+    <li>
+      Almacén Alemania:
+      {% if alemania_quantity != blank %}
+        {{ alemania_quantity }} uds.
+      {% elsif alemania_available %}
+        Disponible
+      {% else %}
+        Sin stock
+      {% endif %}
+    </li>
+  </ul>
+</div>

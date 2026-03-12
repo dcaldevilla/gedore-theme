@@ -194,6 +194,9 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
+                {% comment %} CUSTOM START: stock by location {% endcomment %}
+                {% render 'custom-stock-by-location', product: product, section: section %}
+                {% comment %} CUSTOM END: stock by location {% endcomment %}
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
