@@ -2,12 +2,14 @@
   assign current_variant = product.selected_or_first_available_variant
   assign store_availabilities = current_variant.store_availabilities
   assign vitoria_available = false
-  assign vitoria_quantity = nil
+  assign vitoria_quantity = 0
+  assign vitoria_has_quantity = false
   assign alemania_available = false
-  assign alemania_quantity = nil
+  assign alemania_quantity = 0
+  assign alemania_has_quantity = false
 
   for availability in store_availabilities
-    assign location_name = availability.location.name | downcase
+    assign location_name = availability.location.name | downcase | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u'
     assign location_handle = availability.location.name | handleize
 
     assign is_vitoria = false
@@ -22,18 +24,34 @@
     endif
 
     if is_vitoria
-      assign vitoria_available = availability.available
-      assign vitoria_quantity = availability.quantity
-      if vitoria_quantity == blank
-        assign vitoria_quantity = availability.quantity_available
+      if availability.available
+        assign vitoria_available = true
+      endif
+
+      assign current_quantity = availability.quantity
+      if current_quantity == blank
+        assign current_quantity = availability.quantity_available
+      endif
+
+      if current_quantity != blank
+        assign vitoria_has_quantity = true
+        assign vitoria_quantity = vitoria_quantity | plus: current_quantity
       endif
     endif
 
     if is_alemania
-      assign alemania_available = availability.available
-      assign alemania_quantity = availability.quantity
-      if alemania_quantity == blank
-        assign alemania_quantity = availability.quantity_available
+      if availability.available
+        assign alemania_available = true
+      endif
+
+      assign current_quantity = availability.quantity
+      if current_quantity == blank
+        assign current_quantity = availability.quantity_available
+      endif
+
+      if current_quantity != blank
+        assign alemania_has_quantity = true
+        assign alemania_quantity = alemania_quantity | plus: current_quantity
       endif
     endif
   endfor
@@ -44,7 +62,7 @@
   <ul>
     <li>
       Almacén Vitoria:
-      {% if vitoria_quantity != blank %}
+      {% if vitoria_has_quantity %}
         {{ vitoria_quantity }} uds.
       {% elsif vitoria_available %}
         Disponible
@@ -54,7 +72,7 @@
     </li>
     <li>
       Almacén Alemania:
-      {% if alemania_quantity != blank %}
+      {% if alemania_has_quantity %}
         {{ alemania_quantity }} uds.
       {% elsif alemania_available %}
         Disponible
