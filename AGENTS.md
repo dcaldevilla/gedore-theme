@@ -67,3 +67,9 @@ Permitir que agentes de IA (Codex) refactoricen y mantengan el theme **sin rompe
   * EAN / MPN en ficha de producto
   * Stock por ubicación
   * Snippets custom para identificadores de producto
+
+## Restricciones de estructura de Shopify
+- No crear subcarpetas dentro de `snippets/`, `assets/`, `sections/`, `layout/`, `templates/` o `locales/`.
+- Todos los snippets custom deben vivir directamente dentro de `snippets/`.
+- Todos los assets custom deben vivir directamente dentro de `assets/`.
+- Usar prefijos como `custom-` o `gedore-` en lugar de carpetas.
