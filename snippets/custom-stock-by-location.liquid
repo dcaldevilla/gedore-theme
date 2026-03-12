@@ -55,6 +55,19 @@
       endif
     endif
   endfor
+
+  if vitoria_has_quantity == false and current_variant.inventory_management == 'shopify'
+    assign fallback_vitoria_quantity = current_variant.inventory_quantity
+
+    if fallback_vitoria_quantity != blank
+      assign vitoria_has_quantity = true
+      assign vitoria_quantity = fallback_vitoria_quantity
+
+      if fallback_vitoria_quantity > 0
+        assign vitoria_available = true
+      endif
+    endif
+  endif
 -%}
 
 <div class="product__inventory caption-with-letter-spacing" id="StockByLocation-{{ section.id }}">
