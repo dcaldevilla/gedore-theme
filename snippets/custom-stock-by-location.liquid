@@ -90,7 +90,7 @@
 -%}
 
 <div class="product__inventory caption-with-letter-spacing" id="StockByLocation-{{ section.id }}">
-    <li>
+    <div>
       Stock en Vitoria:
       {% if vitoria_has_quantity %}
         {{ vitoria_quantity }} uds.
@@ -99,8 +99,8 @@
       {% else %}
         Sin stock
       {% endif %}
-    </li>
-    <li>
+    </div>
+    <div>
       Almacén Alemania:
       {% if alemania_has_quantity %}
         {{ alemania_quantity }} uds.
@@ -109,5 +109,5 @@
       {% else %}
         Sin stock
       {% endif %}
-    </li>
+    </div>
 </div>
