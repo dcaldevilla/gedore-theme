@@ -4,18 +4,37 @@
   assign ean = current_variant.barcode
 -%}
 
-<p class="product__text inline-richtext h4" id="ProductIdentifiers-{{ section.id }}">
-  Código: 
-  {%- if mpn != blank -%}
-    {{ mpn }}
-  {%- else -%}
-    no disponible
-  {%- endif -%}
+{%- capture identifiers_data -%}
+  {
+    {%- for variant in product.variants -%}
+      "{{ variant.id }}": {
+        "mpn": {{ variant.metafields['mm-google-shopping'].mpn | json }},
+        "ean": {{ variant.barcode | json }}
+      }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  }
+{%- endcapture -%}
+
+<p class="product__text inline-richtext h4" id="ProductIdentifiers-{{ section.id }}" data-section-id="{{ section.id }}">
+  Código:
+  <span data-product-mpn>
+    {%- if mpn != blank -%}
+      {{ mpn }}
+    {%- else -%}
+      no disponible
+    {%- endif -%}
+  </span>
   –
-  EAN13: 
-  {%- if ean != blank -%}
-    {{ ean }}
-  {%- else -%}
-    no disponible
-  {%- endif -%}
+  EAN13:
+  <span data-product-ean>
+    {%- if ean != blank -%}
+      {{ ean }}
+    {%- else -%}
+      no disponible
+    {%- endif -%}
+  </span>
 </p>
+
+<script type="application/json" id="ProductIdentifiersData-{{ section.id }}">
+  {{- identifiers_data | strip_newlines -}}
+</script>

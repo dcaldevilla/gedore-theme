@@ -3,12 +3,24 @@
   assign sku = current_variant.sku
 -%}
 
+{%- capture sku_data -%}
+  {
+    {%- for variant in product.variants -%}
+      "{{ variant.id }}": {{ variant.sku | json }}{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  }
+{%- endcapture -%}
+
 <p
   class="product__text inline-richtext h2{% if sku == blank %} visibility-hidden{% endif %}"
   id="ProductVendorSku-{{ section.id }}"
+  data-section-id="{{ section.id }}"
 >
-  {{ product.vendor | escape }}
-  {%- if sku != blank -%}
-    – {{ sku }}
-  {%- endif -%}
+  <span data-product-vendor>{{ product.vendor | escape }}</span>
+  –
+  <span data-product-sku>{{ sku }}</span>
 </p>
+
+<script type="application/json" id="ProductVendorSkuData-{{ section.id }}">
+  {{- sku_data | strip_newlines -}}
+</script>
