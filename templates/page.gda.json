@@ -1,0 +1,390 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_8N7jgV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rYKKVh": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE GDA",
+            "heading_size": "h0"
+          }
+        },
+        "heading_wrPwCT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Atornillador Dinamométrico a Batería",
+            "heading_size": "h1"
+          }
+        },
+        "heading_D7XEnd": {
+          "type": "heading",
+          "settings": {
+            "heading": "60 - 200 N.m.",
+            "heading_size": "h2"
+          }
+        },
+        "text_EdUKCy": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>LIGEREZA Y PRECISIÓN</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rYKKVh",
+        "heading_wrPwCT",
+        "heading_D7XEnd",
+        "text_EdUKCy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_YQdgwc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7rkRgf": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner de imagen",
+            "heading_size": "h1"
+          }
+        },
+        "text_M9hcbH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
+        },
+        "buttons_YeFwEx": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Etiqueta de botón",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Etiqueta de botón",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7rkRgf",
+        "text_M9hcbH",
+        "buttons_YeFwEx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/GDA-auf-Akku-stehend_1.png",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "rich_text_xyL3aB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pxnCUx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Coméntanos sobre tu marca",
+            "heading_size": "h1"
+          }
+        },
+        "text_YCWnYp": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>La solución compacta para rangos de pares bajos</h3><ul><li>Con la nueva GDA presentamos nuestro modelo más compacto de llave a batería para trabajar en montajes, producción y fabricación.</li><li>El secreto de la llave a batería es su microprocesador de control de autoapagado electrónico. Esto permite que cada apriete se mantenga de forma precisa asegurando una estable precisión del par a lo largo de todo el ciclo de descarga de la batería.</li><li>Con una repetitividad del +/- 3%, el par de apriete (o torque) se puede ajustar de forma continua y el estado de la conexión atornillada se visualiza a través de la señal LED de estado. </li></ul><h3>Uso posible en diferentes industrias</h3><ul><li>La nueva GDA es la solución perfecta para los trabajos de atornillado con pares de apriete bajos en una amplia gama de aplicaciones.</li><li>Gracias a su bajo peso, diseño ergonómico y reducido tamaño, es perfecta para trabajos que requieran pares pequeños.</li><li>Pequeña, compacta y a batería, es la solución ideal para los casos que requieren una unión precisa.</li></ul>"
+          }
+        },
+        "button_mb3h6z": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pxnCUx",
+        "text_YCWnYp",
+        "button_mb3h6z"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_JdJpF6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_EeyJKQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner de imagen",
+            "heading_size": "h1"
+          }
+        },
+        "text_dTWGgL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
+        },
+        "buttons_kJacYU": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Etiqueta de botón",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Etiqueta de botón",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EeyJKQ",
+        "text_dTWGgL",
+        "buttons_kJacYU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/GEDORE_GDA_39050_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "rich_text_rnPQtq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cLdFXi": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Coméntanos sobre tu marca",
+            "heading_size": "h1"
+          }
+        },
+        "text_BWTRLN": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Precisa. Competente.</h3><ul><li>La precisión del par de apriete de las GDA fluctúa dentro de una tolerancia inferior al 3%.</li><li>El certificado de calibración que acompaña a cada máquina garantiza esta precisión.</li><li>Cada máquina se calibra de forma individual.</li><li>Los LED de aviso notifican varios estados operativos</li><li>Se pueden realizar calibraciones especiales con los pernos/tornillos específicos del cliente</li></ul><h3>Robusta. Sin cables.</h3><ul><li>Gran rendimiento operativo gracias a su batería de ion-litio y a su electrónica integrada. La potente batería de ion-litio (90Wh/5Ah/18V) funciona con un alto rendimiento de forma constante hasta su descarga completa.</li><li>Las GDAs son la solución perfecta para el cumplimiento de las regulaciones de prevención de accidentes de trabajo.</li></ul><h3>Detalle del suministro</h3><ul><li>Máquina a batería GDA</li><li>Brazo de reacción acodado con función de bloqueo</li><li>3x Baterías de Ion -Litio (90 Wh/18 V/5 Ah)</li><li>Cargador rápido 220–240 V; 50/60 Hz</li><li>Maleta de transporte</li><li>Manual de usuario</li><li>Certificado de Calibración</li></ul>"
+          }
+        },
+        "button_6P4Rt9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cLdFXi",
+        "text_BWTRLN",
+        "button_6P4Rt9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_wEiBJP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tY6jGQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner de imagen",
+            "heading_size": "h1"
+          }
+        },
+        "text_PCQ9j8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
+        },
+        "buttons_EGRNnx": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Etiqueta de botón",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Etiqueta de botón",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tY6jGQ",
+        "text_PCQ9j8",
+        "buttons_EGRNnx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/GEDORE_GDA_39060_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_with_text_PjzcnG": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_3zDXHC": {
+          "type": "caption",
+          "settings": {
+            "caption": "Ficha Técnica",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_jJzHkc": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE GDA",
+            "heading_size": "h1"
+          }
+        },
+        "text_b7DMf6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consulte todos los datos técnicos del modelo GDA</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qLHLGq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Descargar PDF",
+            "button_link": "https://gedoreiberica.sharepoint.com/:b:/s/Publico/EW6oNdSHVaFIrGWSEBa9WugBu9ayJLMS53llEXNH5ewhyg?e=MhMZRx",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_3zDXHC",
+        "heading_jJzHkc",
+        "text_b7DMf6",
+        "button_qLHLGq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Portada_folleto_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_adHhTt": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/coevYOdauNI",
+        "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-20_101523.png",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_8N7jgV",
+    "image_banner_YQdgwc",
+    "rich_text_xyL3aB",
+    "image_banner_JdJpF6",
+    "rich_text_rnPQtq",
+    "image_banner_wEiBJP",
+    "image_with_text_PjzcnG",
+    "video_adHhTt"
+  ]
+}

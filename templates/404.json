@@ -1,0 +1,100 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_eKrdyT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dPUg8E": {
+          "type": "heading",
+          "settings": {
+            "heading": "Página no encontrada",
+            "heading_size": "h1"
+          }
+        },
+        "button_pJGNNE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ir al Inicio",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dPUg8E",
+        "button_pJGNNE"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_CgrWgE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GQVmGQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Página no encontrada",
+            "heading_size": "h1"
+          }
+        },
+        "button_aUTCxJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ir al Inicio",
+            "button_link": "https://www.gedore.es",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GQVmGQ",
+        "button_aUTCxJ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/404_gedore.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_eKrdyT",
+    "image_with_text_CgrWgE"
+  ]
+}

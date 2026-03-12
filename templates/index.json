@@ -1,0 +1,618 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_VGU6Qf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fx4GU3": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_fAXFeT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_prgwPV": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Ver novedades",
+            "button_link_1": "https://webforms.pipedrive.com/f/ItfXM3J5qvc01BSbhOU1P1hhd4NDbr4QMjTZxJSjJ0BvHdlAnTtbYJSYJ50YtSH",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fx4GU3",
+        "text_fAXFeT",
+        "buttons_prgwPV"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ged_MAGIC_Webbanner_Key_Visual_1280x360px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-2",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "slideshow_nkgVQa": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_KigGUB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ged_MAGIC_Webbanner_Key_Visual_1280x360px.jpg",
+            "image_overlay_opacity": 30,
+            "heading": "MAGIC 25",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Ver Novedades",
+            "link": "https://webforms.pipedrive.com/f/ItfXM3J5qvc01BSbhOU1P1hhd4NDbr4QMjTZxJSjJ0BvHdlAnTtbYJSYJ50YtSH",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-right",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-5"
+          }
+        },
+        "slide_eGK8MF": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image_overlay_opacity": 30,
+            "heading": "HEAVY DUTY 24",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Ver Novedades",
+            "link": "https://webforms.pipedrive.com/f/nr8OGaO2mRzxXgyxEGXxBHamqirChXEemixWpbmq6HEgC5HBENvCUYX8YwqU1r5",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-5"
+          }
+        }
+      },
+      "block_order": [
+        "slide_KigGUB",
+        "slide_eGK8MF"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 7,
+        "image_behavior": "ambient",
+        "show_text_below": false,
+        "accessibility_info": "Presentación de diapositivas sobre tu marca"
+      }
+    },
+    "image_banner_nUYk6a": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iTbqmh": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE LDA Solution",
+            "heading_size": "h1"
+          }
+        },
+        "text_rna7yK": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
+        },
+        "buttons_fcwpC6": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Más info",
+            "button_link_1": "shopify://pages/lda-solution",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iTbqmh",
+        "text_rna7yK",
+        "buttons_fcwpC6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LDA_1.png",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "image_behavior": "ambient",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "collage_egYHcM": {
+      "type": "collage",
+      "blocks": {
+        "image_YWKMXN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LDA_SOL_SQUARED_SIN_FONDO.png"
+          }
+        },
+        "video_qTCTVt": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify://shop_images/captura_lda.png",
+            "video_url": "https://youtu.be/uJvcSCi8ylw",
+            "description": "Describir el video"
+          }
+        }
+      },
+      "block_order": [
+        "image_YWKMXN",
+        "video_qTCTVt"
+      ],
+      "settings": {
+        "heading": "Aprietes dinamométricos seguros, precisos, rápidos y documentados",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_d6BKgw": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card-information .bss-lock-element {display: none !important;}"
+      ],
+      "settings": {
+        "collection": "novedades",
+        "products_to_show": 12,
+        "title": "Nuevos productos",
+        "heading_size": "h0",
+        "description": "<p>Entendemos que los expertos necesitan equipos y soluciones adaptadas a múltiples sectores, como el aeroespacial, agrícola, industrial, energético, de transporte, entre otros. Por esta razón, trabajamos continuamente en la mejora y expansión de nuestra oferta, asegurándonos de entregar las herramientas y tecnologías precisas para cubrir las exigencias tanto presentes como futuras de cada área profesional. </p><p>¡Descubra todo lo que podemos ofrecerle!</p>",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "parallelogram",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_XHQfkx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VtgPcy": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_jMPtHa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_X8xJmF": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Etiqueta de botón",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Etiqueta de botón",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VtgPcy",
+        "text_jMPtHa",
+        "buttons_X8xJmF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20240924_2.png",
+        "image_overlay_opacity": 20,
+        "image_height": "adapt",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "bottom-right",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "collage_UPL9bt": {
+      "type": "collage",
+      "blocks": {
+        "image_KrR9jk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pic_ps_img_GED_666-045_Torsions-Bit-Satz_3459519_800x600_f84ad1d9-fcff-4b00-9806-f7a77eb7ab83.png"
+          }
+        },
+        "product_ir6XX9": {
+          "type": "product",
+          "settings": {
+            "product": "gedore-666-045-juego-de-puntas-de-torsion-de-1-4-3459519-45-piezas",
+            "second_image": false
+          }
+        },
+        "video_Pqey4N": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-19_153104.png",
+            "video_url": "https://www.youtube.com/watch?v=Z_x_rJz_Qy0",
+            "description": "Presentación del juego de puntas de torsión 666-042 de GEDORE"
+          }
+        }
+      },
+      "block_order": [
+        "image_KrR9jk",
+        "product_ir6XX9",
+        "video_Pqey4N"
+      ],
+      "custom_css": [
+        ".card-information .bss-lock-element {display: none !important;}"
+      ],
+      "settings": {
+        "heading": "Puntas de torsión para asegurar una durabilidad máxima",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-5",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_QfDype": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_BDc9Bh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dinamométrica aislada VDE",
+            "heading_size": "h1"
+          }
+        },
+        "text_TN47ik": {
+          "type": "text",
+          "settings": {
+            "text": "VDE 4508-05",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BDc9Bh",
+        "text_TN47ik"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pic_ps_img_GED_VDE_Drehmomentschluessel_3125335-_2.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "collage_tNrQFd": {
+      "type": "collage",
+      "blocks": {
+        "image_tPrd3w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pic_mp_Gedore_T3_0237_ergebnis.jpg"
+          }
+        },
+        "product_FaTLrz": {
+          "type": "product",
+          "settings": {
+            "product": "vde-4508-05-dinamometrica-vde-1-210-50nm",
+            "second_image": true
+          }
+        },
+        "video_y6zCjj": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-24_140602.png",
+            "video_url": "https://www.youtube.com/watch?v=0YEFkX9_V0U",
+            "description": "Describir el video"
+          }
+        }
+      },
+      "block_order": [
+        "image_tPrd3w",
+        "product_FaTLrz",
+        "video_y6zCjj"
+      ],
+      "custom_css": [
+        ".card-information .bss-lock-element {display: none !important;}"
+      ],
+      "settings": {
+        "heading": "Seguridad y precisión al alcance de tu mano",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_YiPFKt": {
+      "type": "video",
+      "settings": {
+        "heading": "La historia de GEDORE",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https://www.youtube.com/watch?v=PSwl7DcoooY",
+        "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-19_150655.png",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "image_banner_pnhNW9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_GGzL9i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Análisis de daños a un nuevo nivel",
+            "heading_size": "h1"
+          }
+        },
+        "text_B6dAWM": {
+          "type": "text",
+          "settings": {
+            "text": "Videoscopio KL-0880-10 K",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GGzL9i",
+        "text_B6dAWM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pic_ps_img_GED_KL-0880-10-K_Videoskop_3444910.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "collage_fyNK4U": {
+      "type": "collage",
+      "blocks": {
+        "image_8r9gPN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KL-0880-10_K_aw03.jpg"
+          }
+        },
+        "product_jbngTf": {
+          "type": "product",
+          "settings": {
+            "product": "gedore-kl-0880-10-k-videoscopio-digital-con-sonda-flexible-3444910",
+            "second_image": true
+          }
+        },
+        "video_7PaWNB": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-24_162622.png",
+            "video_url": "https://www.youtube.com/watch?v=ceum8kFJeAs",
+            "description": "Describir el video"
+          }
+        }
+      },
+      "block_order": [
+        "image_8r9gPN",
+        "product_jbngTf",
+        "video_7PaWNB"
+      ],
+      "custom_css": [
+        ".card-information .bss-lock-element {display: none !important;}"
+      ],
+      "settings": {
+        "heading": "Extremadamente compacto",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_MTLRpn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_QQHb3Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "El asistente ideal para tu taller",
+            "heading_size": "h1"
+          }
+        },
+        "text_KBjgFM": {
+          "type": "text",
+          "settings": {
+            "text": "Carro de servicio 1530",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QQHb3Q",
+        "text_KBjgFM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pic_ps_img_GED_1530_Servicewagen_3437507.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "collage_JBcKDq": {
+      "type": "collage",
+      "blocks": {
+        "video_HFfwaP": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-24_171425.png",
+            "video_url": "https://www.youtube.com/watch?v=QnuGELF-BcM",
+            "description": "Describir el video"
+          }
+        },
+        "image_EgbTxb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/KL-0880-10_K_aw03.jpg"
+          }
+        },
+        "product_ANBgXW": {
+          "type": "product",
+          "settings": {
+            "product": "gedore-1530-carro-de-bandejas-3437507",
+            "second_image": true
+          }
+        }
+      },
+      "block_order": [
+        "video_HFfwaP",
+        "image_EgbTxb",
+        "product_ANBgXW"
+      ],
+      "custom_css": [
+        ".card-information .bss-lock-element {display: none !important;}"
+      ],
+      "settings": {
+        "heading": "Equipa tu taller con lo último de GEDORE",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_azCDpn": {
+      "type": "featured-blog",
+      "settings": {
+        "blog": "noticias",
+        "post_limit": 3,
+        "heading": "Artículos del blog",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": false,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_VGU6Qf",
+    "slideshow_nkgVQa",
+    "image_banner_nUYk6a",
+    "collage_egYHcM",
+    "featured_collection_d6BKgw",
+    "image_banner_XHQfkx",
+    "collage_UPL9bt",
+    "image_banner_QfDype",
+    "collage_tNrQFd",
+    "video_YiPFKt",
+    "image_banner_pnhNW9",
+    "collage_fyNK4U",
+    "image_banner_MTLRpn",
+    "collage_JBcKDq",
+    "featured_blog_azCDpn"
+  ]
+}

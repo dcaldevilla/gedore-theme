@@ -1,0 +1,405 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_8N7jgV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rYKKVh": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE LDA Solution",
+            "heading_size": "h0"
+          }
+        },
+        "heading_rz3T7b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Atornilladores Dinamométricos a Batería con Pantalla",
+            "heading_size": "h1"
+          }
+        },
+        "heading_UVDrQN": {
+          "type": "heading",
+          "settings": {
+            "heading": "90 - 8.000 N.m.",
+            "heading_size": "h2"
+          }
+        },
+        "text_EdUKCy": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>con pantalla LCD a color, medición de ángulo y documentación de aprietes realizados</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rYKKVh",
+        "heading_rz3T7b",
+        "heading_UVDrQN",
+        "text_EdUKCy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_YQdgwc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7rkRgf": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner de imagen",
+            "heading_size": "h1"
+          }
+        },
+        "text_M9hcbH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
+        },
+        "buttons_YeFwEx": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Etiqueta de botón",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Etiqueta de botón",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7rkRgf",
+        "text_M9hcbH",
+        "buttons_YeFwEx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LDA-Solution-2019_1.png",
+        "image_overlay_opacity": 30,
+        "image_height": "adapt",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "left",
+        "show_text_below": true
+      }
+    },
+    "rich_text_xyL3aB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pxnCUx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Coméntanos sobre tu marca",
+            "heading_size": "h1"
+          }
+        },
+        "text_YCWnYp": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Fácil seguimiento del proceso de apriete gracias a la pantalla a color</h2><ul><li>Para una máxima precisión, la LDA Solution ofrece un sistema de prueba visual y acústico para evitar cualquier error: pantalla de fácil lectura incluso al sol, pantalla digital a color para monitorear todo el proceso de trabajo; además emite señal acústica al alcanzar el par requerido. El menú de idiomas se puede configurar en castellano.</li></ul><h2>Definición de una unión atornillada mediante control de par+ángulo</h2><ul><li>Para una unión más precisa de uniones roscadas, la LDA Solution ofrece como opción adicional el módulo \"M+a\" que habilita el método de aplicación de par+ángulo. En este modo de apriete combinado, una vez alcanzado el par de apriete fijado, la máquina aplica al tornillo un determinado ángulo de giro lo que garantiza un perfecta unión de acuerdo con los más altos estándares.</li></ul><h2>Módulo de documentación opcional para garantizar la calidad</h2><ul><li>El módulo de documentación incorpora dos funciones: TRACK y QS. Con la función TRACK, se facilita la trazabilidad de los procesos de atornillado. Durante el proceso de atornillado se genera y documenta una base de datos que puede ser transferida al ordernador. Desde aquí, podemos generar y crear un protocolo de atornillado y almacenarlo. Se documenta de forma segura que todas las uniones roscadas han sido realizadas según el ajuste prefijado. Una firma encriptada garantiza que este documento no pueda ser manipulado. Las funciones TRACK y QS permiten documentar mas de 10.000 uniones roscadas sirviendo para asegurar la calidad y para almacenar o archivar el proceso completo de atornillado. El módulo QS puede activarse o desactivarse según se precise.</li></ul>"
+          }
+        },
+        "button_mb3h6z": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pxnCUx",
+        "text_YCWnYp",
+        "button_mb3h6z"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_mnr3aU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_aHFp3C": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "<ul><li></li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LLhNcm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RCt7dY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_6XJmir": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_aHFp3C",
+        "collapsible_row_LLhNcm",
+        "collapsible_row_RCt7dY",
+        "collapsible_row_6XJmir"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "Contenido desplegable",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_mRFGgn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nnaJf3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coméntanos sobre tu marca",
+            "heading_size": "h1"
+          }
+        },
+        "text_hfhnUx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Comparte información sobre tu marca con los clientes. Describe un producto, comparte anuncios o da la bienvenida a los clientes a tu tienda.</p>"
+          }
+        },
+        "button_wtqm3f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nnaJf3",
+        "text_hfhnUx",
+        "button_wtqm3f"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_UhEzre": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bwHaqn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LDASolution_squared_sinfondo.png",
+            "title": "Modelos rectos - GEDORE LDA Solution",
+            "text": "<ul><li><strong>LDA-05 SOLUTION </strong>(90 - 500 N.m.)</li><li><strong>LDA-07</strong> <strong>SOLUTION </strong>(120 - 700 N.m.)</li><li><strong>LDA-12 SOLUTION </strong>(200 - 1.200 N.m.)</li><li><strong>LDA-15 SOLUTION </strong>(250 - 1.500 N.m.)</li><li><strong>LDA-22 SOLUTION </strong>(300 - 2.200 N.m.)</li><li><strong>LDA-32 SOLUTION </strong>(400 - 3.200 N.m.)</li><li><strong>LDA-40</strong> <strong>SOLUTION </strong>(500 - 4.000 N.m.)</li><li><strong>LDA-60</strong> <strong>SOLUTION </strong>(700 - 6.000 N.m.)</li><li><strong>LDA-80</strong> <strong>SOLUTION </strong>(900 - 8.000 N.m.)</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4Xh8zj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LAWSolution_squared_sinfondo.png",
+            "title": "Modelos acodados - GEDORE LAW Solution",
+            "text": "<ul><li><strong>LAW-12 SOLUTION </strong>(200 - 1.200 N.m.)</li><li><strong>LAW-22 SOLUTION </strong>(300 - 2.200 N.m.)</li><li><strong>LAW-32 SOLUTION </strong>(450 - 3.200 N.m.)</li><li><strong>LAW-40</strong> <strong>SOLUTION </strong>(500 - 4.000 N.m.)</li><li><strong>LAW-60</strong> <strong>SOLUTION </strong>(700 - 6.000 N.m.)</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6Krg4n": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bwHaqn",
+        "column_4Xh8zj",
+        "column_6Krg4n"
+      ],
+      "settings": {
+        "title": "Modelos disponibles",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_PjzcnG": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_YnXQPp": {
+          "type": "caption",
+          "settings": {
+            "caption": "Ficha Técnica",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_jJzHkc": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE LDA Solution",
+            "heading_size": "h1"
+          }
+        },
+        "text_b7DMf6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consulte todos los datos técnicos de los modelos LDA y/o LAW Solution</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qLHLGq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Descargar PDF",
+            "button_link": "https://webforms.pipedrive.com/f/HuTsH2K2uzF2WvPApZ8QuGPtU61cOivWyvz9T4fHMYlJhr7kg01rjYBp4wzRpt1",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_YnXQPp",
+        "heading_jJzHkc",
+        "text_b7DMf6",
+        "button_qLHLGq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/soluciones.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_adHhTt": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/uJvcSCi8ylw",
+        "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-20_111936.png",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_8N7jgV",
+    "image_banner_YQdgwc",
+    "rich_text_xyL3aB",
+    "collapsible_content_mnr3aU",
+    "rich_text_mRFGgn",
+    "multicolumn_UhEzre",
+    "image_with_text_PjzcnG",
+    "video_adHhTt"
+  ]
+}

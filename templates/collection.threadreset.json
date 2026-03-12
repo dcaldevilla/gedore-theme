@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "image_with_text_3CLNN9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zADFyk": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_FNmeaw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Las roscas dañadas son un problema frecuente en diversos campos como la automoción, la industria mecánica y la construcción. Repararlas de manera eficiente es crucial para mantener la integridad de los componentes y garantizar la seguridad en su uso. Las herramientas <strong>ThreadReset® </strong>de <strong>GEDORE </strong>ofrecen una solución innovadora para restaurar roscas sin necesidad de reemplazar piezas enteras o realizar desmontajes complejos.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_LNd4EY": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zADFyk",
+        "text_FNmeaw",
+        "button_LNd4EY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KL-0173-460_K_aw01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_F9ppME": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=rZxsnYAtb5U",
+        "cover_image": "shopify://shop_images/KL-0173-460_K_aw02.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "parallelogram",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image_with_text_3CLNN9",
+    "video_F9ppME",
+    "product-grid"
+  ]
+}

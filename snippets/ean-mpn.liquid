@@ -1,0 +1,16 @@
+{%- assign mpn = variant.metafields['mm-google-shopping'].mpn -%}
+{%- assign ean = variant.barcode -%}
+
+<p class="product__text inline-richtext caption-with-letter-spacing" id="VariantEANMPN-{{ section_id }}">
+  {%- if mpn != blank -%}
+    MPN: {{ mpn }}
+  {%- else -%}
+    MPN: no disponible
+  {%- endif -%}
+  –
+  {%- if ean != blank -%}
+    EAN13: {{ ean }}
+  {%- else -%}
+    EAN13: no disponible
+  {%- endif -%}
+</p>

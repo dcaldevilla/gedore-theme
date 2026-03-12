@@ -1,0 +1,251 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_JrhDTC": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iWrD6e": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner de imagen",
+            "heading_size": "h1"
+          }
+        },
+        "text_wqNgJR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
+        },
+        "buttons_6UFcbr": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Etiqueta de botón",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Etiqueta de botón",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWrD6e",
+        "text_wqNgJR",
+        "buttons_6UFcbr"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/20251120_BlackFriday_2025-7.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_gp7B6d": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_VzD77L": {
+          "type": "caption",
+          "settings": {
+            "caption": "LOTE DE 10 UNIDADES",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_prPLTj": {
+          "type": "heading",
+          "settings": {
+            "heading": "666-042 - Juego de 42 puntas",
+            "heading_size": "h2"
+          }
+        },
+        "text_pg7bNC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Este juego de puntas de alta calidad proporciona un rendimiento excepcional en todo momento. Es ideal para los usuarios de taladros y atornilladores ya que la zona de torsión alarga la vida útil de las puntas. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_8iDNVE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pedir lote de 10 uds por sólo 225€",
+            "button_link": "https://webforms.pipedrive.com/f/mxZ5UmtiFElj42hEoFZYlvOxV98QuTJ1AhjqSQrGXepFFlqpyRQgTd5ZPbUKeCn",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_VzD77L",
+        "heading_prPLTj",
+        "text_pg7bNC",
+        "button_8iDNVE"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/20251120_BlackFriday_2025-8-2.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_Mtt3NK": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_XAeFGg": {
+          "type": "caption",
+          "settings": {
+            "caption": "LOTE DE 10 UNIDADES",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_Ymx8LQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "R95600128 - Linterna",
+            "heading_size": "h2"
+          }
+        },
+        "text_YhNeq3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Esta linterna tipo bolígrafo ofrece un brillo de 150 lúmenes, perfecto para iluminar áreas de trabajo pequeñas y específicas con precisión. Cuenta con un botón que permite seleccionar entre el LED superior de 100 lúmenes, el LED principal de 150 lúmenes o apagarla, asegurando un uso sencillo e intuitivo. Su protección IP54 e IK07 garantiza resistencia al polvo y golpes, ideal para ambientes exigentes. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_JmcFPH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pedir lote de 10 uds por sólo 155€",
+            "button_link": "https://webforms.pipedrive.com/f/nrzKwOBuvQKWECjPdWhv7Q7LBckZeeQDtgEiazMdbEWHBTcLE0WQdIwFmnwFmKv",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_XAeFGg",
+        "heading_Ymx8LQ",
+        "text_YhNeq3",
+        "button_JmcFPH"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/20251120_BlackFriday_2025-9.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_M9zBVW": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_wq3KLR": {
+          "type": "caption",
+          "settings": {
+            "caption": "LOTE DE 5 UNIDADES",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_8cMiAw": {
+          "type": "heading",
+          "settings": {
+            "heading": "R69003069 - Maleta con 69 herramientas",
+            "heading_size": "h2"
+          }
+        },
+        "text_R9qL86": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Completa maleta profesional con 69 herramientas GEDORE red es una solución integral para trabajos de mantenimiento y reparación con herramientas de calidad industrial. Equipada con una amplia gama de herramientas de alta calidad, esta maleta profesional de 69 piezas de GEDORE red garantiza eficiencia en cada tarea de mantenimiento y reparación.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_RPgRmh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pedir lote de 5 uds por sólo 625€",
+            "button_link": "https://webforms.pipedrive.com/f/nTen839ydK9ET9FDK8RFql30w6liIEMuYZqq9QvVBHip39PQwPIU8MpsMDvfIWv",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_wq3KLR",
+        "heading_8cMiAw",
+        "text_R9qL86",
+        "button_RPgRmh"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/20251120_BlackFriday_2025-11.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_JrhDTC",
+    "image_with_text_gp7B6d",
+    "image_with_text_Mtt3NK",
+    "image_with_text_M9zBVW"
+  ]
+}

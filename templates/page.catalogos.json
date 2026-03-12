@@ -1,0 +1,271 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_UJfEBB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EAewcd": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE COMPENDIUM",
+            "heading_size": "h1"
+          }
+        },
+        "text_pgXiPG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un extenso catálogo que reune las principales herramientas de la línea premium de GEDORE</p>",
+            "text_style": "body"
+          }
+        },
+        "button_fF3GFp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Descargar PDF",
+            "button_link": "https://webforms.pipedrive.com/f/oHVBqssi1sf3KpEL7ruxfV1GgDHdUlScgcMgOGUm4fyC6vYEzuhWPmTfGKdpZhp",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EAewcd",
+        "text_pgXiPG",
+        "button_fF3GFp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Compendium_Blue_2021_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4fBV3m": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_hVPUbq": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Agregar un eslogan",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_GirXUQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE TORQUE SOLUTIONS",
+            "heading_size": "h1"
+          }
+        },
+        "text_CBtMRi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Máquinas para realizar aprietes dinamométricos de forma profesional</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FdKzpR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Descargar PDF",
+            "button_link": "https://webforms.pipedrive.com/f/HveQSWcmVLDgxN6lAAWwXp1N3lA4zL4g829OSHWeubCBQRcs6mqofGcxcS8Nj1N",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_hVPUbq",
+        "heading_GirXUQ",
+        "text_CBtMRi",
+        "button_FdKzpR"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/GTS_portada_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cm9wmg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Vmnwhc": {
+          "type": "heading",
+          "settings": {
+            "heading": "GEDORE COMPENDIUM",
+            "heading_size": "h1"
+          }
+        },
+        "text_QQAJWz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un extenso catálogo que reune las principales herramientas de la línea premium de GEDORE</p>",
+            "text_style": "body"
+          }
+        },
+        "button_JF9Q88": {
+          "type": "button",
+          "settings": {
+            "button_label": "Descargar PDF",
+            "button_link": "https://webforms.pipedrive.com/f/oHVBqssi1sf3KpEL7ruxfV1GgDHdUlScgcMgOGUm4fyC6vYEzuhWPmTfGKdpZhp",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vmnwhc",
+        "text_QQAJWz",
+        "button_JF9Q88"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Compendium_Blue_2021_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_r84qbH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zcXzf4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GTS_portada_1.jpg",
+            "title": "Catálogo GEDORE Torque solutions",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "Descargar PDF",
+            "link": "https://webforms.pipedrive.com/f/HveQSWcmVLDgxN6lAAWwXp1N3lA4zL4g829OSHWeubCBQRcs6mqofGcxcS8Nj1N"
+          }
+        },
+        "column_F3z8Dg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/soluciones_1.jpg",
+            "title": "Soluciones portátiles a batería (LDA)",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "Descargar PDF",
+            "link": "https://webforms.pipedrive.com/f/HuTsH2K2uzF2WvPApZ8QuGPtU61cOivWyvz9T4fHMYlJhr7kg01rjYBp4wzRpt1"
+          }
+        }
+      },
+      "block_order": [
+        "column_zcXzf4",
+        "column_F3z8Dg"
+      ],
+      "settings": {
+        "title": "GEDORE Torque Solutions",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_kNiXWL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NG4xYc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Portada_KLANN_1_dae0cf77-9289-4598-9d73-e0f6ed4fa1e1.jpg",
+            "title": "Turismo",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "Descargar PDF",
+            "link": "https://www.gedore.es/WebRoot/acens/Shops/prueba199411_tienda-online_biz/MediaGallery/PDF/2021/20210501_Catalogo_GAM_10E1_Aleman.pdf"
+          }
+        },
+        "column_r7LQak": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Portada_KLANN_2_1.jpg",
+            "title": "Vehículo Industrial",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "Descargar PDF",
+            "link": "https://www.gedore.es/WebRoot/acens/Shops/prueba199411_tienda-online_biz/MediaGallery/PDF/2021/Catalogo_Vehiculo_industrial_2021_aleman.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "column_NG4xYc",
+        "column_r7LQak"
+      ],
+      "settings": {
+        "title": "GEDORE Automotive",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_UJfEBB",
+    "image_with_text_4fBV3m",
+    "image_with_text_cm9wmg",
+    "multicolumn_r84qbH",
+    "multicolumn_kNiXWL"
+  ]
+}

@@ -1,0 +1,296 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "scheme-3"
+      }
+    },
+    "image_banner_kVee4i": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DqwcRK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Serie TORCOFIX® de GEDORE",
+            "heading_size": "h1"
+          }
+        },
+        "text_VzgJbd": {
+          "type": "text",
+          "settings": {
+            "text": "Precisión y Fiabilidad en Cada Apriete",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DqwcRK",
+        "text_VzgJbd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/tf-k.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_78KEnL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YgbD3e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Características destacadas",
+            "heading_size": "h1"
+          }
+        },
+        "text_jRTY7D": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Alta Precisión:</strong> Cumplen con las normativas internacionales, ofreciendo una exactitud que asegura la calidad y seguridad en sus proyectos.</p><p><strong>Durabilidad Superior:</strong> Fabricadas con materiales de alta resistencia para una vida útil prolongada incluso en condiciones de uso intensivo.</p><p><strong>Facilidad de Uso:</strong> Sistema de ajuste intuitivo que permite configurar el torque deseado de manera rápida y sencilla.</p><p><strong>Ergonomía Optimizada:</strong> Diseño pensado para reducir la fatiga del usuario y mejorar la eficiencia en el trabajo diario.</p><p><strong>Amplia Variedad:</strong> Disponibles en diversos modelos y rangos de torque para adaptarse a todas sus necesidades específicas.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YgbD3e",
+        "text_jRTY7D"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/master_6.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_NaT4nL": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bgY44a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Alta Precisión",
+            "icon": "check_mark",
+            "row_content": "<p>Cumplen con las normativas internacionales, ofreciendo una exactitud que asegura la calidad y seguridad en sus proyectos.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3aJVJj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Durabilidad Superior",
+            "icon": "check_mark",
+            "row_content": "<p>Fabricadas con materiales de alta resistencia para una vida útil prolongada incluso en condiciones de uso intensivo</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_THAPYG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Facilidad de Uso",
+            "icon": "check_mark",
+            "row_content": "<p>Sistema de ajuste intuitivo que permite configurar el torque deseado de manera rápida y sencilla</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_txrdWh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ergonomía Optimizada",
+            "icon": "check_mark",
+            "row_content": "<p>Diseño pensado para reducir la fatiga del usuario y mejorar la eficiencia en el trabajo diario</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iGxEJr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Amplia Variedad",
+            "icon": "check_mark",
+            "row_content": "<p>Disponibles en diversos modelos y rangos de torque para adaptarse a todas sus necesidades específicas</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bgY44a",
+        "collapsible_row_3aJVJj",
+        "collapsible_row_THAPYG",
+        "collapsible_row_txrdWh",
+        "collapsible_row_iGxEJr"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Características destacadas</strong>",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "collapsible_content_HPYTyT": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6htKgG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Confiabilidad",
+            "icon": "check_mark",
+            "row_content": "<p>Rendimiento consistente que garantiza resultados profesionales</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XPriCn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Innovación Continua",
+            "icon": "check_mark",
+            "row_content": "<p>Tecnología de vanguardia que mejora continuamente para superar los estándares del mercado</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4hc47g": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Soporte Profesional",
+            "icon": "check_mark",
+            "row_content": "<p>Respaldo y servicio al cliente de una marca líder con décadas de experiencia en el sector</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6htKgG",
+        "collapsible_row_XPriCn",
+        "collapsible_row_4hc47g"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>¿Por qué elegir </strong><strong>{{ collection.title }}</strong><strong> de GEDORE?</strong>",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "parallelogram",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_JWrk4h": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_D49MLt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "torcofix-z"
+          }
+        },
+        "featured_collection_GcUAJc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "torcofix-se"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_D49MLt",
+        "featured_collection_GcUAJc"
+      ],
+      "settings": {
+        "title": "También disponible para bocas intercambiables",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "scheme-3",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_9eYtyf": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=7T_U3ppCd00",
+        "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-11-07_162107.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image_banner_kVee4i",
+    "image_with_text_78KEnL",
+    "collapsible_content_NaT4nL",
+    "collapsible_content_HPYTyT",
+    "product-grid",
+    "collection_list_JWrk4h",
+    "video_9eYtyf"
+  ]
+}

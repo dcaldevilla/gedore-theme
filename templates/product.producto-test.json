@@ -1,0 +1,145 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "sku_Xrb7n3": {
+          "type": "sku",
+          "settings": {
+            "text_style": "subtitle"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "price_y4PrMp": {
+          "type": "price",
+          "settings": {}
+        },
+        "inventory_jBfW9F": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 1,
+            "show_inventory_quantity": true
+          }
+        },
+        "quantity_selector_eBww7V": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "complementary_a8EUEF": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Accesorios & Recambios",
+            "make_collapsible_row": true,
+            "icon": "clipboard",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "dots",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
+        "share_7dK8Yx": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartir"
+          }
+        },
+        "custom_liquid_b68cXH": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "sku_Xrb7n3",
+        "title",
+        "variant_picker",
+        "price_y4PrMp",
+        "inventory_jBfW9F",
+        "quantity_selector_eBww7V",
+        "buy_buttons",
+        "description",
+        "complementary_a8EUEF",
+        "share_7dK8Yx",
+        "custom_liquid_b68cXH"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "show",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Puede que también te interesen",
+        "heading_size": "h2",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-5",
+        "image_ratio": "adapt",
+        "image_shape": "parallelogram",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
