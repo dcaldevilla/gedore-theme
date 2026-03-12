@@ -87,27 +87,147 @@
       endif
     endif
   endif
+
+  if vitoria_has_quantity
+    assign vitoria_text = vitoria_quantity | append: ' uds.'
+  elsif vitoria_available
+    assign vitoria_text = 'Disponible'
+  else
+    assign vitoria_text = 'Sin stock'
+  endif
+
+  if alemania_has_quantity
+    assign alemania_text = alemania_quantity | append: ' uds.'
+  elsif alemania_available
+    assign alemania_text = 'Disponible'
+  else
+    assign alemania_text = 'Sin stock'
+  endif
 -%}
 
-<div class="product__inventory caption-with-letter-spacing" id="StockByLocation-{{ section.id }}">
-    <div>
-      Stock en Vitoria:
-      {% if vitoria_has_quantity %}
-        {{ vitoria_quantity }} uds.
-      {% elsif vitoria_available %}
-        Disponible
-      {% else %}
-        Sin stock
-      {% endif %}
-    </div>
-    <div>
-      Almacén Alemania:
-      {% if alemania_has_quantity %}
-        {{ alemania_quantity }} uds.
-      {% elsif alemania_available %}
-        Disponible
-      {% else %}
-        Sin stock
-      {% endif %}
-    </div>
+<div class="product__inventory caption-with-letter-spacing" id="StockByLocation-{{ section.id }}" data-section-id="{{ section.id }}">
+  <div>
+    Stock en Vitoria:
+    <span data-stock-vitoria>{{ vitoria_text }}</span>
+  </div>
+  <div>
+    Almacén Alemania:
+    <span data-stock-alemania>{{ alemania_text }}</span>
+  </div>
 </div>
+
+<script type="application/json" id="StockByLocationData-{{ section.id }}">
+  {
+    {%- for variant in product.variants -%}
+      {%- liquid
+        assign variant_store_availabilities = variant.store_availabilities
+        assign variant_vitoria_available = false
+        assign variant_vitoria_quantity = 0
+        assign variant_vitoria_has_quantity = false
+        assign variant_alemania_available = false
+        assign variant_alemania_quantity = 0
+        assign variant_alemania_has_quantity = false
+        assign variant_use_alemania_metafield = false
+
+        assign variant_alemania_metafield = variant.metafields.stock.alemania
+        if variant_alemania_metafield != blank
+          assign variant_alemania_metafield_value = variant_alemania_metafield.value
+          if variant_alemania_metafield_value == blank
+            assign variant_alemania_metafield_value = variant_alemania_metafield
+          endif
+
+          if variant_alemania_metafield_value != blank
+            assign variant_use_alemania_metafield = true
+            assign variant_alemania_has_quantity = true
+            assign variant_alemania_quantity = variant_alemania_metafield_value | plus: 0
+
+            if variant_alemania_quantity > 0
+              assign variant_alemania_available = true
+            endif
+          endif
+        endif
+
+        for variant_availability in variant_store_availabilities
+          assign variant_location_name = variant_availability.location.name | downcase | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u'
+          assign variant_location_handle = variant_availability.location.name | handleize
+
+          assign variant_is_vitoria = false
+          assign variant_is_alemania = false
+
+          if variant_location_name contains 'vitoria' or variant_location_handle contains 'vitoria'
+            assign variant_is_vitoria = true
+          endif
+
+          if variant_location_name contains 'alemania' or variant_location_handle contains 'alemania'
+            assign variant_is_alemania = true
+          endif
+
+          if variant_is_vitoria
+            if variant_availability.available
+              assign variant_vitoria_available = true
+            endif
+
+            assign variant_current_quantity = variant_availability.quantity
+            if variant_current_quantity == blank
+              assign variant_current_quantity = variant_availability.quantity_available
+            endif
+
+            if variant_current_quantity != blank
+              assign variant_vitoria_has_quantity = true
+              assign variant_vitoria_quantity = variant_vitoria_quantity | plus: variant_current_quantity
+            endif
+          endif
+
+          if variant_is_alemania and variant_use_alemania_metafield == false
+            if variant_availability.available
+              assign variant_alemania_available = true
+            endif
+
+            assign variant_current_quantity = variant_availability.quantity
+            if variant_current_quantity == blank
+              assign variant_current_quantity = variant_availability.quantity_available
+            endif
+
+            if variant_current_quantity != blank
+              assign variant_alemania_has_quantity = true
+              assign variant_alemania_quantity = variant_alemania_quantity | plus: variant_current_quantity
+            endif
+          endif
+        endfor
+
+        if variant_vitoria_has_quantity == false and variant.inventory_management == 'shopify'
+          assign variant_fallback_vitoria_quantity = variant.inventory_quantity
+
+          if variant_fallback_vitoria_quantity != blank
+            assign variant_vitoria_has_quantity = true
+            assign variant_vitoria_quantity = variant_fallback_vitoria_quantity
+
+            if variant_fallback_vitoria_quantity > 0
+              assign variant_vitoria_available = true
+            endif
+          endif
+        endif
+
+        if variant_vitoria_has_quantity
+          assign variant_vitoria_text = variant_vitoria_quantity | append: ' uds.'
+        elsif variant_vitoria_available
+          assign variant_vitoria_text = 'Disponible'
+        else
+          assign variant_vitoria_text = 'Sin stock'
+        endif
+
+        if variant_alemania_has_quantity
+          assign variant_alemania_text = variant_alemania_quantity | append: ' uds.'
+        elsif variant_alemania_available
+          assign variant_alemania_text = 'Disponible'
+        else
+          assign variant_alemania_text = 'Sin stock'
+        endif
+      -%}
+      "{{ variant.id }}": {
+        "vitoria": {{ variant_vitoria_text | json }},
+        "alemania": {{ variant_alemania_text | json }}
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  }
+</script>
