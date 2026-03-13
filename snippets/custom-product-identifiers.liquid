@@ -9,24 +9,13 @@
     {%- for variant in product.variants -%}
       "{{ variant.id }}": {
         "mpn": {{ variant.metafields['mm-google-shopping'].mpn | json }},
-        "ean": {{ variant.barcode | json }},
-        "sku": {{ variant.sku | json }}
+        "ean": {{ variant.barcode | json }}
       }{%- unless forloop.last -%},{%- endunless -%}
     {%- endfor -%}
   }
 {%- endcapture -%}
 
-<div class="custom-product-meta-grid" id="ProductIdentifiers-{{ section.id }}" data-section-id="{{ section.id }}">
-  <div class="custom-product-meta-grid__item">
-    <span class="custom-product-meta-grid__label">SKU</span>
-    <p class="custom-product-meta-grid__value" data-product-sku-grid>
-      {%- if current_variant.sku != blank -%}
-        {{ current_variant.sku }}
-      {%- else -%}
-        no disponible
-      {%- endif -%}
-    </p>
-  </div>
+<div class="custom-product-meta-grid" id="ProductIdentifiers-{{ section.id }}" data-section-id="{{ section.id }}" data-stock-by-location-container>
   <div class="custom-product-meta-grid__item">
     <span class="custom-product-meta-grid__label">MPN</span>
     <p class="custom-product-meta-grid__value" data-product-mpn>
@@ -48,8 +37,18 @@
     </p>
   </div>
   <div class="custom-product-meta-grid__item">
-    <span class="custom-product-meta-grid__label">Stock</span>
-    <p class="custom-product-meta-grid__value custom-product-meta-grid__value--muted">Ver disponibilidad por ubicación</p>
+    <span class="custom-product-meta-grid__label">Stock en Vitoria</span>
+    <p class="custom-product-meta-grid__value">
+      <span data-stock-vitoria>Sin stock</span>
+      <span class="custom-product-stock__status" data-stock-vitoria-status></span>
+    </p>
+  </div>
+  <div class="custom-product-meta-grid__item">
+    <span class="custom-product-meta-grid__label">Stock en Alemania</span>
+    <p class="custom-product-meta-grid__value">
+      <span data-stock-alemania>Sin stock</span>
+      <span class="custom-product-stock__status" data-stock-alemania-status></span>
+    </p>
   </div>
 </div>
 
