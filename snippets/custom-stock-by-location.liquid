@@ -88,6 +88,14 @@
     endif
   endif
 
+  if vitoria_has_quantity and vitoria_quantity < 0
+    assign vitoria_quantity = 0
+  endif
+
+  if alemania_has_quantity and alemania_quantity < 0
+    assign alemania_quantity = 0
+  endif
+
   if vitoria_has_quantity
     assign vitoria_text = vitoria_quantity | append: ' uds.'
   elsif vitoria_available
@@ -206,6 +214,14 @@
               assign variant_vitoria_available = true
             endif
           endif
+        endif
+
+        if variant_vitoria_has_quantity and variant_vitoria_quantity < 0
+          assign variant_vitoria_quantity = 0
+        endif
+
+        if variant_alemania_has_quantity and variant_alemania_quantity < 0
+          assign variant_alemania_quantity = 0
         endif
 
         if variant_vitoria_has_quantity
