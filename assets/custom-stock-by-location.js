@@ -13,6 +13,33 @@
     }
   };
 
+  const getStockTone = (value) => {
+    const normalized = String(value || '').toLowerCase();
+    if (normalized.includes('sin stock')) return 'out';
+
+    const quantityMatch = normalized.match(/(\d+)/);
+    const quantity = quantityMatch ? Number(quantityMatch[1]) : null;
+
+    if (quantity !== null) {
+      if (quantity === 0) return 'out';
+      if (quantity < 10) return 'warn';
+      return 'ok';
+    }
+
+    if (normalized.includes('disponible')) return 'ok';
+    return 'warn';
+  };
+
+  const updateStatusBadge = (container, textSelector, statusSelector) => {
+    const textNode = container.querySelector(textSelector);
+    const statusNode = container.querySelector(statusSelector);
+    if (!textNode || !statusNode) return;
+
+    const tone = getStockTone(textNode.textContent);
+    statusNode.className = `custom-product-stock__status custom-product-stock__status--${tone}`;
+    statusNode.textContent = tone === 'out' ? 'Agotado' : tone === 'ok' ? 'Disponible' : 'Stock bajo';
+  };
+
   const updateStock = (container, stockData, variantId) => {
     if (!container || !stockData || !variantId) return;
 
@@ -24,6 +51,9 @@
 
     if (vitoriaNode) vitoriaNode.textContent = variantStock.vitoria;
     if (alemaniaNode) alemaniaNode.textContent = variantStock.alemania;
+
+    updateStatusBadge(container, '[data-stock-vitoria]', '[data-stock-vitoria-status]');
+    updateStatusBadge(container, '[data-stock-alemania]', '[data-stock-alemania-status]');
   };
 
   const initStockByLocation = () => {
