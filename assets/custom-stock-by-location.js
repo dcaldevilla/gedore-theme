@@ -15,6 +15,18 @@
 
   const getStockTone = (value) => {
     const normalized = String(value || '').toLowerCase();
+    if (normalized.includes('sin stock')) return 'out';
+
+    const quantityMatch = normalized.match(/(\d+)/);
+    const quantity = quantityMatch ? Number(quantityMatch[1]) : null;
+
+    if (quantity !== null) {
+      if (quantity === 0) return 'out';
+      if (quantity < 10) return 'warn';
+      return 'ok';
+    }
+
+    if (normalized.includes('disponible')) return 'ok';
     if (normalized.includes('sin stock') || normalized.includes('0 uds')) return 'out';
     if (normalized.includes('disponible')) return 'ok';
     if (normalized.includes('uds')) return 'warn';
