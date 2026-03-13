@@ -27,6 +27,9 @@
     }
 
     if (normalized.includes('disponible')) return 'ok';
+    if (normalized.includes('sin stock') || normalized.includes('0 uds')) return 'out';
+    if (normalized.includes('disponible')) return 'ok';
+    if (normalized.includes('uds')) return 'warn';
     return 'warn';
   };
 
