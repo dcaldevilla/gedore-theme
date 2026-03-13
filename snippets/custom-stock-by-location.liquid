@@ -113,23 +113,6 @@
   endif
 -%}
 
-<div class="product__inventory custom-product-meta-grid" id="StockByLocation-{{ section.id }}" data-section-id="{{ section.id }}">
-  <div class="custom-product-meta-grid__item">
-    <span class="custom-product-meta-grid__label">Stock en Vitoria</span>
-    <p class="custom-product-meta-grid__value">
-      <span data-stock-vitoria>{{ vitoria_text }}</span>
-      <span class="custom-product-stock__status" data-stock-vitoria-status></span>
-    </p>
-  </div>
-  <div class="custom-product-meta-grid__item">
-    <span class="custom-product-meta-grid__label">Stock en Alemania</span>
-    <p class="custom-product-meta-grid__value">
-      <span data-stock-alemania>{{ alemania_text }}</span>
-      <span class="custom-product-stock__status" data-stock-alemania-status></span>
-    </p>
-  </div>
-</div>
-
 <script type="application/json" id="StockByLocationData-{{ section.id }}">
   {
     {%- for variant in product.variants -%}

@@ -1,5 +1,5 @@
 (() => {
-  const STOCK_CONTAINER_SELECTOR = '[id^="StockByLocation-"]';
+  const STOCK_CONTAINER_SELECTOR = '[data-stock-by-location-container]';
 
   const parseStockData = (sectionId) => {
     const dataNode = document.getElementById(`StockByLocationData-${sectionId}`);

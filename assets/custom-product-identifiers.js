@@ -35,11 +35,9 @@
     const values = identifiersData[String(variantId)];
     if (!values) return;
 
-    const skuNode = container.querySelector('[data-product-sku-grid]');
     const mpnNode = container.querySelector('[data-product-mpn]');
     const eanNode = container.querySelector('[data-product-ean]');
 
-    if (skuNode) skuNode.textContent = textOrFallback(values.sku);
     if (mpnNode) mpnNode.textContent = textOrFallback(values.mpn);
     if (eanNode) eanNode.textContent = textOrFallback(values.ean);
   };
