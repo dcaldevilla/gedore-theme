@@ -18,6 +18,25 @@
   background: rgb(var(--color-background));
 }
 
+.custom-product-meta__chip[data-product-vendor-brand='gedore'],
+.custom-product-meta__chip[data-product-vendor-brand='gedore-automotive'] {
+  background: #dbeafe;
+  border-color: #93c5fd;
+  color: #1e3a8a;
+}
+
+.custom-product-meta__chip[data-product-vendor-brand='gedore-red'] {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #991b1b;
+}
+
+.custom-product-meta__chip[data-product-vendor-brand='ochsenkpf'] {
+  background: #dcfce7;
+  border-color: #86efac;
+  color: #166534;
+}
+
 .custom-product-meta-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
