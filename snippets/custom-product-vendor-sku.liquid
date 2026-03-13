@@ -3,6 +3,8 @@
   assign sku = current_variant.sku
 -%}
 
+{{ 'custom-product-meta.css' | asset_url | stylesheet_tag }}
+
 {%- capture sku_data -%}
   {
     {%- for variant in product.variants -%}
@@ -12,14 +14,12 @@
 {%- endcapture -%}
 
 <p
-  class="product__text inline-richtext h2{% if sku == blank %} visibility-hidden{% endif %}"
+  class="product__text inline-richtext h5 custom-product-meta__vendor-sku{% if sku == blank %} visibility-hidden{% endif %}"
   id="ProductVendorSku-{{ section.id }}"
   data-section-id="{{ section.id }}"
-  style="color: #004c97;"
 >
-  <span data-product-vendor>{{ product.vendor | escape }}</span>
-  <span>&nbsp;</span>
-  <span data-product-sku>{{ sku }}</span>
+  <span class="custom-product-meta__chip" data-product-vendor>{{ product.vendor | escape }}</span>
+  <span class="custom-product-meta__chip" data-product-sku>{{ sku }}</span>
 </p>
 
 <script type="application/json" id="ProductVendorSkuData-{{ section.id }}">
