@@ -9,10 +9,41 @@
   if product_weight > 0 or longitud_mm != blank or anchura_mm != blank or altura_mm != blank
     assign has_dimension_data = true
   endif
+
+  assign has_dimension_data_on_any_variant = false
+  for variant in product.variants
+    assign variant_longitud_mm = variant.metafields.custom.longitud_mm_.value
+    assign variant_anchura_mm = variant.metafields.custom.anchura_mm_.value
+    assign variant_altura_mm = variant.metafields.custom.altura_mm_.value
+
+    if variant.weight > 0 or variant_longitud_mm != blank or variant_anchura_mm != blank or variant_altura_mm != blank
+      assign has_dimension_data_on_any_variant = true
+      break
+    endif
+  endfor
 -%}
 
-{%- if has_dimension_data -%}
-  <div class="product__accordion accordion quick-add-hidden">
+{%- if has_dimension_data_on_any_variant -%}
+  {%- capture dimensions_data -%}
+    {
+      {%- for variant in product.variants -%}
+        {%- liquid
+          assign variant_weight_text = ''
+          if variant.weight > 0
+            assign variant_weight_text = variant.weight | weight_with_unit
+          endif
+        -%}
+        "{{ variant.id }}": {
+          "weight": {{ variant_weight_text | json }},
+          "longitud": {{ variant.metafields.custom.longitud_mm_.value | json }},
+          "anchura": {{ variant.metafields.custom.anchura_mm_.value | json }},
+          "altura": {{ variant.metafields.custom.altura_mm_.value | json }}
+        }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    }
+  {%- endcapture -%}
+
+  <div class="product__accordion accordion quick-add-hidden" data-product-dimensions-accordion data-section-id="{{ section.id }}">
     <details id="Details-custom-dimensions-{{ section.id }}">
       <summary>
         <div class="summary__title">
@@ -23,20 +54,28 @@
       </summary>
       <div class="accordion__content rte" id="ProductAccordion-custom-dimensions-{{ section.id }}">
         <ul>
-          {%- if product_weight > 0 -%}
-            <li><strong>Peso:</strong> {{ product_weight | weight_with_unit }}</li>
-          {%- endif -%}
-          {%- if longitud_mm != blank -%}
-            <li><strong>Longitud:</strong> {{ longitud_mm }} mm</li>
-          {%- endif -%}
-          {%- if anchura_mm != blank -%}
-            <li><strong>Anchura:</strong> {{ anchura_mm }} mm</li>
-          {%- endif -%}
-          {%- if altura_mm != blank -%}
-            <li><strong>Altura:</strong> {{ altura_mm }} mm</li>
-          {%- endif -%}
+          <li data-dimensions-weight{% unless product_weight > 0 %} class="hidden"{% endunless %}>
+            <strong>Peso:</strong>
+            <span data-dimensions-weight-value>{%- if product_weight > 0 -%}{{ product_weight | weight_with_unit }}{%- endif -%}</span>
+          </li>
+          <li data-dimensions-longitud{% if longitud_mm == blank %} class="hidden"{% endif %}>
+            <strong>Longitud:</strong>
+            <span data-dimensions-longitud-value>{%- if longitud_mm != blank -%}{{ longitud_mm }} mm{%- endif -%}</span>
+          </li>
+          <li data-dimensions-anchura{% if anchura_mm == blank %} class="hidden"{% endif %}>
+            <strong>Anchura:</strong>
+            <span data-dimensions-anchura-value>{%- if anchura_mm != blank -%}{{ anchura_mm }} mm{%- endif -%}</span>
+          </li>
+          <li data-dimensions-altura{% if altura_mm == blank %} class="hidden"{% endif %}>
+            <strong>Altura:</strong>
+            <span data-dimensions-altura-value>{%- if altura_mm != blank -%}{{ altura_mm }} mm{%- endif -%}</span>
+          </li>
         </ul>
       </div>
     </details>
   </div>
+
+  <script type="application/json" id="ProductDimensionsData-{{ section.id }}">
+    {{- dimensions_data | strip_newlines -}}
+  </script>
 {%- endif -%}
