@@ -1,9 +1,9 @@
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
   assign product_weight = current_variant.weight
-  assign longitud_mm = variant.metafields.custom.longitud_mm_.value
-  assign anchura_mm = variant.metafields.custom.anchura_mm_.value
-  assign altura_mm = variant.metafields.custom.altura_mm_.value
+  assign longitud_mm = current_variant.metafields.custom.longitud_mm_.value
+  assign anchura_mm = current_variant.metafields.custom.anchura_mm_.value
+  assign altura_mm = current_variant.metafields.custom.altura_mm_.value
 
   assign has_dimension_data = false
   if product_weight > 0 or longitud_mm != blank or anchura_mm != blank or altura_mm != blank
