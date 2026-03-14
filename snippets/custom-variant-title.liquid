@@ -1,0 +1,17 @@
+{%- liquid
+  assign selected_variant = product.selected_or_first_available_variant
+  assign selected_variant_title = selected_variant.metafields.custom.variant_title.value | default: selected_variant.metafields.custom.variant_title | default: product.title
+-%}
+
+<span data-custom-variant-title data-section-id="{{ section.id }}">{{ selected_variant_title | escape }}</span>
+
+{%- if include_data -%}
+  <script id="CustomVariantTitleData-{{ section.id }}" type="application/json">
+    {
+      {%- for variant in product.variants -%}
+        {%- assign variant_title = variant.metafields.custom.variant_title.value | default: variant.metafields.custom.variant_title | default: product.title -%}
+        "{{ variant.id }}": {{ variant_title | json }}{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    }
+  </script>
+{%- endif -%}

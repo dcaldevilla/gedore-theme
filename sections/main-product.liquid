@@ -44,6 +44,7 @@
   <script src="{{ 'custom-product-identifiers.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'custom-product-dimensions.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'custom-stock-by-location.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom-variant-title.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}
     <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
@@ -104,13 +105,13 @@
                   {% comment %} CUSTOM START: vendor + sku line {% endcomment %}
                   {% render 'custom-product-vendor-sku', product: product, section: section %}
                   {% comment %} CUSTOM END: vendor + sku line {% endcomment %}
-                  <h1>{{ product.title | escape }}</h1>
+                  <h1>{% render 'custom-variant-title', product: product, section: section, include_data: true %}</h1>
                   {% comment %} CUSTOM START: product identifiers {% endcomment %}
                   {% render 'custom-product-identifiers', product: product, section: section %}
                   {% comment %} CUSTOM END: product identifiers {% endcomment %}
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
-                      {{ product.title | escape }}
+                      {% render 'custom-variant-title', product: product, section: section %}
                     </h2>
                   </a>
                 </div>
