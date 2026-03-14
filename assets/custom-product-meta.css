@@ -18,6 +18,24 @@
   background: rgb(var(--color-background));
 }
 
+.custom-product-meta__chip[data-product-sku] {
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore'] [data-product-sku],
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-automotive'] [data-product-sku] {
+  color: #1d4ed8;
+}
+
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-red'] [data-product-sku] {
+  color: #dc2626;
+}
+
+.custom-product-meta__vendor-sku[data-product-vendor-brand='ochsenkopf'] [data-product-sku] {
+  color: #16a34a;
+}
+
 .custom-product-meta__vendor-sku[data-product-vendor-brand='gedore'] [data-product-vendor],
 .custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-automotive'] [data-product-vendor] {
   background: #dbeafe;
