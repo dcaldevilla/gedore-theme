@@ -12,29 +12,26 @@
   border: 1px solid rgba(var(--color-foreground), 0.18);
   border-radius: 999px;
   padding: 0.35rem 0.9rem;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   line-height: 1.3;
   font-weight: 500;
   background: rgb(var(--color-background));
 }
 
-.custom-product-meta__chip[data-product-vendor-brand='gedore'],
-.custom-product-meta__chip[data-product-vendor-brand='gedore-automotive'] {
-  background: #dbeafe;
-  border-color: #93c5fd;
-  color: #1e3a8a;
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore'] .custom-product-meta__chip,
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-automotive'] .custom-product-meta__chip {
+  color: #004c97;
+  border-color: rgba(0, 76, 151, 0.35);
 }
 
-.custom-product-meta__chip[data-product-vendor-brand='gedore-red'] {
-  background: #fee2e2;
-  border-color: #fca5a5;
-  color: #991b1b;
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-red'] .custom-product-meta__chip {
+  color: #d10000;
+  border-color: rgba(209, 0, 0, 0.35);
 }
 
-.custom-product-meta__chip[data-product-vendor-brand='ochsenkopf'] {
-  background: #dcfce7;
-  border-color: #86efac;
-  color: #166534;
+.custom-product-meta__vendor-sku[data-product-vendor-brand='ochsenkopf'] .custom-product-meta__chip {
+  color: #228b22;
+  border-color: rgba(34, 139, 34, 0.35);
 }
 
 .custom-product-meta-grid {

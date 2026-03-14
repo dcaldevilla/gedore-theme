@@ -19,6 +19,7 @@
   class="product__text inline-richtext h5 custom-product-meta__vendor-sku{% if display_sku == blank %} visibility-hidden{% endif %}"
   id="ProductVendorSku-{{ section.id }}"
   data-section-id="{{ section.id }}"
+  data-product-vendor-brand="{{ vendor_handle }}"
 >
   <span class="custom-product-meta__chip" data-product-vendor data-product-vendor-brand="{{ vendor_handle }}">{{ product.vendor | escape }}</span>
   <span class="custom-product-meta__chip" data-product-sku>{{ display_sku }}</span>
