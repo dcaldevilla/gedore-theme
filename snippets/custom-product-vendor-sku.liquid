@@ -1,6 +1,7 @@
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
   assign sku = current_variant.sku
+  assign display_sku = sku | split: '(' | first | strip
   assign vendor_handle = product.vendor | handleize
 -%}
 
@@ -9,18 +10,18 @@
 {%- capture sku_data -%}
   {
     {%- for variant in product.variants -%}
-      "{{ variant.id }}": {{ variant.sku | json }}{%- unless forloop.last -%},{%- endunless -%}
+      "{{ variant.id }}": {{ variant.sku | split: '(' | first | strip | json }}{%- unless forloop.last -%},{%- endunless -%}
     {%- endfor -%}
   }
 {%- endcapture -%}
 
 <p
-  class="product__text inline-richtext h5 custom-product-meta__vendor-sku{% if sku == blank %} visibility-hidden{% endif %}"
+  class="product__text inline-richtext h5 custom-product-meta__vendor-sku{% if display_sku == blank %} visibility-hidden{% endif %}"
   id="ProductVendorSku-{{ section.id }}"
   data-section-id="{{ section.id }}"
 >
   <span class="custom-product-meta__chip" data-product-vendor data-product-vendor-brand="{{ vendor_handle }}">{{ product.vendor | escape }}</span>
-  <span class="custom-product-meta__chip" data-product-sku>{{ sku }}</span>
+  <span class="custom-product-meta__chip" data-product-sku>{{ display_sku }}</span>
 </p>
 
 <script type="application/json" id="ProductVendorSkuData-{{ section.id }}">
