@@ -14,8 +14,10 @@
     }
   };
 
-  const textOrFallback = (value) => {
-    if (value === null || value === undefined || value === '') return 'no disponible';
+  const textOrFallback = (value, container) => {
+    if (value === null || value === undefined || value === '') {
+      return container?.dataset?.notAvailableText || '';
+    }
     return value;
   };
 
@@ -38,8 +40,8 @@
     const mpnNode = container.querySelector('[data-product-mpn]');
     const eanNode = container.querySelector('[data-product-ean]');
 
-    if (mpnNode) mpnNode.textContent = textOrFallback(values.mpn);
-    if (eanNode) eanNode.textContent = textOrFallback(values.ean);
+    if (mpnNode) mpnNode.textContent = textOrFallback(values.mpn, container);
+    if (eanNode) eanNode.textContent = textOrFallback(values.ean, container);
   };
 
   const registerVariantListener = (sectionId, onVariantChange) => {

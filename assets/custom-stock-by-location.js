@@ -40,7 +40,14 @@
 
     const tone = getStockTone(textNode.textContent);
     statusNode.className = `custom-product-stock__status custom-product-stock__status--${tone}`;
-    statusNode.textContent = tone === 'out' ? 'Agotado' : tone === 'ok' ? 'Disponible' : 'Stock bajo';
+
+    const labels = {
+      ok: container.dataset.statusOkText,
+      warn: container.dataset.statusWarnText,
+      out: container.dataset.statusOutText,
+    };
+    const statusTextNode = statusNode.querySelector('[data-stock-status-text]');
+    if (statusTextNode) statusTextNode.textContent = labels[tone] || '';
   };
 
   const updateStock = (container, stockData, variantId) => {

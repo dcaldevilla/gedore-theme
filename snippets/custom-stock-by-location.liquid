@@ -1,118 +1,3 @@
-{%- liquid
-  assign current_variant = product.selected_or_first_available_variant
-  assign store_availabilities = current_variant.store_availabilities
-  assign vitoria_available = false
-  assign vitoria_quantity = 0
-  assign vitoria_has_quantity = false
-  assign alemania_available = false
-  assign alemania_quantity = 0
-  assign alemania_has_quantity = false
-  assign use_alemania_metafield = false
-
-  assign alemania_metafield = current_variant.metafields.stock.alemania
-  if alemania_metafield != blank
-    assign alemania_metafield_value = alemania_metafield.value
-    if alemania_metafield_value == blank
-      assign alemania_metafield_value = alemania_metafield
-    endif
-
-    if alemania_metafield_value != blank
-      assign use_alemania_metafield = true
-      assign alemania_has_quantity = true
-      assign alemania_quantity = alemania_metafield_value | plus: 0
-
-      if alemania_quantity > 0
-        assign alemania_available = true
-      endif
-    endif
-  endif
-
-  for availability in store_availabilities
-    assign location_name = availability.location.name | downcase | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u'
-    assign location_handle = availability.location.name | handleize
-
-    assign is_vitoria = false
-    assign is_alemania = false
-
-    if location_name contains 'vitoria' or location_handle contains 'vitoria'
-      assign is_vitoria = true
-    endif
-
-    if location_name contains 'alemania' or location_handle contains 'alemania'
-      assign is_alemania = true
-    endif
-
-    if is_vitoria
-      if availability.available
-        assign vitoria_available = true
-      endif
-
-      assign current_quantity = availability.quantity
-      if current_quantity == blank
-        assign current_quantity = availability.quantity_available
-      endif
-
-      if current_quantity != blank
-        assign vitoria_has_quantity = true
-        assign vitoria_quantity = vitoria_quantity | plus: current_quantity
-      endif
-    endif
-
-    if is_alemania and use_alemania_metafield == false
-      if availability.available
-        assign alemania_available = true
-      endif
-
-      assign current_quantity = availability.quantity
-      if current_quantity == blank
-        assign current_quantity = availability.quantity_available
-      endif
-
-      if current_quantity != blank
-        assign alemania_has_quantity = true
-        assign alemania_quantity = alemania_quantity | plus: current_quantity
-      endif
-    endif
-  endfor
-
-  if vitoria_has_quantity == false and current_variant.inventory_management == 'shopify'
-    assign fallback_vitoria_quantity = current_variant.inventory_quantity
-
-    if fallback_vitoria_quantity != blank
-      assign vitoria_has_quantity = true
-      assign vitoria_quantity = fallback_vitoria_quantity
-
-      if fallback_vitoria_quantity > 0
-        assign vitoria_available = true
-      endif
-    endif
-  endif
-
-  if vitoria_has_quantity and vitoria_quantity < 0
-    assign vitoria_quantity = 0
-  endif
-
-  if alemania_has_quantity and alemania_quantity < 0
-    assign alemania_quantity = 0
-  endif
-
-  if vitoria_has_quantity
-    assign vitoria_text = vitoria_quantity | append: ' uds.'
-  elsif vitoria_available
-    assign vitoria_text = 'Disponible'
-  else
-    assign vitoria_text = 'Sin stock'
-  endif
-
-  if alemania_has_quantity
-    assign alemania_text = alemania_quantity | append: ' uds.'
-  elsif alemania_available
-    assign alemania_text = 'Disponible'
-  else
-    assign alemania_text = 'Sin stock'
-  endif
--%}
-
 <script type="application/json" id="StockByLocationData-{{ section.id }}">
   {
     {%- for variant in product.variants -%}
@@ -216,17 +101,17 @@
         if variant_vitoria_has_quantity
           assign variant_vitoria_text = variant_vitoria_quantity | append: ' uds.'
         elsif variant_vitoria_available
-          assign variant_vitoria_text = 'Disponible'
+          assign variant_vitoria_text = 'custom.product.stock.available' | t
         else
-          assign variant_vitoria_text = 'Sin stock'
+          assign variant_vitoria_text = 'custom.product.stock.out_of_stock' | t
         endif
 
         if variant_alemania_has_quantity
           assign variant_alemania_text = variant_alemania_quantity | append: ' uds.'
         elsif variant_alemania_available
-          assign variant_alemania_text = 'Disponible'
+          assign variant_alemania_text = 'custom.product.stock.available' | t
         else
-          assign variant_alemania_text = 'Sin stock'
+          assign variant_alemania_text = 'custom.product.stock.out_of_stock' | t
         endif
       -%}
       "{{ variant.id }}": {

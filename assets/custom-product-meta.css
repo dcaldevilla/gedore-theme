@@ -23,36 +23,38 @@
   font-weight: 600;
 }
 
-.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore'] [data-product-sku],
-.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-automotive'] [data-product-sku] {
-  color: #1d4ed8;
+/* Vendor brand color tokens */
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore'],
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-automotive'] {
+  --vendor-sku-color: #1d4ed8;
+  --vendor-badge-bg: #dbeafe;
+  --vendor-badge-border: #93c5fd;
+  --vendor-badge-text: #1e3a8a;
 }
 
-.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-red'] [data-product-sku] {
-  color: #dc2626;
+.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-red'] {
+  --vendor-sku-color: #dc2626;
+  --vendor-badge-bg: #fee2e2;
+  --vendor-badge-border: #fca5a5;
+  --vendor-badge-text: #991b1b;
 }
 
-.custom-product-meta__vendor-sku[data-product-vendor-brand='ochsenkopf'] [data-product-sku] {
-  color: #16a34a;
+.custom-product-meta__vendor-sku[data-product-vendor-brand='ochsenkopf'] {
+  --vendor-sku-color: #16a34a;
+  --vendor-badge-bg: #dcfce7;
+  --vendor-badge-border: #86efac;
+  --vendor-badge-text: #166534;
 }
 
-.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore'] [data-product-vendor],
-.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-automotive'] [data-product-vendor] {
-  background: #dbeafe;
-  border-color: #93c5fd;
-  color: #1e3a8a;
+/* Apply vendor color tokens */
+.custom-product-meta__vendor-sku[data-product-vendor-brand] [data-product-sku] {
+  color: var(--vendor-sku-color);
 }
 
-.custom-product-meta__vendor-sku[data-product-vendor-brand='gedore-red'] [data-product-vendor] {
-  background: #fee2e2;
-  border-color: #fca5a5;
-  color: #991b1b;
-}
-
-.custom-product-meta__vendor-sku[data-product-vendor-brand='ochsenkopf'] [data-product-vendor] {
-  background: #dcfce7;
-  border-color: #86efac;
-  color: #166534;
+.custom-product-meta__vendor-sku[data-product-vendor-brand] [data-product-vendor] {
+  background: var(--vendor-badge-bg);
+  border-color: var(--vendor-badge-border);
+  color: var(--vendor-badge-text);
 }
 
 .custom-product-meta-grid {
@@ -85,10 +87,6 @@
   line-height: 1.35;
   font-weight: 500;
   word-break: break-word;
-}
-
-.custom-product-meta-grid__value--muted {
-  color: rgba(var(--color-foreground), 0.55);
 }
 
 .custom-product-stock__status {
