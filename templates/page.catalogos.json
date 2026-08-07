@@ -50,7 +50,7 @@
       "settings": {
         "image": "shopify://shop_images/Compendium_Blue_2021_1.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
@@ -177,7 +177,7 @@
           "settings": {
             "image": "shopify://shop_images/GTS_portada_1.jpg",
             "title": "Catálogo GEDORE Torque solutions",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "text": "",
             "link_label": "Descargar PDF",
             "link": "https://webforms.pipedrive.com/f/HveQSWcmVLDgxN6lAAWwXp1N3lA4zL4g829OSHWeubCBQRcs6mqofGcxcS8Nj1N"
           }
@@ -185,11 +185,11 @@
         "column_F3z8Dg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/soluciones_1.jpg",
+            "image": "shopify://shop_images/20260325_Soluciones_Portatiles_2026_ES__Pagina_1.jpg",
             "title": "Soluciones portátiles a batería (LDA)",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "text": "",
             "link_label": "Descargar PDF",
-            "link": "https://webforms.pipedrive.com/f/HuTsH2K2uzF2WvPApZ8QuGPtU61cOivWyvz9T4fHMYlJhr7kg01rjYBp4wzRpt1"
+            "link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/Soluciones_Portatiles_2026_ES.pdf?v=1781594872"
           }
         }
       },
@@ -222,7 +222,7 @@
           "settings": {
             "image": "shopify://shop_images/Portada_KLANN_1_dae0cf77-9289-4598-9d73-e0f6ed4fa1e1.jpg",
             "title": "Turismo",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "text": "",
             "link_label": "Descargar PDF",
             "link": "https://www.gedore.es/WebRoot/acens/Shops/prueba199411_tienda-online_biz/MediaGallery/PDF/2021/20210501_Catalogo_GAM_10E1_Aleman.pdf"
           }
@@ -232,7 +232,7 @@
           "settings": {
             "image": "shopify://shop_images/Portada_KLANN_2_1.jpg",
             "title": "Vehículo Industrial",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "text": "",
             "link_label": "Descargar PDF",
             "link": "https://www.gedore.es/WebRoot/acens/Shops/prueba199411_tienda-online_biz/MediaGallery/PDF/2021/Catalogo_Vehiculo_industrial_2021_aleman.pdf"
           }

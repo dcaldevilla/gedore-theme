@@ -15,14 +15,14 @@
   }
 {%- endcapture -%}
 
-<div class="custom-product-meta-grid" id="ProductIdentifiers-{{ section.id }}" data-section-id="{{ section.id }}" data-stock-by-location-container>
+<div class="custom-product-meta-grid" id="ProductIdentifiers-{{ section.id }}" data-section-id="{{ section.id }}" data-stock-by-location-container data-not-available-text="{{ 'custom.product.stock.not_available' | t }}" data-status-ok-text="{{ 'custom.product.stock.status_ok' | t }}" data-status-warn-text="{{ 'custom.product.stock.status_warn' | t }}" data-status-out-text="{{ 'custom.product.stock.status_out' | t }}">
   <div class="custom-product-meta-grid__item">
     <span class="custom-product-meta-grid__label">MPN</span>
     <p class="custom-product-meta-grid__value" data-product-mpn>
       {%- if mpn != blank -%}
         {{ mpn }}
       {%- else -%}
-        no disponible
+        {{ 'custom.product.stock.not_available' | t }}
       {%- endif -%}
     </p>
   </div>
@@ -32,22 +32,22 @@
       {%- if ean != blank -%}
         {{ ean }}
       {%- else -%}
-        no disponible
+        {{ 'custom.product.stock.not_available' | t }}
       {%- endif -%}
     </p>
   </div>
   <div class="custom-product-meta-grid__item">
-    <span class="custom-product-meta-grid__label">Stock en Vitoria</span>
+    <span class="custom-product-meta-grid__label">{{ 'custom.product.stock.vitoria_label' | t }}</span>
     <p class="custom-product-meta-grid__value">
-      <span data-stock-vitoria>Sin stock</span>
-      <span class="custom-product-stock__status" data-stock-vitoria-status></span>
+      <span data-stock-vitoria>{{ 'custom.product.stock.out_of_stock' | t }}</span>
+      <span class="custom-product-stock__status" data-stock-vitoria-status><span class="visually-hidden" data-stock-status-text></span></span>
     </p>
   </div>
   <div class="custom-product-meta-grid__item">
-    <span class="custom-product-meta-grid__label">Stock en Alemania</span>
+    <span class="custom-product-meta-grid__label">{{ 'custom.product.stock.alemania_label' | t }}</span>
     <p class="custom-product-meta-grid__value">
-      <span data-stock-alemania>Sin stock</span>
-      <span class="custom-product-stock__status" data-stock-alemania-status></span>
+      <span data-stock-alemania>{{ 'custom.product.stock.out_of_stock' | t }}</span>
+      <span class="custom-product-stock__status" data-stock-alemania-status><span class="visually-hidden" data-stock-status-text></span></span>
     </p>
   </div>
 </div>

@@ -23,28 +23,28 @@
         "heading_rYKKVh": {
           "type": "heading",
           "settings": {
-            "heading": "GEDORE GDA",
+            "heading": "GEDORE GDA3",
             "heading_size": "h0"
           }
         },
         "heading_wrPwCT": {
           "type": "heading",
           "settings": {
-            "heading": "Atornillador Dinamométrico a Batería",
+            "heading": "Dinamométrico a batería para pares de apriete bajos",
             "heading_size": "h1"
           }
         },
         "heading_D7XEnd": {
           "type": "heading",
           "settings": {
-            "heading": "60 - 200 N.m.",
+            "heading": "Máxima precisión en el formato más compacto",
             "heading_size": "h2"
           }
         },
         "text_EdUKCy": {
           "type": "text",
           "settings": {
-            "text": "<h2>LIGEREZA Y PRECISIÓN</h2>"
+            "text": "<p>60 - 300 Nm</p>"
           }
         }
       },
@@ -57,7 +57,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -101,11 +101,11 @@
         "buttons_YeFwEx"
       ],
       "settings": {
-        "image": "shopify://shop_images/GDA-auf-Akku-stehend_1.png",
-        "image_overlay_opacity": 30,
+        "image": "shopify://shop_images/GEDORE_-_banner_imagen_web_-_GDA_2000_x_1200_px.png",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "zoom-in",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "",
@@ -128,7 +128,7 @@
         "text_YCWnYp": {
           "type": "text",
           "settings": {
-            "text": "<h3>La solución compacta para rangos de pares bajos</h3><ul><li>Con la nueva GDA presentamos nuestro modelo más compacto de llave a batería para trabajar en montajes, producción y fabricación.</li><li>El secreto de la llave a batería es su microprocesador de control de autoapagado electrónico. Esto permite que cada apriete se mantenga de forma precisa asegurando una estable precisión del par a lo largo de todo el ciclo de descarga de la batería.</li><li>Con una repetitividad del +/- 3%, el par de apriete (o torque) se puede ajustar de forma continua y el estado de la conexión atornillada se visualiza a través de la señal LED de estado. </li></ul><h3>Uso posible en diferentes industrias</h3><ul><li>La nueva GDA es la solución perfecta para los trabajos de atornillado con pares de apriete bajos en una amplia gama de aplicaciones.</li><li>Gracias a su bajo peso, diseño ergonómico y reducido tamaño, es perfecta para trabajos que requieran pares pequeños.</li><li>Pequeña, compacta y a batería, es la solución ideal para los casos que requieren una unión precisa.</li></ul>"
+            "text": "<h2>La solución compacta para rangos de pares bajos</h2><ul><li>La nueva GDA3 es la solución más compacta de apriete a batería de GEDORE, diseñada para trabajos de montaje, producción y fabricación donde el espacio y el control son clave.</li><li>Su sistema electrónico con microprocesador mantiene la precisión del par a lo largo de todo el ciclo de descarga de la batería, asegurando resultados fiables en cada apriete.</li><li>Con una repetitividad de ±3%, permite un ajuste continuo del par y una visualización clara del estado del apriete mediante señal LED. </li></ul><h2>Aplicaciones en industria, mantenimiento y montaje</h2><ul><li>Pensada para trabajos de atornillado con pares de apriete bajos en entornos profesionales.</li><li>Su diseño ligero, compacto y ergonómico facilita el trabajo en espacios reducidos y en operaciones que requieren precisión.</li><li>Una solución fiable cuando el control del par es determinante para la calidad de la unión.</li></ul>"
           }
         },
         "button_mb3h6z": {
@@ -196,7 +196,7 @@
         "buttons_kJacYU"
       ],
       "settings": {
-        "image": "shopify://shop_images/GEDORE_GDA_39050_1.jpg",
+        "image": "shopify://shop_images/shutterstock_1008545224.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
@@ -223,7 +223,7 @@
         "text_BWTRLN": {
           "type": "text",
           "settings": {
-            "text": "<h3>Precisa. Competente.</h3><ul><li>La precisión del par de apriete de las GDA fluctúa dentro de una tolerancia inferior al 3%.</li><li>El certificado de calibración que acompaña a cada máquina garantiza esta precisión.</li><li>Cada máquina se calibra de forma individual.</li><li>Los LED de aviso notifican varios estados operativos</li><li>Se pueden realizar calibraciones especiales con los pernos/tornillos específicos del cliente</li></ul><h3>Robusta. Sin cables.</h3><ul><li>Gran rendimiento operativo gracias a su batería de ion-litio y a su electrónica integrada. La potente batería de ion-litio (90Wh/5Ah/18V) funciona con un alto rendimiento de forma constante hasta su descarga completa.</li><li>Las GDAs son la solución perfecta para el cumplimiento de las regulaciones de prevención de accidentes de trabajo.</li></ul><h3>Detalle del suministro</h3><ul><li>Máquina a batería GDA</li><li>Brazo de reacción acodado con función de bloqueo</li><li>3x Baterías de Ion -Litio (90 Wh/18 V/5 Ah)</li><li>Cargador rápido 220–240 V; 50/60 Hz</li><li>Maleta de transporte</li><li>Manual de usuario</li><li>Certificado de Calibración</li></ul>"
+            "text": "<h2>PRECISA. COMPETENTE.</h2><ul><li>Precisión del par de apriete ±3%.</li><li>Certificado de calibración incluido con cada equipo.</li><li>Calibración individual de cada máquina.</li><li>Indicadores LED para control del estado operativo.</li><li>Posibilidad de calibración específica según aplicación.</li></ul><h2>ROBUSTA. SIN CABLES.</h2><ul><li>Alto rendimiento con batería de ion-litio y electrónica integrada.</li><li>Baterías de ion-litio (90 Wh / 5 Ah / 18 V) con rendimiento constante hasta descarga completa.</li><li>Solución adecuada para entornos que requieren cumplimiento en prevención de riesgos laborales.</li></ul><h2>DETALLE DEL SUMINISTRO</h2><ul><li>Máquina GDA3.</li><li>Brazo de reacción acodado fabricado en chapa de acero de alta resistencia.</li><li>2 baterías de ion-litio (90 Wh / 18 V / 5 Ah).</li><li>Cargador rápido (220–240 V / 50–60 Hz).</li><li>Maletín de transporte y manual de usuario.</li><li>Certificado de calibración.</li></ul>"
           }
         },
         "button_6P4Rt9": {
@@ -253,55 +253,53 @@
         "padding_bottom": 52
       }
     },
-    "image_banner_wEiBJP": {
-      "type": "image-banner",
+    "image_with_text_fkYEY6": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_tY6jGQ": {
+        "heading_hKFtL9": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Banner de imagen",
+            "heading": "Una solución para cada industria",
             "heading_size": "h1"
           }
         },
-        "text_PCQ9j8": {
+        "text_UBtA6g": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text": "<h3><strong>ENERGÍA Y CONSTRUCCIÓN</strong></h3><ul><li>Ingeniería y obra civil.</li><li>Instalación de parques solares.</li></ul><h3><strong>AUTOMOCIÓN Y TRANSPORTES</strong></h3><ul><li>Fabricación de vehículos industriales y turismos.</li><li>Mantenimiento de vehículos comerciales.</li></ul><h3><strong>INDUSTRIA Y MAQUINARIA</strong></h3><ul><li>Fabricación de maquinaria y montaje de equipos.</li><li>Sistemas de bombas y compresores.</li><li>Fabricación de cilindros y accesorios hidráulicos.</li></ul>",
             "text_style": "body"
           }
         },
-        "buttons_EGRNnx": {
-          "type": "buttons",
+        "button_QRxing": {
+          "type": "button",
           "disabled": true,
           "settings": {
-            "button_label_1": "Etiqueta de botón",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Etiqueta de botón",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_tY6jGQ",
-        "text_PCQ9j8",
-        "buttons_EGRNnx"
+        "heading_hKFtL9",
+        "text_UBtA6g",
+        "button_QRxing"
       ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GEDORE_GDA_39060_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image": "shopify://shop_images/20260320_1035_Countryside_Solar_Power_Plant_remix_01km59jrebefztznb0fe35yt4n.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_PjzcnG": {
@@ -318,14 +316,14 @@
         "heading_jJzHkc": {
           "type": "heading",
           "settings": {
-            "heading": "GEDORE GDA",
+            "heading": "GEDORE GDA3",
             "heading_size": "h1"
           }
         },
         "text_b7DMf6": {
           "type": "text",
           "settings": {
-            "text": "<p>Consulte todos los datos técnicos del modelo GDA</p>",
+            "text": "<p>Consulta aquí los datos técnicos de las soluciones GDA3 y LDA3</p>",
             "text_style": "body"
           }
         },
@@ -333,7 +331,7 @@
           "type": "button",
           "settings": {
             "button_label": "Descargar PDF",
-            "button_link": "https://gedoreiberica.sharepoint.com/:b:/s/Publico/EW6oNdSHVaFIrGWSEBa9WugBu9ayJLMS53llEXNH5ewhyg?e=MhMZRx",
+            "button_link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/Soluciones_Portatiles_2026_ES.pdf?v=1781594872",
             "button_style_secondary": false
           }
         }
@@ -345,7 +343,7 @@
         "button_qLHLGq"
       ],
       "settings": {
-        "image": "shopify://shop_images/Portada_folleto_1.jpg",
+        "image": "shopify://shop_images/Portada_Folleto_Soluciones_Portatiles_2026_ES.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -360,8 +358,61 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_mNCzxk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dhLeRa": {
+          "type": "heading",
+          "settings": {
+            "heading": "📍 Servicio Técnico en España",
+            "heading_size": "h1"
+          }
+        },
+        "heading_6MtJaE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reparación · Calibración · Puesta a punto",
+            "heading_size": "h2"
+          }
+        },
+        "text_eahNT9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Desde nuestra sede en Álava, ofrecemos soporte técnico especializado y servicio rápido para todas tus soluciones de apriete GEDORE, asegurando el máximo rendimiento en el menor tiempo posible.</p>"
+          }
+        },
+        "button_ERbHix": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dhLeRa",
+        "heading_6MtJaE",
+        "text_eahNT9",
+        "button_ERbHix"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "video_adHhTt": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -383,8 +434,9 @@
     "rich_text_xyL3aB",
     "image_banner_JdJpF6",
     "rich_text_rnPQtq",
-    "image_banner_wEiBJP",
+    "image_with_text_fkYEY6",
     "image_with_text_PjzcnG",
+    "rich_text_mNCzxk",
     "video_adHhTt"
   ]
 }

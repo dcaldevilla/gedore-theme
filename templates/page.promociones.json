@@ -22,14 +22,14 @@
         "heading_EAewcd": {
           "type": "heading",
           "settings": {
-            "heading": "MAGIC 25",
+            "heading": "MAGIC 26",
             "heading_size": "h1"
           }
         },
         "text_pgXiPG": {
           "type": "text",
           "settings": {
-            "text": "<p>¡Bienvenido a <strong>MAGIC 25 </strong>de GEDORE! Nuestra promoción anual trae las últimas novedades junto a las herramientas más reconocidas y apreciadas por los profesionales. Descubre ofertas especiales en productos de alta calidad que combinan innovación, precisión y durabilidad, características que han hecho de GEDORE una marca líder en el sector. MAGIC 24 es la oportunidad perfecta para actualizar tu equipo con lo mejor de nuestra ingeniería alemana. ¡No te pierdas esta edición exclusiva!\"</p>",
+            "text": "<p>Descubre la nueva edición de <strong>MAGIC 26 de GEDORE</strong>, la selección anual que reúne lo mejor de una <strong>marca líder en herramienta profesional</strong>.</p><p>Una combinación de novedades y referencias clave reconocidas por los profesionales, que destacan por su <strong>precisión, durabilidad y fiabilidad en el trabajo diario</strong>.</p><p>GEDORE lleva décadas marcando el estándar en herramientas para industria, mantenimiento y automoción.<br/><br/><strong>MAGIC 26 es una oportunidad directa para trabajar con ese nivel de exigencia.</strong></p>",
             "text_style": "body"
           }
         },
@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_label": "Descargar PDF",
-            "button_link": "https://webforms.pipedrive.com/f/ItfXM3J5qvc01BSbhOU1P1hhd4NDbr4QMjTZxJSjJ0BvHdlAnTtbYJSYJ50YtSH",
+            "button_link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/MAGIC_26_compressed.pdf?v=1781596037",
             "button_style_secondary": false
           }
         }
@@ -48,9 +48,9 @@
         "button_fF3GFp"
       ],
       "settings": {
-        "image": "shopify://shop_images/20250224_Portada_MAGIC_2025.jpg",
+        "image": "shopify://shop_images/3541371_Pro_GED_GIB_ES_MAGIC_26_screen_Pagina_01.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
@@ -169,6 +169,52 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_AijdAC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FCJjM4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Diseno_sin_titulo_39.jpg",
+            "title": "IMPULSE 26",
+            "text": "<p>Catálogo promocional IMPULSE 26 con una amplia selección de herramientas profesionales, equipamiento de taller y soluciones para mantenimiento, instalación y trabajo diario.</p>",
+            "link_label": "Descargar pdf",
+            "link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/IMPULSE_2026.pdf?v=1779791231"
+          }
+        },
+        "column_bwKiMa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Diseno_sin_titulo_40.jpg",
+            "title": "Herramientas de Motor",
+            "text": "<p>Catálogo dedicado a herramientas de motor. <br/>Incluye soluciones específicas para marcas del Grupo Volkswagen, BMW, Mercedes-Benz, Ford, Stellantis y Hyundai-Kia, además de herramientas de uso universal para el servicio y la reparación diarios en taller.</p>",
+            "link_label": "Descargar pdf",
+            "link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/web_GEDred_Automotive_Herramientas_de_bloque_de_motor.pdf?v=1779795430"
+          }
+        }
+      },
+      "block_order": [
+        "column_FCJjM4",
+        "column_bwKiMa"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "GEDOREred",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_r84qbH": {
       "type": "multicolumn",
       "blocks": {
@@ -176,8 +222,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/GTS_portada_1.jpg",
-            "title": "Catálogo GEDORE Torque solutions",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "title": "GEDORE Torque solutions",
+            "text": "",
             "link_label": "Descargar PDF",
             "link": "https://webforms.pipedrive.com/f/HveQSWcmVLDgxN6lAAWwXp1N3lA4zL4g829OSHWeubCBQRcs6mqofGcxcS8Nj1N"
           }
@@ -185,11 +231,11 @@
         "column_F3z8Dg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/soluciones_1.jpg",
-            "title": "Soluciones portátiles a batería (LDA)",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "image": "shopify://shop_images/Diseno_sin_titulo_41.jpg",
+            "title": "Soluciones portátiles dinamométricas a batería",
+            "text": "<p>Catálogo dedicado a soluciones portátiles de apriete dinamométrico a batería, desarrolladas para aplicaciones industriales donde la precisión, la movilidad y la seguridad son clave.</p>",
             "link_label": "Descargar PDF",
-            "link": "https://webforms.pipedrive.com/f/HuTsH2K2uzF2WvPApZ8QuGPtU61cOivWyvz9T4fHMYlJhr7kg01rjYBp4wzRpt1"
+            "link": "https://gedoreiberica.sharepoint.com/:b:/s/intranet-Marketing/IQDyB5ppnEEhQ4jg9chN5jlYASFoWkawdPi5b_fXJSP3lZk?e=maGNuG"
           }
         }
       },
@@ -221,25 +267,26 @@
         "column_NG4xYc": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Captura_de_pantalla_2024-09-19_092847.png",
+            "image": "shopify://shop_images/Captura_de_pantalla_2026-05-07_a_las_11.38.25.png",
             "title": "SOLUTIONS (Turismo)",
             "text": "<p>Descubre la promoción anual de utillaje y herramientas profesionales para tu taller con el folleto SOLUTIONS de GEDORE Automotive.</p>",
             "link_label": "Descargar PDF",
-            "link": "https://webforms.pipedrive.com/f/msFOGmllFaQVKRXgTdnGfel7Ky8txe6Tct7e7EbpMaYTtaF6aQYvVVwpaOGPLF1"
+            "link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/260211enop_solutions_2-26_enop.pdf?v=1778147111"
           }
         },
         "column_r7LQak": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/HEAVYDUTY.png",
+            "image": "shopify://shop_images/Captura_de_pantalla_2026-05-07_a_las_11.39.06.png",
             "title": "HEAVY DUTY (Vehículo Industrial)",
             "text": "<p>Descubre la promo anual HEAVY DUTY de GEDORE Automotive, ¡tu aliado en reparaciones de vehículos pesados e industriales!</p>",
             "link_label": "Descargar PDF",
-            "link": "https://webforms.pipedrive.com/f/nr8OGaO2mRzxXgyxEGXxBHamqirChXEemixWpbmq6HEgC5HBENvCUYX8YwqU1r5"
+            "link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/260210en_heavyduty_2-26_enop.pdf?v=1778147112"
           }
         },
         "column_UcpL9M": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ESPECIAL_INDUSTRIAL.png",
             "title": "ESPECIAL VEHÍCULO INDUSTRIAL",
@@ -261,7 +308,7 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "color_scheme": "",
@@ -277,6 +324,7 @@
     "image_with_text_UJfEBB",
     "image_with_text_4fBV3m",
     "image_with_text_cm9wmg",
+    "multicolumn_AijdAC",
     "multicolumn_r84qbH",
     "multicolumn_kNiXWL"
   ]

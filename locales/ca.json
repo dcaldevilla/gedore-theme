@@ -516,7 +516,8 @@
           "save": "Desa",
           "cancel": "Cancel·la",
           "generic_error": "S'ha produït un problema en desar l'adreça. Intenta-ho de nou.",
-          "one_time_address_subtitle": "Usar una adreça una sola vegada per a aquesta comanda"
+          "one_time_address_subtitle": "Usar una adreça una sola vegada per a aquesta comanda",
+          "edit": "Editar direcció"
         },
         "different_shipping_method_summary": "Introduïu una adreça d'enviament diferent per veure els mètodes d'enviament disponibles.",
         "invalid_shipping_method_summary": "Introduïu una adreça d'enviament vàlida per veure els mètodes d'enviament disponibles",
@@ -595,7 +596,9 @@
         "subscription_shipping": "Enviament per subscripció",
         "shipping_method_subscription_group_title": "Subscripció",
         "split_shipping_shipment_notice": "La teva comanda arribarà a %{quantity_shipments}",
-        "unbranded_default_description": "A punt per enviar"
+        "unbranded_default_description": "A punt per enviar",
+        "add_shipping_address": "Afegir adreça d'enviament",
+        "back": "Enrere"
       },
       "payment": {
         "amazon_payments_login_hint": "Heu d'accedir iniciant sessió a Amazon.",
@@ -899,7 +902,9 @@
             "refresh": "Actualitzar"
           }
         },
-        "markets_pro_disclaimer_express_privacy_policy": "Política de privadesa"
+        "markets_pro_disclaimer_express_privacy_policy": "Política de privadesa",
+        "default": "Per defecte",
+        "add_payment_method": "Afegir forma de pagament"
       },
       "thank_you": {
         "order_status_confirmed_order_with_email_and_phone": "Rebràs un correu electrònic quan la teva comanda estigui a punt.",
@@ -2265,7 +2270,13 @@
         },
         "payment_method_incompatible_with_payment_terms": "L'opció de pagament seleccionada no està disponible perquè el pagament venç més tard",
         "payment_method_not_applicable": "La forma de pagament seleccionada no està disponible perquè el pagament d'aquesta comanda venç més tard",
-        "payment_method_not_available_with_payment_terms": "La forma de pagament seleccionada ja no està disponible perquè el pagament d'aquesta comanda ja és a {{paymentTerms}}"
+        "payment_method_not_available_with_payment_terms": "La forma de pagament seleccionada ja no està disponible perquè el pagament d'aquesta comanda ja és a {{paymentTerms}}",
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Lliurament",
+            "contact": "Contacte"
+          }
+        }
       },
       "local_pickup": {
         "toggle_location": "Canviar la meva ubicació",
@@ -2431,6 +2442,9 @@
           "other": "{{count}} articles",
           "many": "{{count}} articles"
         }
+      },
+      "too_many_requests": {
+        "return_to_cart": "Tornar a la cistella"
       }
     },
     "errors": {
@@ -2890,7 +2904,8 @@
             "title": "Pagament cancel·lat",
             "description": "No se't va cobrar cap import."
           },
-          "pay_now_accessibility_label": "Pagar ara la comanda {{orderName}}"
+          "pay_now_accessibility_label": "Pagar ara la comanda {{orderName}}",
+          "due_date": "Venç el {{date}}"
         },
         "subtitle": "Data d'enviament: {{date}}",
         "title": "Comanda {{name}}",
@@ -2953,7 +2968,8 @@
         "own_role_contact_name": "Tu",
         "staff_and_permissions_title": "Empleats i permisos",
         "location_picker_accessibility_label": "Nom de la sucursal: {{locationName}}",
-        "deposit_percentage": "Dipòsit del {{percentage}}"
+        "deposit_percentage": "Dipòsit del {{percentage}}",
+        "contact_contact": "Contacte"
       },
       "location_selection": {
         "description": "Si ja teniu articles a la cistella, el canvi de sucursal pot afectar els preus i les quantitats del carret.",
@@ -3576,7 +3592,12 @@
       "due_on_date": "Venç el {{date}}",
       "view_controls": {
         "list": "Llista"
-      }
+      },
+      "marketing_resend_email": "Reenviar correu electrònic",
+      "marketing_resend_email_success": "Enllaç enviat",
+      "total_savings": "Estalvi total",
+      "price_before_discount_accessibility_label": "Preu original",
+      "price_after_discount_accessibility_label": "Preu rebaixat"
     },
     "addresses": {
       "add_button": "Afegir adreça",
@@ -3712,6 +3733,15 @@
       "add_button": "Afegir",
       "verify_new_email_modal": {
         "cancel_button": "Cancel·la"
+      },
+      "verify_current_email_modal": {
+        "cancel_button": "Cancel·la"
+      },
+      "marketing_preferences": {
+        "unsubscribe_confirmation": {
+          "cancel": "Cancel·la"
+        },
+        "resend_email": "Reenviar correu electrònic"
       }
     },
     "shop_policies": {
@@ -3833,7 +3863,11 @@
           "default_checkbox": "Establir com a forma de pagament predeterminada"
         },
         "choose_from_list": "Triar de la llista",
-        "add_new_button": "Afegeix nova"
+        "add_new_button": "Afegeix nova",
+        "button_title": "Afegir",
+        "subscription_contracts": {
+          "load_more": "Carregar més"
+        }
       },
       "expires_soon": "Aquesta targeta expirarà aviat",
       "expired": "Aquesta targeta va expirar",
@@ -3904,10 +3938,19 @@
       "update_payment_method": {
         "title": "Actualitzar forma de pagament",
         "billing_address": "Adreça de facturació",
-        "disclaimer": "Aquesta forma de pagament es guardarà per a futures compres i es podrà utilitzar per a qualsevol compra recurrent o diferida."
+        "disclaimer": "Aquesta forma de pagament es guardarà per a futures compres i es podrà utilitzar per a qualsevol compra recurrent o diferida.",
+        "button_title": "Actualitzar",
+        "subscriptions_title": "Subscripcions",
+        "resources_card_show_more": "Mostra més",
+        "resources_card_show_less": "Mostrar menys",
+        "resources_card_scroll": "Desplaça't per veure més articles"
       },
       "update_success": {
         "title": "Forma de pagament actualitzada",
+        "done_button": "Seguir comprant"
+      },
+      "credit_card_title": "Targeta de crèdit",
+      "add_success": {
         "done_button": "Seguir comprant"
       }
     },
@@ -3968,7 +4011,10 @@
       },
       "clipboardCopied": "Copiat",
       "clipboardFailedToCopy": "Error en copiar",
-      "clear": "Esborrar"
+      "clear": "Esborrar",
+      "moneyLinesHeaderItem": "Article",
+      "productThumbnailQuantityLabel": "Quantitat",
+      "reviewItemHeaderSection": "Secció"
     },
     "profile_preview_bar": {
       "customize_button": "Personalitzar",
@@ -4050,10 +4096,49 @@
         "button": "Continua",
         "heading": "Iniciar sessió",
         "input_field_label": "Correu electrònic"
-      }
+      },
+      "step_two": {
+        "input_field_label": "Codi de sis dígits",
+        "change_email": "Canviar"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Introduïu una adreça de correu electrònic vàlida",
+          "invalid_code": "Introdueix el codi de 6 dígits correcte"
+        }
+      },
+      "processing": "Processant…"
     },
     "subscriptions": {
       "update_payment_instrument": {
+        "title": "Reemplaçar forma de pagament",
+        "success": "Forma de pagament actualitzada",
+        "cancel": "Cancel·la",
+        "save": "Desa"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "orders_button": "Comandes",
+        "email_field_label": "Correu electrònic"
+      },
+      "signed_in_state": {
+        "orders_button": "Comandes",
+        "greeting_without_name": "Compte"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Cerca"
+      },
+      "aria_labels": {
+        "account": "Compte",
+        "sign_in": "Iniciar sessió"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "save_button": "Desa",
+        "close_button": "Tancar",
+        "card_number": "Número de targeta",
         "title": "Reemplaçar forma de pagament",
         "success": "Forma de pagament actualitzada"
       }
@@ -4271,7 +4356,8 @@
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> a la cistella",
         "note": "Veure regles de quantitat",
         "min_of": "Mín.: {{ quantity }}",
-        "max_of": "Màx.: {{ quantity }}"
+        "max_of": "Màx.: {{ quantity }}",
+        "in_cart_aria_label": "Quantitat ( {{ quantity }} a la cistella)"
       },
       "price": {
         "from_price_html": "A partir de {{ price }}",
@@ -4547,6 +4633,13 @@
     },
     "404": {
       "title": "Pàgina no trobada"
+    }
+  },
+  "custom": {
+    "product": {
+      "stock": {
+        "status_out": "Esgotat"
+      }
     }
   }
 }
