@@ -78,7 +78,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -86,10 +86,10 @@
           "type": "buttons",
           "disabled": true,
           "settings": {
-            "button_label_1": "Etiqueta de botón",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Etiqueta de botón",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -135,7 +135,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "button_label": "Etiqueta de botón",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -173,7 +173,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -181,10 +181,10 @@
           "type": "buttons",
           "disabled": true,
           "settings": {
-            "button_label_1": "Etiqueta de botón",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Etiqueta de botón",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -230,7 +230,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "button_label": "Etiqueta de botón",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -274,7 +274,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "button_label": "Etiqueta de botón",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -385,7 +385,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "button_label": "Etiqueta de botón",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",

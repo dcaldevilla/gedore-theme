@@ -130,7 +130,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -179,7 +179,7 @@
           "settings": {
             "cover_image": "shopify://shop_images/captura_lda.png",
             "video_url": "https://youtu.be/uJvcSCi8ylw",
-            "description": "Describir el video"
+            "description": ""
           }
         }
       },
@@ -249,10 +249,10 @@
           "type": "buttons",
           "disabled": true,
           "settings": {
-            "button_label_1": "Etiqueta de botón",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Etiqueta de botón",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -375,7 +375,7 @@
           "settings": {
             "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-24_140602.png",
             "video_url": "https://www.youtube.com/watch?v=0YEFkX9_V0U",
-            "description": "Describir el video"
+            "description": ""
           }
         }
       },
@@ -467,7 +467,7 @@
           "settings": {
             "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-24_162622.png",
             "video_url": "https://www.youtube.com/watch?v=ceum8kFJeAs",
-            "description": "Describir el video"
+            "description": ""
           }
         }
       },
@@ -531,7 +531,7 @@
           "settings": {
             "cover_image": "shopify://shop_images/Captura_de_pantalla_2024-09-24_171425.png",
             "video_url": "https://www.youtube.com/watch?v=QnuGELF-BcM",
-            "description": "Describir el video"
+            "description": ""
           }
         },
         "image_EgbTxb": {
