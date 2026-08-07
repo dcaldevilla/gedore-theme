@@ -4039,16 +4039,16 @@
     "product": {
       "unavailable": "Ez dago eskuragarri",
       "vendor": "Hornitzailea",
-      "video_exit_message": "{{ title }} -k bideoa pantaila osoan irekitzen du leiho berean.",
+      "video_exit_message": "{{ title }}(e)k bideoa pantaila osoan irekitzen du leiho berean.",
       "xr_button": "Ikusi zure espazioan",
       "xr_button_label": "Ikusi zure espazioan, kargatu artikulua errealitate areagotuko leihoan",
       "pickup_availability": {
         "view_store_info": "Ikusi dendaren informazioa",
         "check_other_stores": "Egiaztatu erabilgarritasuna beste dendetan",
-        "pick_up_available": "Erretiratzea eskuragarri",
+        "pick_up_available": "Jasotzeko aukera",
         "pick_up_available_at_html": "Jaso daiteke <span class=\"color-foreground\">{{ location_name }}</span> helbidean",
         "pick_up_unavailable_at_html": "Momentu honetan ez dago jasotzeko aukera <span class=\"color-foreground\">{{ location_name }}</span> helbidean",
-        "unavailable": "Ezin izan da erretiratzeko erabilgarritasuna kargatu",
+        "unavailable": "Ezin izan da jasotzeko aukera kargatu",
         "refresh": "Eguneratu"
       },
       "media": {
@@ -4062,52 +4062,56 @@
         "image_available": "{{ index }} irudia galeria ikuspegian eskuragarri dago orain"
       },
       "view_full_details": "Ikusi xehetasun guztiak",
-      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Bidalketa-gastuak</a> ordainketa egitean kalkulatzen dira.",
-      "choose_options": "Aukeratu aukerak",
-      "choose_product_options": "Aukeratu {{ product_name }} rako aukerak",
-      "value_unavailable": "{{ option_value }} : ez dago erabilgarri",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Bidalketa-gastuak</a> ordainketa egitean kalkulatzen dira.",
+      "choose_options": "Hautatu aukerak",
+      "choose_product_options": "Hautatu {{ product_name }}(r)entzako aukerak",
+      "value_unavailable": "{{ option_value }}: ez dago erabilgarri",
       "variant_sold_out_or_unavailable": "Aldaera stock gabe edo ez dago eskuragarri",
-      "inventory_in_stock": "Stockan",
+      "inventory_in_stock": "Stockean",
       "inventory_in_stock_show_count": "{{ quantity }} stockean",
       "inventory_low_stock": "Stock gutxi",
       "inventory_low_stock_show_count": "Stock gutxi: {{ quantity }} geratzen da",
       "inventory_out_of_stock": "Agortuta",
-      "inventory_out_of_stock_continue_selling": "Stockan",
+      "inventory_out_of_stock_continue_selling": "Stockean",
       "volume_pricing": {
         "title": "Bolumenaren prezioa",
-        "note": "Eskuragarri dauden bolumen prezioak",
+        "note": "Bolumen-prezioak eskuragarri",
         "minimum": "{{ quantity }} baino gehiago",
         "price_at_each": "{{ price }} unitate bakoitzeko",
-        "price_at_each_html": "{{ price }} unitate bakoitzeko"
+        "price_at_each_html": "{{ price }} unitate bakoitzeko",
+        "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "Produktuen aldaerak",
       "taxes_included": "Zergak barne.",
-      "duties_included": "Tarifak barne.",
-      "duties_and_taxes_included": "Zerga eta zergak barne.",
+      "duties_included": "Arantzelak barne.",
+      "duties_and_taxes_included": "Arantzelak eta zergak barne.",
       "add_to_cart": "Gehitu saskira",
       "description": "Deskribapena",
       "on_sale": "Eskaintza",
       "quantity": {
-        "label": "Zenbatekoa",
-        "input_label": "{{ product }} ren kantitatea",
-        "increase": "Handitu kantitatea {{ product }}",
-        "decrease": "Murriztu {{ product }} ren kantitatea",
+        "label": "Kopurua",
+        "input_label": "{{ product }}(r)en kopurua",
+        "increase": "Handitu {{ product }}(r)en kopurua",
+        "decrease": "Murriztu {{ product }}(r)en kopurua",
         "minimum_of": "Gutxienez {{ quantity }}",
         "maximum_of": "{{ quantity }} gehienez",
         "multiples_of": "{{ quantity }} gehikuntza",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> saskian",
         "note": "Ikusi kantitate arauak",
         "min_of": "Min.: {{ quantity }}",
-        "max_of": "Gehienez: {{ quantity }}"
+        "max_of": "Gehienez: {{ quantity }}",
+        "in_cart_aria_label": "Kopurua ({{ quantity }} saskian)"
       },
       "price": {
-        "from_price_html": "{{ price }} tik hasita",
+        "from_price_html": "{{ price }}(e)tik hasita",
         "regular_price": "Ohiko prezioa",
         "sale_price": "Eskaintzaren prezioa",
         "unit_price": "Unitatearen prezioa"
       },
       "share": "Partekatu produktu hau",
-      "sold_out": "Agortuta"
+      "sold_out": "Agortuta",
+      "sku": "SKU",
+      "nested_label": "{{ title }} {{ parent_title }}(r)entzat"
     },
     "modal": {
       "label": "Multimedia galeria"
@@ -4117,8 +4121,8 @@
       "clear": "Ezabatu",
       "clear_all": "Ezabatu guztiak",
       "filter_and_sort": "Iragazi eta ordenatu",
-      "filter_by_label": "Iragazkia:",
-      "filter_button": "Iragazkia",
+      "filter_by_label": "Iragazi:",
+      "filter_button": "Iragazi",
       "filters_selected": {
         "one": "{{ count }} hautatuta",
         "other": "{{ count }} hautatuta",
@@ -4130,20 +4134,26 @@
         "other": "{{ count }} produktu",
         "many": "{{ count }} produktu"
       },
-      "reset": "Berreskuratu",
-      "sort_button": "Agindu",
+      "reset": "Berrezarri",
+      "sort_button": "Ordenatu",
       "sort_by_label": "Ordenatu:",
-      "to": "Izan ere",
+      "to": "Gehienez",
       "clear_filter": "Ezabatu iragazkia",
-      "filter_selected_accessibility": "{{ type }} ( {{ count }} hautatutako iragazkiak)",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} iragazki hautatuta)",
       "show_more": "Erakutsi gehiago",
       "show_less": "Erakutsi gutxiago",
-      "filter_and_operator_subtitle": "Hautatu guztiak"
+      "filter_and_operator_subtitle": "Hautatu guztiak",
+      "from": "Gutxienez",
+      "product_count": {
+        "one": "{{ count }}(e)tik {{ product_count }} produktu",
+        "other": "{{ count }}(e)tik {{ product_count }} produktu",
+        "many": "{{ count }}(e)tik {{ product_count }} produktu"
+      }
     }
   },
   "templates": {
     "search": {
-      "no_results": "Ez da emaitzarik aurkitu “ {{ terms }} ”-rentzat Egiaztatu ortografia edo erabili beste hitz edo esaldi bat.",
+      "no_results": "Ez da emaitzarik aurkitu “{{ terms }}”(r)entzat. Egiaztatu ortografia edo erabili beste hitz edo esaldi bat.",
       "results_with_count": {
         "one": "{{ count }} emaitza",
         "other": "{{ count }} emaitza",
@@ -4152,14 +4162,14 @@
       "title": "Bilaketa-emaitzak",
       "page": "Orria",
       "products": "Produktuak",
-      "search_for": "Bilatu “ {{ terms }} ”",
+      "search_for": "Bilatu “{{ terms }}”",
       "results_with_count_and_term": {
-        "one": "{{ count }} emaitza aurkitu da \" {{ terms }} \"-rako",
-        "other": "{{ count }} emaitza aurkitu dira \" {{ terms }} \"rentzat",
-        "many": "{{ count }} emaitza aurkitu dira \" {{ terms }} \"rentzat"
+        "one": "{{ count }} emaitza aurkitu da “{{ terms }}”(r)entzat",
+        "other": "{{ count }} emaitza aurkitu dira “{{ terms }}”(r)entzat",
+        "many": "{{ count }} emaitza aurkitu dira “{{ terms }}”(r)entzat"
       },
       "results_pages_with_count": {
-        "one": "{{ count }}",
+        "one": "{{ count }} orrialde",
         "other": "{{ count }} orrialde",
         "many": "{{ count }} orrialde"
       },
@@ -4192,7 +4202,8 @@
       }
     },
     "404": {
-      "title": "Ez da orria aurkitu"
+      "title": "Ez da orria aurkitu",
+      "subtext": "404"
     }
   },
   "localization": {
@@ -4216,9 +4227,9 @@
     },
     "cart": {
       "title": "Zure saskia",
-      "caption": "Saskian dauden gauzak",
+      "caption": "Saskiko artikuluak",
       "remove_title": "Ezabatu {{ title }}",
-      "note": "Agindu bereziak",
+      "note": "Eskaerarako jarraibide bereziak",
       "checkout": "Ordaindu eskaera",
       "empty": "Zure saskia hutsik dago",
       "cart_error": "Errore bat gertatu da erosketa saskia eguneratzean. Saiatu berriro.",
@@ -4227,23 +4238,23 @@
         "product": "Produktua",
         "price": "Prezioa",
         "total": "Guztira",
-        "quantity": "Zenbatekoa",
+        "quantity": "Kopurua",
         "image": "Produktuaren irudia"
       },
       "update": "Eguneratu",
       "login": {
         "title": "Ba al duzu konturik?",
-        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link underlined-link\">Hasi saioa</a> zure erosketak azkarrago osatzeko."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Hasi saioa</a> zure erosketak azkarrago osatzeko."
       },
-      "estimated_total": "Guztira zenbatetsia",
-      "new_estimated_total": "Guztira estimatu berria",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Zerga eta zergak barne. Deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Zerga eta zergak barne. Deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Zergak barne. Deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "estimated_total": "Zenbatetsitako guztizkoa",
+      "new_estimated_total": "Zenbatetsitako guztizko berria",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Arantzelak eta zergak barne. Deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Arantzelak eta zergak barne. Deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Zergak barne. Deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
       "taxes_included_shipping_at_checkout_without_policy": "Zergak barne. Deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tarifak barne. Zergak, deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tarifak barne. Zergak, deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Zergak, deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Arantzelak barne. Zergak, deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Arantzelak barne. Zergak, deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Zergak, deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Zergak, deskontuak eta bidalketak ordainketa egitean kalkulatzen dira."
     },
     "footer": {
@@ -4251,7 +4262,7 @@
     },
     "featured_blog": {
       "view_all": "Ikusi guztiak",
-      "onboarding_title": "blogeko artikulua",
+      "onboarding_title": "Blogeko artikulua",
       "onboarding_content": "Eman zure bezeroei zure blogeko artikuluaren laburpena"
     },
     "featured_collection": {
@@ -4264,7 +4275,7 @@
     "collection_template": {
       "title": "Bilduma",
       "empty": "Ez da produkturik aurkitu",
-      "use_fewer_filters_html": "Erabili iragazki gutxiago edo <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">kendu guztiak</a>"
+      "use_fewer_filters_html": "Erabili iragazki gutxiago edo <a class=\"{{ class }}\" href=\"{{ link }}\">kendu guztiak</a>"
     },
     "video": {
       "load_video": "Kargatu bideoa: {{ description }}"
@@ -4291,7 +4302,7 @@
     "quick_order_list": {
       "product_total": "Produktuen azpi-totala",
       "view_cart": "Ikusi saskia",
-      "each": "{{ money }} /unitatea",
+      "each": "{{ money }}/unitatea",
       "product": "Produktua",
       "variant": "Aldaera",
       "variant_total": "Aldaerak guztira",
@@ -4334,15 +4345,21 @@
         "share_on_pinterest": "Gorde Pinterest-en"
       },
       "links": {
-        "instagram": "instagram",
-        "tumblr": "tumblr",
-        "snapchat": "snapchat"
+        "instagram": "Instagram",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "twitter": "X (Twitter)",
+        "facebook": "Facebook",
+        "pinterest": "Pinterest",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
       }
     },
     "continue_shopping": "Jarraitu erosketak",
     "pagination": {
       "label": "Paginazioa",
-      "page": "{{ number }} orria",
+      "page": "{{ number }}. orrialdea",
       "next": "Hurrengo orrialdea",
       "previous": "Aurreko orrialdea"
     },
@@ -4351,8 +4368,8 @@
       "reset": "Ezabatu bilaketa-terminoa"
     },
     "cart": {
-      "view": "Ikusi saskia ( {{ count }} )",
-      "item_added": "Zure saskian gehitutako elementua",
+      "view": "Ikusi saskia ({{ count }})",
+      "item_added": "Elementua saskira gehitu da",
       "view_empty_cart": "Ikusi saskia"
     },
     "share": {
@@ -4364,7 +4381,8 @@
     "slider": {
       "next_slide": "Irristatu eskuinera",
       "previous_slide": "Irristatu ezkerrera",
-      "name": "Karrusela"
+      "name": "Karrusela",
+      "of": "/"
     }
   },
   "newsletter": {
@@ -4375,7 +4393,7 @@
   "accessibility": {
     "skip_to_text": "Joan zuzenean edukira",
     "close": "Itxi",
-    "unit_price_separator": "arabera",
+    "unit_price_separator": "bakoitzeko",
     "vendor": "Hornitzailea:",
     "error": "Akatsa",
     "refresh_page": "Aukera bat hautatzeak orrialde osoa freskatzen du.",
@@ -4386,13 +4404,13 @@
     "loading": "Kargatzen...",
     "skip_to_product_info": "Joan zuzenean produktuaren informaziora",
     "total_reviews": "iritziak guztira",
-    "star_reviews_info": "{{ rating_value }} {{ rating_max }} izar",
+    "star_reviews_info": "{{ rating_max }} izarretik {{ rating_value }}",
     "collapsible_content_title": "Goitibeherako edukia",
     "complementary_products": "Produktu osagarriak"
   },
   "blogs": {
     "article": {
-      "blog": "bloga",
+      "blog": "Bloga",
       "read_more_title": "Informazio gehiago: {{ title }}",
       "comments": {
         "one": "{{ count }} iruzkin",
@@ -4419,7 +4437,7 @@
     "account": {
       "title": "Kontua",
       "details": "Kontuaren xehetasunak",
-      "view_addresses": "Ikusi jarraibideak",
+      "view_addresses": "Ikusi helbideak",
       "return": "Itzuli kontuaren xehetasunetara"
     },
     "account_fallback": "Kontua",
@@ -4432,7 +4450,7 @@
       "cancel": "Baztertu gonbidapena"
     },
     "addresses": {
-      "title": "Norabideak",
+      "title": "Helbideak",
       "default": "Lehenetsia",
       "add_new": "Gehitu helbide berri bat",
       "edit_address": "Editatu helbidea",
@@ -4454,7 +4472,7 @@
       "delete": "Ezabatu",
       "delete_confirm": "Ziur helbide hau ezabatu nahi duzula?"
     },
-    "log_in": "Saioa hasi",
+    "log_in": "Hasi saioa",
     "log_out": "Amaitu saioa",
     "login_page": {
       "cancel": "Utzi",
@@ -4465,12 +4483,13 @@
       "guest_title": "Jarraitu gonbidatu gisa",
       "password": "Pasahitza",
       "title": "Saioa hasi",
-      "sign_in": "Saioa hasi",
-      "submit": "Bidali"
+      "sign_in": "Hasi saioa",
+      "submit": "Bidali",
+      "alternate_provider_separator": "edo"
     },
     "orders": {
       "title": "Eskaeren historia",
-      "order_number": "Agindu",
+      "order_number": "Eskaera",
       "order_number_link": "Eskaera-zenbakia {{ number }}",
       "date": "Data",
       "payment_status": "Ordainketa egoera",
@@ -4500,43 +4519,44 @@
     },
     "order": {
       "title": "Eskaera {{ name }}",
-      "date_html": "{{ date }} -n egina",
+      "date_html": "{{ date }}-(e)an egina",
       "cancelled_html": "Eskaera bertan behera utzi zen {{ date }}",
       "cancelled_reason": "Arrazoia: {{ reason }}",
       "billing_address": "Fakturazio helbidea",
       "payment_status": "Ordainketa egoera",
-      "shipping_address": "Posta helbidea",
+      "shipping_address": "Bidalketa-helbidea",
       "fulfillment_status": "Eskaerak prestatzeko egoera",
       "discount": "Deskontua",
       "shipping": "Bidalketa",
       "tax": "Zerga",
       "product": "Produktua",
       "price": "Prezioa",
-      "quantity": "Zenbatekoa",
+      "quantity": "Kopurua",
       "total": "Guztira",
-      "fulfilled_at_html": "{{ date }} -n prestatua",
+      "fulfilled_at_html": "{{ date }}-(e)an prestatua",
       "track_shipment": "Jarraitu bidalketa",
       "tracking_url": "Jarraipen-esteka",
-      "tracking_company": "garraio enpresa",
+      "tracking_company": "Garraio-enpresa",
       "tracking_number": "Jarraipen-zenbakia",
       "subtotal": "Azpitotala",
-      "total_duties": "Betebeharra",
-      "total_refunded": "Itzulitakoa"
+      "total_duties": "Arantzelak",
+      "total_refunded": "Itzulitakoa",
+      "sku": "SKU"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Hau da zure {{ value }} opari-txartelaren saldoa {{ shop }} rentzat.",
+      "title": "Hau da zure {{ value }} opari-txartelaren saldoa {{ shop }}(r)entzat.",
       "subtext": "Zure opari txartela",
       "gift_card_code": "Opari txartelaren kodea",
       "shop_link": "Bisitatu online denda",
       "add_to_apple_wallet": "Gehitu Apple Wallet-era",
       "qr_image_alt": "QR kodea: eskaneatu opari txartela trukatzeko",
       "copy_code": "Kopiatu opari txartelaren kodea",
-      "expired": "Garaitua",
+      "expired": "Iraungita",
       "copy_code_success": "Kodea behar bezala kopiatu da",
       "how_to_use_gift_card": "Erabili opari txartelaren kodea linean edo QR kodea dendan",
-      "expiration_date": "{{ expires_on }} -n iraungiko da"
+      "expiration_date": "{{ expires_on }}-(e)an iraungiko da"
     }
   },
   "recipient": {
@@ -4548,12 +4568,26 @@
       "name": "Izena",
       "message_label": "Mezua (aukerakoa)",
       "message": "Mezua",
-      "max_characters": "{{ max_chars }} gehienez karaktere",
+      "max_characters": "Gehienez {{ max_chars }} karaktere",
       "email_label_optional_for_no_js_behavior": "Hartzailearen posta elektronikoa (aukerakoa)",
       "send_on": "UUAA-MM-DD",
       "send_on_label": "Bidali (aukerakoa)",
-      "expanded": "Opari Txartelaren Hartzailearen Inprimakia",
-      "collapsed": "Tolestutako opari-txartelaren hartzailearen inprimakia"
+      "expanded": "Opari-txartelaren hartzailearen inprimakia zabalduta",
+      "collapsed": "Opari-txartelaren hartzailearen inprimakia tolestuta"
+    }
+  },
+  "custom": {
+    "product": {
+      "stock": {
+        "vitoria_label": "Stocka Gasteizen",
+        "alemania_label": "Stocka Alemanian",
+        "available": "Eskuragarri",
+        "out_of_stock": "Stockik gabe",
+        "not_available": "ez dago eskuragarri",
+        "status_ok": "Eskuragarri",
+        "status_warn": "Stock gutxi",
+        "status_out": "Agortuta"
+      }
     }
   }
 }
