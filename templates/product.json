@@ -99,9 +99,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "custom_css": [
-        ".card-information .bss-lock-element {display: none !important;}"
-      ],
       "settings": {
         "heading": "Puede que también te interesen",
         "heading_size": "h2",

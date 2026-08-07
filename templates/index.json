@@ -200,9 +200,6 @@
     },
     "featured_collection_d6BKgw": {
       "type": "featured-collection",
-      "custom_css": [
-        ".card-information .bss-lock-element {display: none !important;}"
-      ],
       "settings": {
         "collection": "novedades",
         "products_to_show": 12,
@@ -310,9 +307,6 @@
         "product_ir6XX9",
         "video_Pqey4N"
       ],
-      "custom_css": [
-        ".card-information .bss-lock-element {display: none !important;}"
-      ],
       "settings": {
         "heading": "Puntas de torsión para asegurar una durabilidad máxima",
         "heading_size": "h1",
@@ -389,9 +383,6 @@
         "image_tPrd3w",
         "product_FaTLrz",
         "video_y6zCjj"
-      ],
-      "custom_css": [
-        ".card-information .bss-lock-element {display: none !important;}"
       ],
       "settings": {
         "heading": "Seguridad y precisión al alcance de tu mano",
@@ -485,9 +476,6 @@
         "product_jbngTf",
         "video_7PaWNB"
       ],
-      "custom_css": [
-        ".card-information .bss-lock-element {display: none !important;}"
-      ],
       "settings": {
         "heading": "Extremadamente compacto",
         "heading_size": "h1",
@@ -565,9 +553,6 @@
         "video_HFfwaP",
         "image_EgbTxb",
         "product_ANBgXW"
-      ],
-      "custom_css": [
-        ".card-information .bss-lock-element {display: none !important;}"
       ],
       "settings": {
         "heading": "Equipa tu taller con lo último de GEDORE",
