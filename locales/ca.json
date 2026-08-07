@@ -4198,17 +4198,17 @@
       "update": "Actualitzar",
       "login": {
         "title": "Tens un compte?",
-        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link underlined-link\">Inicia sessió</a> per finalitzar les compres amb més rapidesa."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicia sessió</a> per finalitzar les compres amb més rapidesa."
       },
       "estimated_total": "Total estimat",
       "new_estimated_total": "Nou total estimat",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Aranzels i impostos inclosos. Descomptes i <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">enviament</a> calculats a la pantalla de pagament.",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Aranzels i impostos inclosos. Descomptes i <a href=\"{{ link }}\">enviament</a> calculats a la pantalla de pagament.",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": "Aranzels i impostos inclosos. Descomptes i enviament calculats a la pantalla de pagament.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Impostos inclosos. Descomptes i <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">enviament</a> calculats a la pantalla de pagament.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Impostos inclosos. Descomptes i <a href=\"{{ link }}\">enviament</a> calculats a la pantalla de pagament.",
       "taxes_included_shipping_at_checkout_without_policy": "Impostos inclosos. Descomptes i enviament calculats a la pantalla de pagament.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Aranzels inclosos. Impostos, descomptes i <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">enviament</a> calculats a la pantalla de pagament.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Aranzels inclosos. Impostos, descomptes i <a href=\"{{ link }}\">enviament</a> calculats a la pantalla de pagament.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Aranzels inclosos. Impostos, descomptes i enviament calculats a la pantalla de pagament.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Impostos, descomptes i <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">enviament</a> calculats a la pantalla de pagament.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Impostos, descomptes i <a href=\"{{ link }}\">enviament</a> calculats a la pantalla de pagament.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Impostos, descomptes i enviament calculats a la pantalla de pagament."
     },
     "footer": {
@@ -4229,7 +4229,7 @@
     "collection_template": {
       "title": "Col·lecció",
       "empty": "No s'ha trobat cap producte",
-      "use_fewer_filters_html": "Fes servir menys filtres o <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">elimina'ls tots</a>"
+      "use_fewer_filters_html": "Fes servir menys filtres o <a class=\"{{ class }}\" href=\"{{ link }}\">elimina'ls tots</a>"
     },
     "video": {
       "load_video": "Carregar vídeo: {{ description }}"
@@ -4391,7 +4391,7 @@
         "image_available": "La imatge {{ index }} ja està disponible a la vista de la galeria"
       },
       "view_full_details": "Veure tots els detalls",
-      "shipping_policy_html": "Les <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">despeses d'enviament</a> es calculen a la pantalla de pagament.",
+      "shipping_policy_html": "Les <a href=\"{{ link }}\">despeses d'enviament</a> es calculen a la pantalla de pagament.",
       "choose_options": "Seleccionar opcions",
       "choose_product_options": "Triar opcions per {{ product_name }}",
       "value_unavailable": "{{ option_value }} : no disponible",
