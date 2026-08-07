@@ -116,9 +116,6 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                {% comment %} CUSTOM START: sparklayer pdp {% endcomment %}
-                {% render 'custom-sparklayer-pdp', product: product %}
-                {% comment %} CUSTOM END: sparklayer pdp {% endcomment %}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,

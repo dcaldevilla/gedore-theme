@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Permitir que agentes de IA (Codex) refactoricen y mantengan el theme **sin romper compatibilidad con Dawn ni con Sparklayer**.
+Permitir que agentes de IA (Codex) refactoricen y mantengan el theme **sin romper compatibilidad con Dawn**.
 
 ## Reglas generales
 
@@ -11,7 +11,7 @@ Permitir que agentes de IA (Codex) refactoricen y mantengan el theme **sin rompe
 3. **Toda lógica custom debe ir en snippets** con prefijo `custom-` o `gedore-`.
 4. **No alterar el `schema` de secciones existentes** salvo que se indique explícitamente.
 5. **No eliminar bloques ni settings existentes** del theme.
-6. **Mantener compatibilidad con apps que usan app blocks**, especialmente Sparklayer.
+6. **Mantener compatibilidad con apps que usan app blocks.** A 7-ago-2026 la única app con app embed en el theme es Fontify; Sparklayer y BSS Commerce están desinstaladas y su código se ha retirado.
 
 ## Convenciones de código
 
@@ -59,9 +59,9 @@ Permitir que agentes de IA (Codex) refactoricen y mantengan el theme **sin rompe
 
 ## Contexto del proyecto
 
-* Tienda: gedore-iberica.myshopify.com
+* Tienda: `a69b0a-8d.myshopify.com` (canónico) — `gedore-iberica.myshopify.com` también resuelve. Storefront: www.gedore.es
 * Theme base: Dawn (customizado)
-* Integraciones: Sparklayer
+* Integraciones: Fontify (app embed). Sparklayer y BSS Commerce retiradas en ago-2026
 * Custom features actuales:
 
   * EAN / MPN en ficha de producto
