@@ -55,7 +55,7 @@
         },
         "owner_ctas": {
           "header": "Ets el propietari de la botiga?",
-          "fix_domain": "Per acabar de configurar la vostra nova adreça web, aneu a %{domain_settings_link}. Fes clic a \"Connect domain\" (Connectar domini) i introdueix: %{domain}.<br> Si teniu problemes per accedir a la botiga, proveu la pàgina %{forgot_your_store_link}.",
+          "fix_domain": "Per acabar de configurar la teva nova adreça web, ves a %{domain_settings_link}. Fes clic a \"Connect domain\" (Connectar domini) i introdueix: %{domain}.<br> Si tens problemes per accedir a la botiga, prova la pàgina %{forgot_your_store_link}.",
           "fix_domain_link_text": "la configuració del teu domini",
           "forgot_your_store_link_text": "Has oblidat la teva botiga?",
           "add_storefront": "Per configurar el teu lloc web pots configurar el canal de Botiga online al %{admin_link}. Si tens problemes per accedir a la botiga, prova la pàgina %{forgot_your_store_link}.",
@@ -100,7 +100,7 @@
         "password_reset_error": "Error en restablir la contrasenya",
         "no_account_found": "No s'ha trobat cap compte amb aquesta adreça electrònica.",
         "invalid_credentials": "Correu electrònic o contrasenya incorrectes.",
-        "denylisted_reset_password": "No es pot accedir al vostre compte perquè la contrasenya actual no és segura. Rebràs un correu electrònic per actualitzar la teva contrasenya.",
+        "denylisted_reset_password": "No es pot accedir al teu compte perquè la contrasenya actual no és segura. Rebràs un correu electrònic per actualitzar la teva contrasenya.",
         "signup_disabled": "S'ha desactivat la creació del compte de client.",
         "subscribe_error": "Error de subscripció",
         "unsubscribe_error": "Error en cancel·lar la subscripció"
@@ -146,22 +146,22 @@
         "cash_on_delivery": "Pagament contra lliurament"
       },
       "cart": {
-        "only_n_items_available": "Només podeu afegir %{count} %{name} a la cistella.",
-        "too_many_items_in_cart": "No podeu afegir més %{name} a la cistella.",
+        "only_n_items_available": "Només pots afegir %{count} %{name} a la cistella.",
+        "too_many_items_in_cart": "No pots afegir més %{name} a la cistella.",
         "all_items_in_cart": "La teva cistella conté: %{count} %{name}.",
-        "empty_update": "No es pot actualitzar un carret buit",
+        "empty_update": "No es pot actualitzar una cistella buida",
         "missing_parameters": "Identificació o paràmetre lineal no vàlids",
-        "generic_error": "Error al carret",
+        "generic_error": "Error a la cistella",
         "link_expired": "L'enllaç ha caducat",
         "link_no_longer_exists": "L'enllaç ja no existeix.",
-        "changed": "El carretó s'ha modificat",
+        "changed": "La cistella s'ha modificat",
         "variant_not_found": "No s'ha trobat la variant",
-        "too_many_line_items_error": "El carretó no pot contenir més de %{max} articles.",
+        "too_many_line_items_error": "La cistella no pot contenir més de %{max} articles.",
         "variant_requires_selling_plan": "La variant només es pot comprar amb un pla de vendes.",
         "selling_plan_not_applicable": "No es pot aplicar el pla de venda a la variant",
         "selling_plan_not_available_for_company_locations": "Només s'admeten compres úniques per a les comandes B2B.",
         "digital_product_not_available_for_company_locations": "Aquest article no es pot afegir a una comanda B2B",
-        "not_respect_step": "Només podeu afegir aquest article en increments de %{step}.",
+        "not_respect_step": "Només pots afegir aquest article en increments de %{step}.",
         "bundle_requires_components": "El producte %{name} del paquet no es pot afegir a la cistella.",
         "gift_card_with_components_not_supported": "El producte %{name} del paquet no es pot afegir a la cistella.",
         "gift_card_price_must_be_greater_than_zero": "El producte %{name} del paquet no es pot afegir a la cistella.",
@@ -169,7 +169,7 @@
         "shipping_address_invalid": "Hi va haver un problema en calcular les tarifes d'enviament. Continua amb el pagament per seleccionar una tarifa d'enviament abans de completar la comanda.",
         "items_changed": "S'han canviat un o més articles.",
         "product_sold_out": "L'article '%{name}' ja està esgotat.",
-        "shipping_address_not_required": "Aquest carretó no requereix enviament",
+        "shipping_address_not_required": "Aquesta cistella no requereix enviament",
         "product_not_available": "El producte no està disponible",
         "less_than_minimum": "Aquest article té un mínim de %{min}.",
         "more_than_maximum": "Aquest article té un màxim de %{max}.",
@@ -177,13 +177,13 @@
         "merchandise_line_transformers": {
           "run_error": "S'ha produït un error a la cistella."
         },
-        "cart_too_large": "El carretó és massa gran.",
+        "cart_too_large": "La cistella és massa gran.",
         "gift_card_recipient_validation_error": "La targeta de regal especificada no és vàlida",
         "invalid_input": "El paràmetre %{parameter} no és vàlid.",
         "buyer_cannot_purchase_for_company_locations": "No es pot comprar per a aquesta sucursal",
         "only_one_added_to_cart": "A causa de la disponibilitat, només es va afegir un article a la cistella.",
         "only_n_added_to_cart": "A causa de la disponibilitat, només s'han afegit %{quantity} articles a la cistella.",
-        "maximum_available_quantity_reached": "El teu carretó ja té la quantitat màxima d'aquest article.",
+        "maximum_available_quantity_reached": "La teva cistella ja té la quantitat màxima d'aquest article.",
         "cart_attributes_error": "Els atributs de la cistella inclouen dades no vàlides."
       },
       "storefront": {
@@ -271,7 +271,7 @@
       "not_found": "404 No trobat",
       "checkpoint": "Punt de control",
       "products": "Productes",
-      "shopping_cart": "El teu carret"
+      "shopping_cart": "La teva cistella"
     },
     "filters": {
       "availability": {
@@ -319,8 +319,8 @@
         "disclaimer": "Pots donar-te de baixa en qualsevol moment."
       },
       "unsubscribed": {
-        "confirmation": "Heu cancel·lat la vostra subscripció a la nostra llista de distribució.",
-        "disclaimer": "No us enviarem més notícies de màrqueting. Podeu subscriure't novament en qualsevol moment.",
+        "confirmation": "Has cancel·lat la teva subscripció a la nostra llista de distribució.",
+        "disclaimer": "No t'enviarem més notícies de màrqueting. Pots subscriure't novament en qualsevol moment.",
         "preview": "Estàs revisant la vista prèvia del que veuran els clients quan es donen de baixa."
       },
       "open_tracking": {
@@ -534,7 +534,7 @@
         "contact_contact": "Contacte"
       },
       "location_selection": {
-        "description": "Si ja teniu articles a la cistella, el canvi de sucursal pot afectar els preus i les quantitats del carret.",
+        "description": "Si ja tens articles a la cistella, el canvi de sucursal pot afectar els preus i les quantitats de la cistella.",
         "list_accessibility_label": "Llista de sucursals",
         "list_item_without_address_accessibility_label": "{{name}} : sense adreça",
         "list_loading_accessibility_message": "Carregant llista de sucursals",
@@ -589,7 +589,7 @@
         "title": "Sense accés"
       },
       "no_access_to_locations": {
-        "description": "No teniu accés a cap ubicació."
+        "description": "No tens accés a cap ubicació."
       },
       "not_found": {
         "description": "Comproveu l'URL o torneu-ho a provar d'aquí a uns minuts.",
@@ -1026,7 +1026,7 @@
         "download_shop_to_track": "Descàrrega Shop per fer seguiment del paquet",
         "track_order_with_shop": "Fer seguiment de la comanda amb Shop",
         "title_header": "Escaneja amb el telèfon",
-        "real_time_delivery_updates": "Shop us enviarà informació en temps real sobre el lliurament quan s'hagi enviat la vostra comanda."
+        "real_time_delivery_updates": "Shop t'enviarà informació en temps real sobre el lliurament quan s'hagi enviat la teva comanda."
       },
       "shop_pay": {
         "order_completed_with": "Comanda completada amb",
@@ -1594,7 +1594,7 @@
       "title": "Configuració",
       "log_out_everywhere": {
         "title": "Tancar totes les sessions",
-        "description": "Si heu perdut un dispositiu o teniu inquietuds relacionades amb la seguretat, tanqueu totes les sessions per garantir la seguretat del vostre compte.",
+        "description": "Si has perdut un dispositiu o tens inquietuds relacionades amb la seguretat, tanca totes les sessions per garantir la seguretat del teu compte.",
         "button": "Tancar totes les sessions",
         "warning_message": "També es tancarà la sessió en aquest dispositiu."
       }
@@ -1665,7 +1665,7 @@
       },
       "error": {
         "invalid": {
-          "invalid_email": "Introduïu una adreça de correu electrònic vàlida",
+          "invalid_email": "Introdueix una adreça de correu electrònic vàlida",
           "invalid_code": "Introdueix el codi de 6 dígits correcte"
         }
       },
