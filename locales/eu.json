@@ -659,7 +659,8 @@
         "full_title": "{{pageTitle}} - {{shopName}} - Ordainketa pantaila",
         "loading_title": "Ordainketa pantaila - {{shopName}}",
         "google_map_title": "Google mapa",
-        "submit_order_button_label": "Bidali eskaera"
+        "submit_order_button_label": "Bidali eskaera",
+        "loading": "Kargatzen…"
       },
       "contact": {
         "title": "Informazioa",
@@ -884,7 +885,13 @@
         "collapse_order_summary_short": "Mozorrotzea",
         "total_already_paid_label": "Ordaindua",
         "unit_price": {
-          "accessible_separator": "arabera"
+          "accessible_separator": "arabera",
+          "per_item": {
+            "single": "%{price} elementu bakoitzeko",
+            "one": "%{price} %{count} elementuko",
+            "other": "%{price} %{count} elementuko",
+            "many": "%{price} %{count} elementuko"
+          }
         },
         "calculating_shipping": "Kalkulatua...",
         "applied_free_shipping_discount_label": "Aplikatua",
@@ -917,7 +924,19 @@
         "price_before_discount_aria_text": "Jatorrizko prezioa",
         "discount_code_aria_text": "Deskontu kodea",
         "total_due_today_label": "Gaur ordaintzeko guztira",
-        "total_due_later_label": "Guztira gero ordaintzeko"
+        "total_due_later_label": "Guztira gero ordaintzeko",
+        "price_after_discount_aria_text": "Beheratutako prezioa",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Bidali helbide batera"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ez dago zure elementua duen dendarik",
+          "other": "Ez dago zure elementuak dituen dendarik",
+          "many": "Ez dago zure elementuak dituen dendarik"
+        },
+        "deposit_label": "Gordailua",
+        "deferred_total_due_date_label_next": "%{date}-(e)an amaitzen da",
+        "total_paid_label": "Ordaindutakoa guztira"
       },
       "shipping": {
         "title": "Bidalketa",
@@ -1074,7 +1093,8 @@
           "one_time_address_subtitle": "Erabili helbide bat behin bakarrik eskaera honetarako",
           "add_address": "Gehitu helbidea",
           "save": "Mantendu",
-          "cancel": "Utzi"
+          "cancel": "Utzi",
+          "edit": "Editatu helbidea"
         },
         "different_shipping_method_summary": "Idatzi beste bidalketa-helbide bat eskuragarri dauden bidalketa-metodoak ikusteko.",
         "invalid_shipping_method_summary": "Mesedez, idatzi baliozko bidalketa-helbide bat eskuragarri dauden bidalketa-metodoak ikusteko",
@@ -1147,7 +1167,12 @@
         "address_default": "Ezarri lehenetsi gisa",
         "split_shipping_shipped_by_shop": "%{shop_name}-k egindako bidalketa",
         "split_shipping_multiple_shipment_notice": "Zure eskaera hainbat bidalketatan iritsiko da",
-        "split_shipping_multiple_shipment_notice_one_time_purchase": "Zure eskaera %{quantity} bidalketetan iritsiko da"
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Zure eskaera %{quantity} bidalketetan iritsiko da",
+        "delivery_title": "Entrega",
+        "split_shipping_shipment_notice": "Zure eskaera %{quantity_shipments} iritsiko da",
+        "unbranded_default_description": "Bidaltzeko prest",
+        "add_shipping_address": "Gehitu bidalketa-helbidea",
+        "back": "Atzera"
       },
       "pickup_point": {
         "selector_tab_list": "Zerrenda",
@@ -1230,7 +1255,17 @@
         "calculating_shipping": "Bidalketa oraindik kalkulatzen ari da. Mesedez, saiatu berriro segundo batzuk barru. Ez zaizu kobratu.",
         "calculating_taxes": "Oraindik zergak kalkulatzen ari dira. Mesedez, saiatu berriro segundo batzuk barru. Ez zaizu kobratu.",
         "contact_information": {
-          "email_link": "jarri gurekin harremanetan"
+          "email_link": "jarri gurekin harremanetan",
+          "title": "Harremanetarako informazioa ez da baliozkoa"
+        },
+        "generic_processing_error": {
+          "title": "Arazo bat egon da eskaera prozesatzean"
+        },
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Entrega",
+            "contact": "Kontaktua"
+          }
         }
       },
       "marketplaces": {
@@ -1269,7 +1304,10 @@
           "other": "Erakutsi %{count} adar gehiago",
           "many": "Erakutsi %{count} adar gehiago"
         },
-        "location_address_search_label": "Helbidea"
+        "location_address_search_label": "Helbidea",
+        "all_stores_far_away": {
+          "ship_to_address_link": "bidali helbidera"
+        }
       },
       "captcha": {
         "title": "Jarraitzeko, bete CAPTCHA",
@@ -1349,7 +1387,8 @@
         "redirection_notice": "\" {{buttonLabel}} \" sakatu ondoren, {{walletName}} ra birbideratuko zaituzte erosketa modu seguruan burutzeko.",
         "return_to_checkout": "Itzuli ordainketa pantailara",
         "scrim": {
-          "cancel": "Utzi"
+          "cancel": "Utzi",
+          "and_return_to_checkout": "eta itzuli ordainketa-orrira"
         }
       },
       "markets": {
@@ -1400,7 +1439,8 @@
           "checkout_has_expired": "Zure ordainketa-prozesua iraungi da. Mesedez, itxi leiho hau eta saiatu berriro ordainketa egiten {{shopName}} tik."
         },
         "return_to_store": "Itzuli {{shopName}}",
-        "return_to_store_simple": "Itzuli dendara"
+        "return_to_store_simple": "Itzuli dendara",
+        "title": "Shop Pay ordainketa"
       },
       "company_location": {
         "location_title": "Kokapena"
@@ -1902,7 +1942,9 @@
         "amazon_payments_failed_mfa_challenge": "Ezin izan da hautatutako ordainketa-metodoa erabili. Hautatu beste metodo bat edo jarri harremanetan zure bankuarekin edo txartelaren igorlearekin.",
         "amazon_payments_abandoned_mfa_challenge": "Ezin izan da osatu ordainketa. Saiatu beste ordainketa-metodo bat edo jarri harremanetan bankuarekin edo txartelaren igorlearekin.",
         "amazon_payments_could_not_enqueue_authorize": "Errore bat gertatu da ordainketa prozesatzean. Saiatu berriro edo erabili beste ordainketa-metodo bat.",
-        "amazon_payments_login_hint": "Amazonen saioa hasita sartu behar duzu."
+        "amazon_payments_login_hint": "Amazonen saioa hasita sartu behar duzu.",
+        "default": "Lehenetsia",
+        "add_payment_method": "Gehitu ordainketa-modua"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Uneko saldoa %{amount}",
@@ -2299,7 +2341,18 @@
           "title": "Jarraitu zure telefonotik",
           "send_link_to_phone": "Edo bidali esteka bat zure telefonora"
         },
-        "attempted_delivery_local_title": "Ezin izan da bidalketa jaso"
+        "attempted_delivery_local_title": "Ezin izan da bidalketa jaso",
+        "verify_shop_account_title": "Egiaztatu zure Shop kontua",
+        "verify_shop_account_cta": "Egiaztatu kontua",
+        "verify_shop_account_confirmation": "Ordainketa-informazioa gorde da",
+        "thank_you_item_label": {
+          "one": "%{count} elementu",
+          "other": "%{count} elementu",
+          "many": "%{count} elementu"
+        },
+        "announcement": {
+          "close": "Itxi"
+        }
       },
       "review": {
         "title": "Berrikuspena",
@@ -2325,7 +2378,9 @@
           "no_purchase_order_number": "(Erosketa eskaera zenbakirik ez)",
           "due_after_order_reviewed_html": "Eskaera berrikusitakoan iraungiko da",
           "review_title_free_order": "Berrikusi eta osatu eskaera",
-          "payment_method_saved_company_location": "Gorde txartela adar honetarako"
+          "payment_method_saved_company_location": "Gorde txartela adar honetarako",
+          "company_location": "Enpresaren kokalekua",
+          "change_company_location_link_label": "Aldatu enpresaren adarra"
         },
         "block_title": "Egiaztatu zure informazioa",
         "checkout_a_different_way": "Ordainketa beste era batera formalizatzea",
@@ -2333,7 +2388,8 @@
           "change_value": "Aldatu balioa",
           "section": "atala",
           "value": "Merezi"
-        }
+        },
+        "review_and_confirm_title": "Berrikusi eta berretsi"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Bidali albisteak eta eskaintzak posta elektronikoz",
@@ -2370,7 +2426,8 @@
         "subscription_policy": "Harpidetza-politika",
         "purchase_options_policy": "Erosteko aukeren politika",
         "contact_information": "Harremanetarako informazioa",
-        "purchase_options_cancellation_policy": "Baliogabetze politika"
+        "purchase_options_cancellation_policy": "Baliogabetze politika",
+        "cookie_preferences": "Cookieak"
       },
       "notifications": {
         "title": "Jakinarazpenak"
@@ -2626,7 +2683,8 @@
         },
         "you_will_not_be_charged": "Oraindik ez zaizu kobratuko",
         "action_required": "Beharrezko neurria",
-        "redirecting_to_bank": "Birbideratu {{bank}}"
+        "redirecting_to_bank": "Birbideratu {{bank}}",
+        "modal_notice": "{{paymentMethod}} zerbitzuarekin konektatzen ari gara"
       },
       "failed_payment": {
         "page_title": "Ezin izan da prozesatu ordainketa",
@@ -2676,7 +2734,10 @@
           "one": "erabilgarri ez dagoen elementua kentzen du",
           "other": "erabilgarri ez dauden elementuak kentzen ditu",
           "many": "erabilgarri ez dauden elementuak kentzen ditu"
-        }
+        },
+        "missing_country_fallback": "zure herrialdea",
+        "cart_updated": "Saskia eguneratu da.",
+        "empty_cart_action": "hustu saskia eta itzuli dendara"
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Ezin duzu gehiago B2B eskaerarik egin. %{logout_url} eskaera pertsonal bat egiteko.",
@@ -2703,6 +2764,28 @@
         "navigation": {
           "store_logo_accessibility_label": "Joan online dendara"
         }
+      },
+      "payment_challenge_modal": {
+        "timer_message": "{{timeLeft}} dituzu ordaintzeko",
+        "copy_text": "Kopiatu {{paymentMethod}} kodea",
+        "header": "Ordaindu {{paymentMethod}} bidez",
+        "close": "Itxi erronka",
+        "open_app_text": "Ireki {{paymentMethod}} aplikazioa"
+      },
+      "review_address_modal": {
+        "use_saved_address": "Erabili beste helbide bat",
+        "return_to_cart": "Itzuli saskira"
+      },
+      "remote_merchandise_only": {
+        "return_to_store_label": "Itzuli dendara",
+        "detail_item_label": {
+          "one": "{{count}} elementu",
+          "other": "{{count}} elementu",
+          "many": "{{count}} elementu"
+        }
+      },
+      "too_many_requests": {
+        "return_to_cart": "Itzuli saskira"
       }
     }
   },
