@@ -283,7 +283,6 @@
       "announcement": "Announcement",
       "announcement_bar": "Announcement bar"
     },
-
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",
@@ -548,6 +547,13 @@
         "status_ok": "Available",
         "status_warn": "Low stock",
         "status_out": "Out of stock"
+      },
+      "dimensions": {
+        "title": "Weight and dimensions",
+        "weight": "Weight:",
+        "length": "Length:",
+        "width": "Width:",
+        "height": "Height:"
       }
     }
   }

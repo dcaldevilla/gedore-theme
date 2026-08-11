@@ -4578,6 +4578,13 @@
         "not_available": "no disponible",
         "status_ok": "Disponible",
         "status_warn": "Baixes existències"
+      },
+      "dimensions": {
+        "title": "Pes i dimensions",
+        "weight": "Pes:",
+        "length": "Llargada:",
+        "width": "Amplada:",
+        "height": "Alçada:"
       }
     }
   }

@@ -4562,6 +4562,13 @@
         "status_ok": "Eskuragarri",
         "status_warn": "Stock gutxi",
         "status_out": "Agortuta"
+      },
+      "dimensions": {
+        "title": "Pisua eta neurriak",
+        "weight": "Pisua:",
+        "length": "Luzera:",
+        "width": "Zabalera:",
+        "height": "Altuera:"
       }
     }
   }
