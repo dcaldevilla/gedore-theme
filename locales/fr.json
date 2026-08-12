@@ -575,5 +575,19 @@
         }
       }
     }
+  },
+  "custom": {
+    "product": {
+      "stock": {
+        "vitoria_label": "Stock à Vitoria",
+        "alemania_label": "Stock en Allemagne",
+        "available": "Disponible",
+        "out_of_stock": "En rupture de stock",
+        "not_available": "non disponible",
+        "status_ok": "Disponible",
+        "status_warn": "Stock faible",
+        "status_out": "Épuisé"
+      }
+    }
   }
 }

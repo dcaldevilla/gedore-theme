@@ -536,5 +536,19 @@
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
     }
+  },
+  "custom": {
+    "product": {
+      "stock": {
+        "vitoria_label": "Stock in Vitoria",
+        "alemania_label": "Stock in Germany",
+        "available": "Available",
+        "out_of_stock": "Out of stock",
+        "not_available": "not available",
+        "status_ok": "Available",
+        "status_warn": "Low stock",
+        "status_out": "Out of stock"
+      }
+    }
   }
 }

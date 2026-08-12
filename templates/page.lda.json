@@ -23,28 +23,28 @@
         "heading_rYKKVh": {
           "type": "heading",
           "settings": {
-            "heading": "GEDORE LDA",
+            "heading": "GEDORE LDA3",
             "heading_size": "h0"
           }
         },
         "heading_wrPwCT": {
           "type": "heading",
           "settings": {
-            "heading": "Atornilladores Dinamométricos a Batería",
+            "heading": "Dinamométrico a batería para los aprietes más exigentes",
             "heading_size": "h1"
           }
         },
         "heading_D7XEnd": {
           "type": "heading",
           "settings": {
-            "heading": "90 - 6.000 N.m.",
+            "heading": "Potencia industrial y robustez",
             "heading_size": "h2"
           }
         },
         "text_EdUKCy": {
           "type": "text",
           "settings": {
-            "text": "<h2>GENERACIÓN LDA2</h2>"
+            "text": "<p>90 - 8.000 N.m.</p>"
           }
         }
       },
@@ -101,9 +101,9 @@
         "buttons_YeFwEx"
       ],
       "settings": {
-        "image": "shopify://shop_images/LDA_1.png",
-        "image_overlay_opacity": 30,
-        "image_height": "large",
+        "image": "shopify://shop_images/GEDORE_-_banner_imagen_web_-_LDA3_2000_x_1200_px_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
         "image_behavior": "zoom-in",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
@@ -128,7 +128,7 @@
         "text_YCWnYp": {
           "type": "text",
           "settings": {
-            "text": "<h3>Inteligente. Flexible.</h3><ul><li>La electrónica inteligente de las LDA detecta cuándo se alcanza el par de apriete deseado. La máquina se para de forma automática y libera la fuerza del brazo de reacción para que pueda sacarse de la aplicación de forma sencilla.</li><li>Un sensor de temperatura protege la máquina de sobrecalentamientos y la desconecta en su caso a tiempo para evitar daños internos. Se informa al usuario de este sobrecalentamiento con dos LEDs parpadeando.</li><li>La unidad de aplicación de par está embragada y puede girarse 360º. El mango ergonómico se adapta de forma segura a la mano. El riesgo de lesión del operario se ve de esta forma muy reducido.</li></ul><h3>Ligera. Potente.</h3><ul><li>Una LDA de hasta 500 N.m. pesa, sin brazo de reacción, sólo 3,3 kg. El aluminio de alto rendimiento de la carcasa facilita el manejo, el transporte y mejora enormemente la seguridad de uso.</li></ul><h3>Precisa. Competente.</h3><ul><li>La precisión del par de apriete de las LDA fluctúa dentro de una tolerancia inferior al 3%. El certificado de calibración que acompaña a cada máquina garantiza esta precisión. Cada máquina se calibra de forma individual.</li><li>Los LED de aviso notifican varios estados operativos</li><li>Se pueden realizar calibraciones especiales con los pernos/tornillos específicos del cliente</li></ul><h3>Robusta. Sin cables.</h3><ul><li>Gran rendimiento operativo gracias a su batería de ion-litio y a su electrónica integrada. La potente batería de ion-litio (90Wh/5Ah/18V) funciona con un alto rendimiento de forma constante hasta su descarga completa.</li><li>Las LDAs son la solución perfecta para el cumplimiento de las regulaciones de prevención de accidentes de trabajo.</li></ul><h3>A medida. Especial.</h3><ul><li>Disponible tanto en versión recta (8 modelos diferentes) como acodada (5 modelos diferentes)</li><li>Desarrollo y fabricación de soluciones a medida del cliente. Análisis de elementos finitos, pruebas de componentes y diseño de brazos de reacción especiales.</li></ul><h3>Detalle del suministro</h3><ul><li>Máquina a batería LDA/LAW</li><li>Brazo de reacción acodado con función de bloqueo</li><li>3x Baterías de Ion -Litio (90 Wh/18 V/5 Ah)</li><li>Cargador rápido 220–240 V; 50/60 Hz</li><li>Maleta de transporte</li><li>Manual de usuario</li><li>Certificado de Calibración</li></ul>"
+            "text": "<h3>Inteligente. Precisa.</h3><ul><li><strong>Electrónica de 3ª Generación</strong>: Detecta con exactitud cuándo se alcanza el par de apriete, deteniendo la máquina y liberando el brazo de reacción automáticamente. Con una tolerancia inferior al 3%, cada unidad incluye su propio certificado de calibración individual. </li><li><strong>Conectividad y Datos</strong>: Gracias al Bluetooth/WLAN, permite la trazabilidad total de los aprietes. La interfaz digital, apoyada por el LED MULTICOLOR, guía al operario garantizando un proceso libre de errores.</li></ul><h3>Segura. Controlada.</h3><ul><li><strong>Protección Térmica Inteligente</strong>: Un sensor de temperatura avanzado monitoriza el motor y la electrónica. Para evitar daños internos por uso intensivo, el sistema desconecta la máquina de forma preventiva antes de alcanzar niveles críticos. </li><li><strong>Aviso mediante LED MULTICOLOR</strong>: El operario recibe alertas visuales inmediatas sobre cualquier estado operativo o incidencia, como el sobrecalentamiento, asegurando una reacción rápida y protegiendo la vida útil de la herramienta.</li></ul><h3>Ligera. Potente </h3><ul><li><strong>Rendimiento Brushless</strong>: El motor sin escobillas elimina el mantenimiento, reduce el desgaste y permite un diseño mucho más compacto. Es la solución ideal para trabajos que exigen movilidad total sin cables ni mangueras. </li><li><strong>Relación Peso-Potencia</strong>: Capaz de entregar hasta 8.000 N.m. con una carcasa de aluminio de alto rendimiento. Sus baterías de ion-litio (90Wh/5Ah/18V) mantienen un rendimiento constante y elevado hasta su descarga completa.</li></ul><h3>Robusta. Ergonómica. </h3><ul><li><strong>Prevención de Riesgos</strong>: El cabezal giratorio 360° y el mango ergonómico reducen drásticamente el riesgo de lesiones. La LDA3 es la solución perfecta para cumplir con las normativas más estrictas de prevención de accidentes laborales. </li><li><strong>Versatilidad Total</strong>: Permite realizar calibraciones especiales para pernos o tornillos específicos, adaptándose con solvencia a las uniones atornilladas más críticas del sector industrial.</li></ul>"
           }
         },
         "button_mb3h6z": {
@@ -263,15 +263,64 @@
         "padding_bottom": 52
       }
     },
+    "image_banner_7abny4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NKVyna": {
+          "type": "heading",
+          "settings": {
+            "heading": "La nueva generación LDA3",
+            "heading_size": "h1"
+          }
+        },
+        "text_CfqCcU": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Potente, ligera y precisa</strong>",
+            "text_style": "body"
+          }
+        },
+        "buttons_bQpUEX": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Etiqueta de botón",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Etiqueta de botón",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NKVyna",
+        "text_CfqCcU",
+        "buttons_bQpUEX"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/AdobeStock_657012989_8.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "multicolumn_UhEzre": {
       "type": "multicolumn",
       "blocks": {
         "column_bwHaqn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/LDA.png",
-            "title": "Modelos rectos - GEDORE LDA",
-            "text": "<ul><li><strong>LDA-05 </strong>(90 - 500 N.m.)</li><li><strong>LDA-07</strong> (120 - 700 N.m.)</li><li><strong>LDA-12 </strong>(200 - 1.200 N.m.)</li><li><strong>LDA-15 </strong>(250 - 1.500 N.m.)</li><li><strong>LDA-22 </strong>(300 - 2.200 N.m.)</li><li><strong>LDA-32 </strong>(400 - 3.200 N.m.)</li><li><strong>LDA-40</strong> (500 - 4.000 N.m.)</li><li><strong>LDA-60</strong> (700 - 6.000 N.m.)</li></ul>",
+            "title": "Modelos rectos - GEDORE LDA3",
+            "text": "<ul><li><strong>LDA3-05 </strong>(90 - 500 N.m.)</li><li><strong>LDA3-07</strong> (120 - 700 N.m.)</li><li><strong>LDA3-12 </strong>(150 - 1.200 N.m.)</li><li><strong>LDA3-15 </strong>(220 - 1.500 N.m.)</li><li><strong>LDA3-22 </strong>(250 - 2.200 N.m.)</li><li><strong>LDA3-32 </strong>(350 - 3.200 N.m.)</li><li><strong>LDA3-40</strong> (500 - 4.000 N.m.)</li><li><strong>LDA3-60</strong> (700 - 6.000 N.m.)</li><li><strong>LDA3-80 </strong>(900 - 8.000 N.m.)</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -279,9 +328,8 @@
         "column_4Xh8zj": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/LAWsin-fondo.png",
-            "title": "Modelos acodados - GEDORE LAW",
-            "text": "<ul><li><strong>LAW-12 </strong>(200 - 1.200 N.m.)</li><li><strong>LAW-22 </strong>(300 - 2.200 N.m.)</li><li><strong>LAW-32 </strong>(400 - 3.200 N.m.)</li><li><strong>LAW-40</strong> (500 - 4.000 N.m.)</li><li><strong>LAW-60</strong> (700 - 6.000 N.m.)</li></ul>",
+            "title": "Modelos acodados - GEDORE LAW3",
+            "text": "<ul><li><strong>LAW3-12 </strong>(150 - 1.200 N.m.)</li><li><strong>LAW3-22 </strong>(250 - 2.200 N.m.)</li><li><strong>LAW3-32 </strong>(350 - 3.200 N.m.)</li><li><strong>LAW3-40</strong> (500 - 4.000 N.m.)</li><li><strong>LAW3-60</strong> (700 - 6.000 N.m.)</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -333,14 +381,14 @@
         "heading_jJzHkc": {
           "type": "heading",
           "settings": {
-            "heading": "GEDORE LDA / LAW",
+            "heading": "GEDORE LDA3 / LAW3",
             "heading_size": "h1"
           }
         },
         "text_b7DMf6": {
           "type": "text",
           "settings": {
-            "text": "<p>Consulte todos los datos técnicos de los modelos LDA y/o LAW</p>",
+            "text": "<p>Consulta aquí los datos técnicos de las soluciones GDA3 y LDA3</p>",
             "text_style": "body"
           }
         },
@@ -348,7 +396,7 @@
           "type": "button",
           "settings": {
             "button_label": "Descargar PDF",
-            "button_link": "https://webforms.pipedrive.com/f/HuTsH2K2uzF2WvPApZ8QuGPtU61cOivWyvz9T4fHMYlJhr7kg01rjYBp4wzRpt1",
+            "button_link": "https://cdn.shopify.com/s/files/1/0858/4141/2439/files/Soluciones_Portatiles_2026_ES.pdf?v=1781594872",
             "button_style_secondary": false
           }
         }
@@ -360,7 +408,7 @@
         "button_qLHLGq"
       ],
       "settings": {
-        "image": "shopify://shop_images/fichaLDA.jpg",
+        "image": "shopify://shop_images/Portada_Folleto_Soluciones_Portatiles_2026_ES.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -377,6 +425,7 @@
     },
     "video_adHhTt": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -389,6 +438,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_MQKgnq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QgqFjx": {
+          "type": "heading",
+          "settings": {
+            "heading": "📍 Servicio Técnico en España",
+            "heading_size": "h1"
+          }
+        },
+        "heading_rDLzwU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reparación · Calibración · Puesta a punto",
+            "heading_size": "h2"
+          }
+        },
+        "text_NjfBWh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Desde nuestra sede en Álava, ofrecemos soporte técnico especializado y servicio rápido para todas tus soluciones de apriete GEDORE, asegurando el máximo rendimiento en el menor tiempo posible.</p>"
+          }
+        },
+        "button_e93XkC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QgqFjx",
+        "heading_rDLzwU",
+        "text_NjfBWh",
+        "button_e93XkC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -398,8 +499,10 @@
     "rich_text_xyL3aB",
     "collapsible_content_mnr3aU",
     "rich_text_mRFGgn",
+    "image_banner_7abny4",
     "multicolumn_UhEzre",
     "image_with_text_PjzcnG",
-    "video_adHhTt"
+    "video_adHhTt",
+    "rich_text_MQKgnq"
   ]
 }

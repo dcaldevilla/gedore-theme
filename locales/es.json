@@ -547,5 +547,19 @@
       "expanded": "Formulario del destinatario de la tarjeta de regalo expandido",
       "collapsed": "Formulario del destinatario de tarjeta de regalo contraído"
     }
+  },
+  "custom": {
+    "product": {
+      "stock": {
+        "vitoria_label": "Stock en Vitoria",
+        "alemania_label": "Stock en Alemania",
+        "available": "Disponible",
+        "out_of_stock": "Sin stock",
+        "not_available": "no disponible",
+        "status_ok": "Disponible",
+        "status_warn": "Stock bajo",
+        "status_out": "Agotado"
+      }
+    }
   }
 }
