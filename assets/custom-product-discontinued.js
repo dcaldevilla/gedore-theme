@@ -26,9 +26,6 @@
     const submitButton = productForm?.querySelector('[type="submit"][name="add"]');
     const submitButtonText = submitButton?.querySelector('span');
     const paymentButton = productForm?.querySelector('.shopify-payment-button');
-    const soldOutBadge = productInfo.querySelector(
-      `#${CSS.escape(`price-${productInfo.dataset.section}`)} .price__badge-sold-out`
-    );
 
     if (isSoldOut) {
       if (submitButton) {
@@ -41,7 +38,6 @@
         paymentButton.style.display = 'none';
         lock(paymentButton);
       }
-      if (soldOutBadge && label) soldOutBadge.textContent = label;
       return;
     }
 
