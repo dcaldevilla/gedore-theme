@@ -554,6 +554,10 @@
         "length": "Length:",
         "width": "Width:",
         "height": "Height:"
+      },
+      "discontinued": {
+        "label": "Discontinued",
+        "last_units": "Discontinued · last units"
       }
     }
   }

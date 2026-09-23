@@ -4569,6 +4569,10 @@
         "length": "Luzera:",
         "width": "Zabalera:",
         "height": "Altuera:"
+      },
+      "discontinued": {
+        "label": "Katalogotik kanpo",
+        "last_units": "Katalogotik kanpo · azken unitateak"
       }
     }
   }

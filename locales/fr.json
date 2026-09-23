@@ -594,6 +594,10 @@
         "length": "Longueur :",
         "width": "Largeur :",
         "height": "Hauteur :"
+      },
+      "discontinued": {
+        "label": "Plus fabriqué",
+        "last_units": "Plus fabriqué · dernières unités"
       }
     }
   }

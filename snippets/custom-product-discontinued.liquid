@@ -1,0 +1,59 @@
+{% comment %}
+  Discontinued notice for the selected variant (metafield custom.descatalogado).
+
+  States (data-custom-discontinued-state):
+  - none: variant is not discontinued; nothing is shown.
+  - last_units: discontinued with stock in Vitoria or Alemania; purchasable.
+  - sold_out: discontinued with no stock in either warehouse; not purchasable.
+
+  Stock is checked explicitly instead of variant.available because most
+  variants use inventory policy CONTINUE, where available stays true at zero
+  stock. On the storefront, inventory_quantity only reflects Vitoria; the
+  German warehouse is read from the stock.alemania metafield (the same source
+  custom-stock-by-location uses), and German stock counts as sellable.
+
+  The element is re-rendered by the Section Rendering API on variant change and
+  swapped in by custom-product-discontinued.js, which also disables the Dawn
+  add-to-cart and dynamic checkout buttons for the sold_out state.
+
+  Accepts:
+  - product: {Object} product object.
+  - section: {Object} section object.
+
+  Usage:
+  {% render 'custom-product-discontinued', product: product, section: section %}
+{% endcomment %}
+{%- liquid
+  assign custom_dc_variant = product.selected_or_first_available_variant
+  assign custom_dc_state = 'none'
+  assign custom_dc_alemania = custom_dc_variant.metafields.stock.alemania.value | default: 0 | plus: 0
+  if custom_dc_variant.metafields.custom.descatalogado.value == true
+    if custom_dc_variant.inventory_quantity > 0 or custom_dc_alemania > 0
+      assign custom_dc_state = 'last_units'
+    else
+      assign custom_dc_state = 'sold_out'
+    endif
+  endif
+-%}
+{{ 'custom-product-meta.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'custom-product-discontinued.js' | asset_url }}" defer="defer"></script>
+<div
+  id="CustomDiscontinued-{{ section.id }}"
+  class="custom-product-discontinued"
+  data-custom-discontinued-state="{{ custom_dc_state }}"
+  data-sold-out-label="{{ 'custom.product.discontinued.label' | t | escape }}"
+  role="status"
+  {% if custom_dc_state == 'none' %}
+    hidden
+  {% endif %}
+>
+  {%- if custom_dc_state == 'last_units' -%}
+    <span class="custom-product-discontinued__badge custom-product-discontinued__badge--last-units">
+      {{- 'custom.product.discontinued.last_units' | t -}}
+    </span>
+  {%- elsif custom_dc_state == 'sold_out' -%}
+    <span class="custom-product-discontinued__badge custom-product-discontinued__badge--sold-out">
+      {{- 'custom.product.discontinued.label' | t -}}
+    </span>
+  {%- endif -%}
+</div>
