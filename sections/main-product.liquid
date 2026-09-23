@@ -124,6 +124,9 @@
                     price_class: 'price--large'
                   -%}
                 </div>
+                {% comment %} CUSTOM START: discontinued notice {% endcomment %}
+                {% render 'custom-product-discontinued', product: product, section: section %}
+                {% comment %} CUSTOM END: discontinued notice {% endcomment %}
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>

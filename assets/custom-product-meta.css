@@ -114,6 +114,33 @@
   color: #991b1b;
 }
 
+.custom-product-discontinued {
+  margin: 0.8rem 0 0;
+}
+
+.custom-product-discontinued__badge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.custom-product-discontinued__badge--last-units {
+  background: rgba(217, 119, 6, 0.14);
+  border-color: rgba(217, 119, 6, 0.35);
+  color: #92400e;
+}
+
+.custom-product-discontinued__badge--sold-out {
+  background: rgba(220, 38, 38, 0.12);
+  border-color: rgba(220, 38, 38, 0.3);
+  color: #991b1b;
+}
+
 @media screen and (max-width: 749px) {
   .custom-product-meta-grid {
     grid-template-columns: 1fr;

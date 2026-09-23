@@ -1,0 +1,44 @@
+{% comment %}
+  Outputs a "Descatalogado" card badge when every variant of the product is
+  discontinued (metafield custom.descatalogado) and has no stock in either
+  warehouse. Outputs nothing otherwise, so card-product.liquid falls back to
+  Dawn's badges.
+
+  Stock is checked explicitly instead of product.available because most
+  variants use inventory policy CONTINUE, where available stays true at zero
+  stock. On the storefront, inventory_quantity only reflects Vitoria; the
+  German warehouse is read from the stock.alemania metafield (the same source
+  custom-stock-by-location uses), and German stock counts as sellable.
+
+  Accepts:
+  - card_product: {Object} product object.
+  - badge_id: {String} id for the badge element (referenced by aria-labelledby).
+
+  Usage:
+  {% capture custom_discontinued_badge %}{% render 'custom-card-discontinued-badge', card_product: card_product, badge_id: 'Badge-id' %}{% endcapture %}
+{% endcomment %}
+{%- liquid
+  assign custom_dc_all_sold_out = false
+  if card_product.variants.size > 0
+    assign custom_dc_all_sold_out = true
+    for custom_dc_variant in card_product.variants
+      assign custom_dc_alemania = custom_dc_variant.metafields.stock.alemania.value | default: 0 | plus: 0
+      if custom_dc_variant.metafields.custom.descatalogado.value != true
+        assign custom_dc_all_sold_out = false
+        break
+      endif
+      if custom_dc_variant.inventory_quantity > 0 or custom_dc_alemania > 0
+        assign custom_dc_all_sold_out = false
+        break
+      endif
+    endfor
+  endif
+-%}
+{%- if custom_dc_all_sold_out -%}
+  <span
+    id="{{ badge_id }}"
+    class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
+  >
+    {{- 'custom.product.discontinued.label' | t -}}
+  </span>
+{%- endif -%}

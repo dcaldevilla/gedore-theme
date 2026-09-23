@@ -566,6 +566,10 @@
         "length": "Longitud:",
         "width": "Anchura:",
         "height": "Altura:"
+      },
+      "discontinued": {
+        "label": "Descatalogado",
+        "last_units": "Descatalogado · últimas unidades"
       }
     }
   }

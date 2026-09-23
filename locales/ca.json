@@ -4585,6 +4585,10 @@
         "length": "Llargada:",
         "width": "Amplada:",
         "height": "Alçada:"
+      },
+      "discontinued": {
+        "label": "Descatalogat",
+        "last_units": "Descatalogat · últimes unitats"
       }
     }
   }
