@@ -1113,7 +1113,7 @@
           "order_contains_subscriptions": "Subscripció",
           "order_contains_fixed_selling_plans": "Pot ser que el total no inclogui impostos, enviament, càrrecs diferits i alguns descomptes. Continua a la pantalla de pagament per a la suma que venç avui."
         },
-        "purchase_options_agreement_label_html": "Entenc que un o més articles del meva cistella són una compra diferida o recurrent. En continuar, accepto la \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">política de cancel·lació</a>\n i autoritzo a realitzar càrrecs en la meva forma de pagament segons els preus, la freqüència i les dates indicades en aquesta pàgina fins que es prepari el meu\n demanat o ho cancel·leu, si està permès.\n",
+        "purchase_options_agreement_label_html": "Entenc que un o més articles de la meva cistella són una compra diferida o recurrent. En continuar, accepto la \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">política de cancel·lació</a>\n i autoritzo a realitzar càrrecs en la meva forma de pagament segons els preus, la freqüència i les dates indicades en aquesta pàgina fins que es prepari el meu\n demanat o ho cancel·leu, si està permès.\n",
         "payment_method_saved": "Forma de pagament guardada",
         "card_vaulted_company_location": "Targeta guardada per a aquesta sucursal",
         "order_covered_by_store_credit_notice": "La comanda està coberta pel teu crèdit a la botiga.",
