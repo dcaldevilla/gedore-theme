@@ -70,7 +70,7 @@
           "type": "caption",
           "disabled": true,
           "settings": {
-            "caption": "Agregar un eslogan",
+            "caption": "",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }

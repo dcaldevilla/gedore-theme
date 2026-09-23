@@ -9,6 +9,369 @@
  */
 {
   "shopify": {
+    "notices": {
+      "cart": {
+        "generic_error": "Saskiaren errorea",
+        "too_many_line_items_error": "Saskiak ezin du %{max} elementu baino gehiago izan.",
+        "link_expired": "Esteka iraungi da",
+        "link_no_longer_exists": "Esteka ez dago jada.",
+        "stock_problems_html": "Elementu bat edo gehiago ez daude eskuragarri. Zure <a href=\"%{link}\">saskia</a> eguneratu dugu.",
+        "changed": "Saskia aldatu egin da",
+        "items_changed": "Elementu bat edo gehiago aldatu dira.",
+        "product_sold_out": "'%{name}' elementua dagoeneko agortuta dago.",
+        "variant_not_found": "Aldaera ez da aurkitu",
+        "variant_requires_selling_plan": "Aldaera salmenta-plan batekin bakarrik eros daiteke.",
+        "shipping_address_not_required": "Saski honek ez du bidalketarik behar",
+        "shipping_address_invalid": "Arazo bat izan da bidalketa-tasak kalkulatzean. Jarraitu ordainketara bidalketa-tasa hautatzeko eskaera osatu aurretik.",
+        "selling_plan_not_applicable": "Ezin zaio salmenta-plana aplikatu aldaerari",
+        "selling_plan_not_available_for_company_locations": "Behin-behineko erosketak B2B eskaeretarako soilik onartzen dira.",
+        "digital_product_not_available_for_company_locations": "Elementu hau ezin da B2B eskaera batean gehitu",
+        "product_not_available": "Produktua ez dago eskuragarri",
+        "less_than_minimum": "Elementu honek %{min} gutxienez ditu.",
+        "more_than_maximum": "Elementu honek %{max} du gehienez.",
+        "not_respect_step": "Elementu hau %{step} zatitan bakarrik gehi dezakezu.",
+        "bundle_requires_components": "Paketearen %{name} produktua ezin da saskira gehitu.",
+        "gift_card_with_components_not_supported": "Paketearen %{name} produktua ezin da saskira gehitu.",
+        "view_lines_limit_reached": "Lerroek %{limit} baino txikiagoak izan behar dute.",
+        "merchandise_line_transformers": {
+          "run_error": "Errore bat gertatu da zure saskian."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Paketearen %{name} produktua ezin da saskira gehitu.",
+        "only_n_items_available": "%{count} %{name} saskira soilik gehi dezakezu.",
+        "too_many_items_in_cart": "Ezin duzu %{name} gehiago gehitu saskian.",
+        "all_items_in_cart": "Zure saskia honako hau dauka: %{count} %{name}.",
+        "empty_update": "Ezin da saski hutsik eguneratu",
+        "missing_parameters": "ID baliogabea edo parametro lineala",
+        "cart_too_large": "Saskia handiegia da.",
+        "gift_card_recipient_validation_error": "Zehaztutako opari txartela ez da baliozkoa",
+        "invalid_input": "%{parameter} parametroa ez da baliozkoa.",
+        "buyer_cannot_purchase_for_company_locations": "Ezin duzu sukurtsal honetarako erosi",
+        "only_one_added_to_cart": "Eskuragarritasunagatik, elementu bakarra gehitu da saskira.",
+        "only_n_added_to_cart": "Eskuragarritasunagatik, %{quantity} elementu baino ez dira gehitu saskira.",
+        "maximum_available_quantity_reached": "Zure saskia dagoeneko elementu honetarako gehienezko kantitatea dauka.",
+        "cart_attributes_error": "Saskiaren atributuek datu baliogabeak dituzte."
+      },
+      "storefront": {
+        "invalid_password": "Pasahitz okerra, saiatu berriro."
+      },
+      "tags": {
+        "add_articles": "Modu bilaketa %{tag} etiketa duten artikuluetara",
+        "add_products": "Modu hautapena %{tag} etiketarekin bat datozen produktuetara",
+        "remove_articles": "Zabaldu bilaketa %{tag}-rekin etiketatuta ez dauden artikuluetara",
+        "remove_products": "Ezabatu %{tag} etiketa"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} gehitu da",
+          "increment_item": "%{delta} gehitu da",
+          "decrement_item": "%{delta} kendu da %{total}-tik",
+          "decrement_fulfilled_line_item": "%{total}-tik %{delta} itzuli da",
+          "decrement_return_line_item": "%{delta} itzuleratik kendu da"
+        }
+      },
+      "customer": {
+        "password_reset_error": "Pasahitza berrezartzeko errorea",
+        "no_account_found": "Ez da konturik aurkitu helbide elektroniko honekin.",
+        "invalid_credentials": "Helbide elektronikoa edo pasahitza okerra.",
+        "denylisted_reset_password": "Ezin da zure kontua sartu zure uneko pasahitza segurua ez delako. Pasahitza eguneratzeko mezu elektroniko bat jasoko duzu.",
+        "signup_disabled": "Bezero-kontua sortzea desgaitu da.",
+        "subscribe_error": "Harpidetza errorea",
+        "unsubscribe_error": "Errorea harpidetza bertan behera uztean"
+      },
+      "address": {
+        "updated": "Helbidea behar bezala eguneratu da.",
+        "error_updating": "Errore bat gertatu da helbidea eguneratzean.",
+        "created": "Helbidea behar bezala sortu da",
+        "error_creating": "Errore bat gertatu da helbidea sortzean.",
+        "deleted": "Helbidea behar bezala kendu da.",
+        "error_deleting": "Errore bat gertatu da helbidea ezabatzean."
+      },
+      "order": {
+        "not_available": "Eskaera hau ez dago eskuragarri.",
+        "financial_status": {
+          "authorized": "Baimenduta",
+          "pending": "Belarritakoa",
+          "paid": "Ordaindua",
+          "unpaid": "Ordaindu gabe",
+          "voided": "Bertan behera utzita",
+          "partially_paid": "Partzialki ordainduta",
+          "partially_refunded": "Partzialki itzulita",
+          "refunded": "Itzulitakoa",
+          "expired": "Garaitua"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Osatua",
+          "complete": "Osatu",
+          "partial": "Partziala",
+          "unfulfilled": "Ez da egin",
+          "restocked": "Ordezkoa"
+        },
+        "transaction_status": {
+          "success": "Arrakasta",
+          "pending": "Belarritakoa",
+          "failure": "Huts egin du",
+          "error": "Akatsa"
+        },
+        "cancel_reason": {
+          "declined": "Ordainketa baztertua",
+          "inventory": "Elementuak ez daude eskuragarri",
+          "fraud": "Iruzurrezko agindua",
+          "customer": "Bezeroak eskaera aldatu/ezeztatu zuen",
+          "other": "Bestela",
+          "many": "Bestela",
+          "staff": "Langilearen akatsa"
+        },
+        "cash_on_delivery": "Ordainketa entregatzean"
+      }
+    },
+    "page_titles": {
+      "products": "Produktuak",
+      "shopping_cart": "Zure saskia",
+      "account": "Kontua",
+      "create_account": "Sortu kontua",
+      "reset_account": "Berrezarri kontua",
+      "addresses": "Helbideak",
+      "order": "Eskaera%{name}",
+      "search": "Bilatu",
+      "collections": "Bildumak",
+      "not_found": "404 Ez da aurkitu",
+      "challenge": "Erronka",
+      "checkpoint": "kontrol-puntua",
+      "search_results": {
+        "one": "Bilaketa: %{count} emaitza aurkitu da \"%{terms}\"-rentzat",
+        "other": "Bilaketa: %{count} emaitza aurkitu dira \"%{terms}\"-rentzat",
+        "many": "Bilaketa: %{count} emaitza aurkitu dira \"%{terms}\"-rentzat"
+      },
+      "blog_or_article_with_error": "Errorea: %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} deskontu aplikatu dira"
+    },
+    "challenge": {
+      "message": "Jarraitzeko, esan iezaguzu ez zarela robot bat.",
+      "error": "Zure erantzuna ez da zuzena, saiatu berriro.",
+      "submit_button_text": "Bidali"
+    },
+    "checkpoint": {
+      "message": "Ebatzi Captcha jarraitzeko",
+      "error": "Captcha baliozkotzeak huts egin du",
+      "submit_button_text": "Bidali"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Eskerrik asko gure posta-zerrendan harpidetzeagatik.",
+        "disclaimer": "Edonoiz kendu dezakezu harpidetza.",
+        "unsubscribe": "Harpidetza kendu"
+      },
+      "unsubscribed": {
+        "confirmation": "Gure posta-zerrendatik harpidetza kendu duzu.",
+        "disclaimer": "Ez dizugu marketin berri gehiago bidaliko. Edonoiz harpidetu zaitezke berriro.",
+        "preview": "Harpidetza kentzen dutenean bezeroek ikusiko dutenaren aurrebista berrikusten ari zara."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Posta elektronikoaren jarraipena irekitzeko harpidetu zara.</b>",
+          "visibility": "Posta elektronikoaren irekitze tasak modu anonimoan jakinaraziko dira. Mezu elektroniko bat ireki duzun ala ez ikusiko dugu soilik irekitze-tasa baten barruan.",
+          "opt_out_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Harpidetza kendu</a> dezakezu irekitako mezu elektronikoen jarraipenari informazio hori partekatu nahi ez baduzu.",
+          "preview_bar": "Bezeroek mezu elektronikoen jarraipen irekian erregistratzen direnean ikusiko dutenaren aurrebista berrikusten ari zara."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Harpidetza kendu duzu irekitako mezu elektronikoen jarraipena egiteko.</b>",
+          "visibility": "Ez dugu ikusiko gure mezu elektronikoak ireki dituzun.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Onartu</a> irekitako mezu elektronikoen jarraipena.",
+          "preview_bar": "Bezeroek mezu elektronikoen jarraipena irekita ez egitea aukeratzen dutenean ikusiko dutenaren aurrebista berrikusten ari zara."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Jada ez ditugu irekitako mezu elektronikoen jarraipena egiten.</b>",
+          "privacy_policy": "Mezu elektroniko hau bidali ondoren, gure pribatutasun-politika eguneratu dugu eta jada ez da pista irekitzen."
+        },
+        "track": {
+          "status_html": "<b>Irekitako mezu elektronikoen jarraipenaren berri ematen da.</b>",
+          "visibility": "Mezu elektronikoa ireki duzun ala ez ikusiko dugu soilik zure posta elektronikoaren irekitze tasaren zati gisa."
+        },
+        "updated_policy": {
+          "status_html": "<b>Irekitako mezu elektronikoen jarraipenaren berri ematen da.</b>",
+          "visibility": "Gure politika eguneratu dugu eta orain irekitako mezu elektronikoen jarraipena egin dugu. Posta elektronikoaren irekitze tasak modu anonimoan jakinaraziko dira. Mezu elektroniko bat ireki duzun ala ez ikusiko dugu zure posta elektronikoko irekitze tasaren zati gisa.",
+          "opt_out_html": "Informazio hau partekatu nahi ez baduzu, <a style=\"text-decoration:underline;\" href=\"%{link}\">harpidetza kendu</a> dezakezu."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalean ordubetean prest dago",
+        "two_hours": "Normalean 2 ordutan prest dago",
+        "four_hours": "Normalean 4 ordutan prest dago",
+        "twenty_four_hours": "Normalean 24 orduko epean prest dago",
+        "two_to_four_days": "Normalean 2 eta 4 egunetan prest dago",
+        "five_or_more_days": "Normalean 5 egun edo gehiagotan prest dago",
+        "zero_to_two_hours": "Normalean 2 ordutan prest dago",
+        "two_to_four_hours": "Normalean 4 ordutan prest dago",
+        "immediately": "Jasotzeko prest",
+        "next_day": "Hurrengo egunean jasotzeko prest"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Stockan",
+          "out_of_stock": "Agortuta"
+        }
+      },
+      "boolean": {
+        "true_label": "Bai",
+        "false_label": "Ez"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Garrantzia",
+        "price_ascending": "Prezioa, baxutik gora",
+        "price_descending": "Prezioa, handienetik baxuena"
+      },
+      "error": "Arazo bat izan da bilaketa-emaitzak kargatzean. Mesedez, freskatu orria edo saiatu berriro geroago."
+    },
+    "pagination": {
+      "previous": "Lehengoa",
+      "next": "Jarraian"
+    },
+    "links": {
+      "powered_by_shopify": "Shopify Teknologia",
+      "learn_more": "Irakurri gehiago"
+    },
+    "feed": {
+      "more": "Aurrerago"
+    },
+    "attributes": {
+      "email": "posta elektronikoa",
+      "password": "pasahitza",
+      "password_confirmation": "pasahitza berrespena",
+      "first_name": "Izena",
+      "last_name": "Abizena",
+      "body": "mezua",
+      "signature": "Helbidea"
+    },
+    "addresses": {
+      "zip_code": "Posta kodea",
+      "postal_code": "Posta kodea",
+      "postcode": "Posta kodea",
+      "pincode": "Posta kodea",
+      "region": "Eskualdea",
+      "prefecture": "Prefektura",
+      "province": "Probintzia",
+      "state": "Estatua",
+      "state_and_territory": "Estatua/Lurraldea",
+      "county": "Konderria",
+      "emirate": "Emirerri",
+      "governorate": "Probintzia",
+      "confirm": "Ziur helbide hau ezabatu nahi duzula?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Ezaugarriak",
+        "best_selling": "salduenak",
+        "az": "Alfabetikoki, AZ",
+        "za": "Alfabetikoki, ZA",
+        "price_ascending": "Prezioa, baxutik gora",
+        "price_descending": "Prezioa, handienetik baxuena",
+        "date_ascending": "Data: zaharretik berriki",
+        "date_descending": "Data: berritik zaharrera"
+      }
+    },
+    "errors": {
+      "blank": "ezin da hutsik egon",
+      "credit_card_session_expired": "Kreditu txartelaren baimena iraungi da. Mesedez, sartu zure ordainketa-informazioa berriro ere. Zure txartela ez da kobratu.",
+      "empty": "ezin da hutsik egon",
+      "invalid_email": "Baliozko helbide elektronikoa izan behar du",
+      "discount_disabled": "Deskontu hau desgaitu egin da",
+      "discount_expired": "Deskontu honek jada ez du balio",
+      "discount_limit_reached": "Deskontu hau erabilera mugara iritsi da",
+      "discount_not_found": "Ezin izan da sartutako kodearekin bat datorren deskontu baliozkorik aurkitu",
+      "customer_already_used_once_per_customer_discount_notice": "Deskontu hau erabilera mugara iritsi da",
+      "gift_card_already_applied": "Kodea dagoeneko aplikatu zaio zure eskaerari",
+      "gift_card_code_invalid": "Kode baliogabea",
+      "gift_card_currency_mismatch": "Zure opari-txartela %{gift_card_currency}-n dago. Jar zaitez gurekin harremanetan %{checkout_currency}-n berriro kaleratu ahal izateko.",
+      "gift_card_depleted": "Ez dago funtsik opari-txartel honetan",
+      "gift_card_disabled": "Opari txartela desgaituta dago",
+      "gift_card_expired": "Opari txartela iraungi da",
+      "invalid": "baliogabea",
+      "bad_domain": "domeinu-izen baliogabea dauka",
+      "taken": "hartu da dagoeneko",
+      "contains_html_tags": "ezin du HTML etiketarik izan",
+      "too_short": "laburregia da (%{count} karaktere izan behar ditu gutxienez)",
+      "too_long": "luzeegia da (gehienez %{count} karaktere)",
+      "password_mismatch": "emandako pasahitzarekin bat etorri behar da",
+      "contains_spaces": "espazioekin hasten edo bukatzen da.",
+      "invalid_for_country": "ez du balio %{country}rentzat",
+      "invalid_for_country_and_province": "ez du balio %{province} eta %{country}",
+      "invalid_province_in_country": "ez da baliozko probintzia %{country}-n",
+      "invalid_state_in_country": "ez da baliozko egoera %{country}-n",
+      "invalid_region_in_country": "ez da baliozko eskualdea %{country}-n",
+      "less_than_or_equal_to": "%{count} baino txikiagoa edo berdina izan behar du",
+      "not_supported": "ez da onartzen",
+      "full_name_required": "Idatzi izen-abizenak",
+      "invalid_for_card_type": "ez du balio txartel mota honetarako",
+      "invalid_type": "Sentitzen dugu, ez dugu mota honetako txartelak onartzen",
+      "invalid_format": "ez da kreditu-txartelaren zenbakia",
+      "expired": "Kreditu txartela iraungi egin da",
+      "invalid_start_date_or_issue_number_for_debit": "Baliozko hasiera-data edo jaulkipen-zenbakia behar da",
+      "invalid_expiry_year": "ez baliozko iraungitze-urtea",
+      "reset_password_html": "Helbide elektroniko hau kontu batekin erlazionatuta dago jada. Kontua zurea bada, <a href=\"/account/login#recover\">hemen berrezar dezakezu pasahitza</a>",
+      "verify_email": "Mezu elektroniko bat bidali dugu %{customer_email} helbidera, egin klik sartutako estekan zure helbide elektronikoa egiaztatzeko.",
+      "blocked_address": "Kokapen hau ez da onartzen",
+      "product_not_available": "Produktua ez dago bezero honentzat argitaratua.",
+      "shop_404": {
+        "title": "Sortu merkataritza elektronikoko webgune bat eta saldu online! Shopify-k egindako merkataritza elektronikoko softwarea",
+        "heros": {
+          "store_unavailable": "Barkatu, denda hau ez dago erabilgarri une honetan.",
+          "store_not_exist": "Denda hau ez da existitzen.",
+          "no_storefront": "Denda honek ez du webgunerik oraindik."
+        },
+        "links": {
+          "explore_other_stores": "Arakatu beste denda batzuk",
+          "start_free_trial": "Hasi doako proba bat"
+        },
+        "owner_ctas": {
+          "header": "Dendaren jabea zara?",
+          "fix_domain": "Zure web-helbide berria konfiguratzen amaitzeko, joan %{domain_settings_link} helbidera. Sakatu \"Konektatu domeinua\" eta idatzi: %{domain}.<br> Dendan sartzeko arazoak badituzu, saiatu %{forgot_your_store_link} orria.",
+          "fix_domain_link_text": "zure domeinuaren konfigurazioa",
+          "forgot_your_store_link_text": "Zure denda ahaztu al duzu?",
+          "add_storefront": "Zure webgunea konfiguratzeko, %{admin_link} helbidean konfigura dezakezu dendaren kanala. Dendara sartzeko arazoak badituzu, saiatu %{forgot_your_store_link} orria.",
+          "admin_link_text": "kontrol panela"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Saldu pertsonalki",
+            "caption": "Lortu zure denda fisikoa exekutatzeko behar dituzun funtzioak, hasi berria zaren edo hazten ari zaren ala ez.",
+            "link_text": "Hasi doako proba"
+          },
+          "open_a_store": {
+            "header": "Ireki Shopify denda berri bat",
+            "caption": "Hasi 3 eguneko doako proba bat eta jarraitu $ 1/hilean datozen 3 hilabeteetan.",
+            "link_text": "Eman izena orain"
+          },
+          "editions": {
+            "header": "Ezagutu Shopify Editions",
+            "caption": "100 produktuen eguneratze baino gehiagorekin, inoiz imajinatu baino produktiboagoa, sortzaileagoa eta indartsuagoa izan zaitezke merkataritzan.",
+            "link_text": "Arakatu Editions-en azken berriak"
+          },
+          "store_owner": {
+            "header": "Dendaren jabea zara?",
+            "caption": "Arazorik al duzu dendan sartzeko? Probatu %{forgot_your_store_link} funtzioa. Zure denda berriro aktibatu nahi baduzu, jarri harremanetan %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify bezeroarentzako laguntza"
+          }
+        }
+      }
+    },
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": " eta",
+      "last_word_connector": ", eta"
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Elementu hau erosketa errepikakorra edo geroratua da. Aurrera eginez gero, %{cancellationPolicyLink} onartzen dut eta baimentzen dut nire ordainketa-metodoa orrialde honetan adierazitako prezio, maiztasun eta datetan kobratzea nire eskaera bete arte edo bertan behera utzi arte, baimenduta badago.",
+      "buyer_consent_cart": "Zure saskiko elementu bat edo gehiago erosketa errepikakor edo geroratu baten parte dira. Aurrera eginez gero, %{cancellationPolicyLink} onartzen dut eta baimentzen dut nire ordainketa-metodoa orrialde honetan adierazitako prezio, maiztasun eta datetan kobratzea nire eskaera bete arte edo bertan behera utzi arte, baimenduta badago.",
+      "cancellation_policy": "bertan behera uzteko politika"
+    },
     "checkout": {
       "general": {
         "submit_for_review_button_label": "Bidali berrikusteko",
@@ -224,20 +587,6 @@
             "gateway_not_supported": "Ordainketa-pasabideak ez du onartzen ordainketa-metodoa gordetzea.",
             "credit_card_last_name_required": "\"Abizena\" eremua ezin da nulua izan.",
             "credit_card_update_failed": "Errore bat gertatu da kreditu-txartela eguneratzean.",
-            "installments_amount_invalid": "Zenbatekoa ez da balio zatikako transakziorako.",
-            "installments_test_mode_not_allowed": "Proba modua ez da onartzen.",
-            "installments_gift_card_not_allowed": "Kuotek ez dute onartzen opari-txartelen erabilera.",
-            "installments_unsupported_currency": "Odds ez dute moneta hau onartzen.",
-            "installments_unsupported_shipping": "Kuotek ez dute onartzen helbide honetara bidalketa.",
-            "installments_unsupported_billing": "Epeek ez dute fakturazio-helbide hau onartzen.",
-            "installments_unsupported_subscriptions": "Kuotek ez dute harpidetzarik onartzen.",
-            "installments_ineligible_line_item": "Erosketa honetako lerro-elementu baterako kuotak desgaituta daude.",
-            "shop_cash_not_allowed": "Denda-eskudirua ez da onartzen Shop Pay gabe.",
-            "shop_cash_unsupported_checkout_source": "Shop Cash-ek ez du onartzen ordainketa-pantaila hau.",
-            "shop_cash_gift_card_not_allowed": "Shop Cash-ek ez du onartzen opari txartelak erostea.",
-            "shop_cash_not_enabled": "Shop Cash ez dago aktibatuta denda honetarako.",
-            "shop_cash_unsupported_subscriptions": "Shop Cash-ek ez du harpidetzarik onartzen.",
-            "shop_cash_unsupported_shipping": "Shop Cash-ek ez du sustapen-merkantzia onartzen bidalketarik gabe.",
             "invalid_address_type": "Emandako helbide motak ez du balio ordainketa-metodo honetarako.",
             "missing_retail_attributions": "Eskuz sartutako kreditu-txartelen ordainketak egiteko denda barruko atribuzioak behar dira.",
             "unexpected_retail_attributions": "Txikizkako salmenten atribuzioak ustekabean eman ziren kreditu-txartelaren ordainketarako.",
@@ -256,10 +605,7 @@
             "gift_cards_not_allowed_for_b2b": "Opari txartelak ez dira onartzen B2B dendetan.",
             "method_required": "Ordainketa-metodo bat proposatu behar da.",
             "paypal_express_address_invalid": "PayPal-ek helbide baliogabea erakutsi du.",
-            "shop_cash_unsupported_currency": "Shop Cash-ek ez du moneta hau onartzen.",
-            "market_manager_blocks_wallet_payments": "Merkatuaren administratzaileak ez du onartzen ordainketa-metodoa.",
-            "saved_payment_methods_cvv_verification_disabled": "Hautatutako ordainketa-metodoak segurtasun-kodea egiaztatzea (CVV) behar du eta eginbide hau ez dago aktibatuta denda honetan. Hautatu beste ordainketa-metodo bat.",
-            "shop_cash_not_available": "Shop Cash-ek ez du onartzen ordainketa-pantaila hau."
+            "saved_payment_methods_cvv_verification_disabled": "Hautatutako ordainketa-metodoak segurtasun-kodea egiaztatzea (CVV) behar du eta eginbide hau ez dago aktibatuta denda honetan. Hautatu beste ordainketa-metodo bat."
           },
           "tip": {
             "not_accepted_by_shop": "Dendak ez du aholkurik onartzen.",
@@ -313,7 +659,8 @@
         "full_title": "{{pageTitle}} - {{shopName}} - Ordainketa pantaila",
         "loading_title": "Ordainketa pantaila - {{shopName}}",
         "google_map_title": "Google mapa",
-        "submit_order_button_label": "Bidali eskaera"
+        "submit_order_button_label": "Bidali eskaera",
+        "loading": "Kargatzen…"
       },
       "contact": {
         "title": "Informazioa",
@@ -516,8 +863,6 @@
         "discount_has_been_applied": "Deskontua aplikatu da",
         "discount_has_been_removed": "Deskontua kendu da",
         "shipping_pending_message": "Oraindik ez dago eskuragarri",
-        "expand_order_summary": "Erakutsi eskaeraren laburpena",
-        "collapse_order_summary": "Ezkutatu eskaeraren laburpena",
         "total_updated_label": "Prezio osoa eguneratua:",
         "information_estimated_taxes_label": "Zergak (kalkulua)",
         "shopping_cart_label": "Saskia",
@@ -540,7 +885,13 @@
         "collapse_order_summary_short": "Mozorrotzea",
         "total_already_paid_label": "Ordaindua",
         "unit_price": {
-          "accessible_separator": "arabera"
+          "accessible_separator": "arabera",
+          "per_item": {
+            "single": "%{price} elementu bakoitzeko",
+            "one": "%{price} %{count} elementuko",
+            "other": "%{price} %{count} elementuko",
+            "many": "%{price} %{count} elementuko"
+          }
         },
         "calculating_shipping": "Kalkulatua...",
         "applied_free_shipping_discount_label": "Aplikatua",
@@ -573,7 +924,19 @@
         "price_before_discount_aria_text": "Jatorrizko prezioa",
         "discount_code_aria_text": "Deskontu kodea",
         "total_due_today_label": "Gaur ordaintzeko guztira",
-        "total_due_later_label": "Guztira gero ordaintzeko"
+        "total_due_later_label": "Guztira gero ordaintzeko",
+        "price_after_discount_aria_text": "Beheratutako prezioa",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Bidali helbide batera"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ez dago zure elementua duen dendarik",
+          "other": "Ez dago zure elementuak dituen dendarik",
+          "many": "Ez dago zure elementuak dituen dendarik"
+        },
+        "deposit_label": "Gordailua",
+        "deferred_total_due_date_label_next": "%{date}-(e)an amaitzen da",
+        "total_paid_label": "Ordaindutakoa guztira"
       },
       "shipping": {
         "title": "Bidalketa",
@@ -586,7 +949,6 @@
         "no_rates_contact_notice": "Jarri gurekin harremanetan informazio gehiago lortzeko",
         "free_rate_label": "Doan",
         "cheapest_rate_label": "Ekonomikoagoa",
-        "please_enter_your_shipping_information_notice": "Mesedez, idatzi zure bidalketa-informazioa.",
         "estimated_delivery_date": {
           "one": "%{count} lanegun",
           "other": "%{count} lanegun",
@@ -731,7 +1093,8 @@
           "one_time_address_subtitle": "Erabili helbide bat behin bakarrik eskaera honetarako",
           "add_address": "Gehitu helbidea",
           "save": "Mantendu",
-          "cancel": "Utzi"
+          "cancel": "Utzi",
+          "edit": "Editatu helbidea"
         },
         "different_shipping_method_summary": "Idatzi beste bidalketa-helbide bat eskuragarri dauden bidalketa-metodoak ikusteko.",
         "invalid_shipping_method_summary": "Mesedez, idatzi baliozko bidalketa-helbide bat eskuragarri dauden bidalketa-metodoak ikusteko",
@@ -804,7 +1167,12 @@
         "address_default": "Ezarri lehenetsi gisa",
         "split_shipping_shipped_by_shop": "%{shop_name}-k egindako bidalketa",
         "split_shipping_multiple_shipment_notice": "Zure eskaera hainbat bidalketatan iritsiko da",
-        "split_shipping_multiple_shipment_notice_one_time_purchase": "Zure eskaera %{quantity} bidalketetan iritsiko da"
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Zure eskaera %{quantity} bidalketetan iritsiko da",
+        "delivery_title": "Entrega",
+        "split_shipping_shipment_notice": "Zure eskaera %{quantity_shipments} iritsiko da",
+        "unbranded_default_description": "Bidaltzeko prest",
+        "add_shipping_address": "Gehitu bidalketa-helbidea",
+        "back": "Atzera"
       },
       "pickup_point": {
         "selector_tab_list": "Zerrenda",
@@ -887,7 +1255,17 @@
         "calculating_shipping": "Bidalketa oraindik kalkulatzen ari da. Mesedez, saiatu berriro segundo batzuk barru. Ez zaizu kobratu.",
         "calculating_taxes": "Oraindik zergak kalkulatzen ari dira. Mesedez, saiatu berriro segundo batzuk barru. Ez zaizu kobratu.",
         "contact_information": {
-          "email_link": "jarri gurekin harremanetan"
+          "email_link": "jarri gurekin harremanetan",
+          "title": "Harremanetarako informazioa ez da baliozkoa"
+        },
+        "generic_processing_error": {
+          "title": "Arazo bat egon da eskaera prozesatzean"
+        },
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Entrega",
+            "contact": "Kontaktua"
+          }
         }
       },
       "marketplaces": {
@@ -926,7 +1304,10 @@
           "other": "Erakutsi %{count} adar gehiago",
           "many": "Erakutsi %{count} adar gehiago"
         },
-        "location_address_search_label": "Helbidea"
+        "location_address_search_label": "Helbidea",
+        "all_stores_far_away": {
+          "ship_to_address_link": "bidali helbidera"
+        }
       },
       "captcha": {
         "title": "Jarraitzeko, bete CAPTCHA",
@@ -1006,7 +1387,8 @@
         "redirection_notice": "\" {{buttonLabel}} \" sakatu ondoren, {{walletName}} ra birbideratuko zaituzte erosketa modu seguruan burutzeko.",
         "return_to_checkout": "Itzuli ordainketa pantailara",
         "scrim": {
-          "cancel": "Utzi"
+          "cancel": "Utzi",
+          "and_return_to_checkout": "eta itzuli ordainketa-orrira"
         }
       },
       "markets": {
@@ -1034,9 +1416,6 @@
           "cancel": "Utzi"
         }
       },
-      "address_management": {
-        "confirm_address_deletion": "{{address}} helbidea kendu nahi duzula berresten al duzu?"
-      },
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Opari-txartel hau dagoeneko aplikatu da zure eskaeran.",
@@ -1060,7 +1439,8 @@
           "checkout_has_expired": "Zure ordainketa-prozesua iraungi da. Mesedez, itxi leiho hau eta saiatu berriro ordainketa egiten {{shopName}} tik."
         },
         "return_to_store": "Itzuli {{shopName}}",
-        "return_to_store_simple": "Itzuli dendara"
+        "return_to_store_simple": "Itzuli dendara",
+        "title": "Shop Pay ordainketa"
       },
       "company_location": {
         "location_title": "Kokapena"
@@ -1562,7 +1942,9 @@
         "amazon_payments_failed_mfa_challenge": "Ezin izan da hautatutako ordainketa-metodoa erabili. Hautatu beste metodo bat edo jarri harremanetan zure bankuarekin edo txartelaren igorlearekin.",
         "amazon_payments_abandoned_mfa_challenge": "Ezin izan da osatu ordainketa. Saiatu beste ordainketa-metodo bat edo jarri harremanetan bankuarekin edo txartelaren igorlearekin.",
         "amazon_payments_could_not_enqueue_authorize": "Errore bat gertatu da ordainketa prozesatzean. Saiatu berriro edo erabili beste ordainketa-metodo bat.",
-        "amazon_payments_login_hint": "Amazonen saioa hasita sartu behar duzu."
+        "amazon_payments_login_hint": "Amazonen saioa hasita sartu behar duzu.",
+        "default": "Lehenetsia",
+        "add_payment_method": "Gehitu ordainketa-modua"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Uneko saldoa %{amount}",
@@ -1759,7 +2141,6 @@
         "in_store_purchase": "Erosi denda fisiko batean",
         "choose_payment_method_later": "Aukeratu ordainketa-metodoa geroago",
         "purchase_order_number_title": "# %{purchase_order_number} erosketa-eskaera",
-        "location_title": "Adarra",
         "thank_you_ready_for_picked_up": "Eskaera %{address} helbidean jaso da.",
         "ready_for_delivery": "Bidaltzeko prest",
         "order_updates_subscribe_to_email_notifications_failed": "Ezin dugu gorde mezu elektroniko hau eguneratzeetarako. Mesedez, saiatu berriro edo erabili beste helbide elektroniko bat.",
@@ -1960,7 +2341,18 @@
           "title": "Jarraitu zure telefonotik",
           "send_link_to_phone": "Edo bidali esteka bat zure telefonora"
         },
-        "attempted_delivery_local_title": "Ezin izan da bidalketa jaso"
+        "attempted_delivery_local_title": "Ezin izan da bidalketa jaso",
+        "verify_shop_account_title": "Egiaztatu zure Shop kontua",
+        "verify_shop_account_cta": "Egiaztatu kontua",
+        "verify_shop_account_confirmation": "Ordainketa-informazioa gorde da",
+        "thank_you_item_label": {
+          "one": "%{count} elementu",
+          "other": "%{count} elementu",
+          "many": "%{count} elementu"
+        },
+        "announcement": {
+          "close": "Itxi"
+        }
       },
       "review": {
         "title": "Berrikuspena",
@@ -1986,7 +2378,9 @@
           "no_purchase_order_number": "(Erosketa eskaera zenbakirik ez)",
           "due_after_order_reviewed_html": "Eskaera berrikusitakoan iraungiko da",
           "review_title_free_order": "Berrikusi eta osatu eskaera",
-          "payment_method_saved_company_location": "Gorde txartela adar honetarako"
+          "payment_method_saved_company_location": "Gorde txartela adar honetarako",
+          "company_location": "Enpresaren kokalekua",
+          "change_company_location_link_label": "Aldatu enpresaren adarra"
         },
         "block_title": "Egiaztatu zure informazioa",
         "checkout_a_different_way": "Ordainketa beste era batera formalizatzea",
@@ -1994,7 +2388,8 @@
           "change_value": "Aldatu balioa",
           "section": "atala",
           "value": "Merezi"
-        }
+        },
+        "review_and_confirm_title": "Berrikusi eta berretsi"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Bidali albisteak eta eskaintzak posta elektronikoz",
@@ -2031,7 +2426,8 @@
         "subscription_policy": "Harpidetza-politika",
         "purchase_options_policy": "Erosteko aukeren politika",
         "contact_information": "Harremanetarako informazioa",
-        "purchase_options_cancellation_policy": "Baliogabetze politika"
+        "purchase_options_cancellation_policy": "Baliogabetze politika",
+        "cookie_preferences": "Cookieak"
       },
       "notifications": {
         "title": "Jakinarazpenak"
@@ -2287,7 +2683,8 @@
         },
         "you_will_not_be_charged": "Oraindik ez zaizu kobratuko",
         "action_required": "Beharrezko neurria",
-        "redirecting_to_bank": "Birbideratu {{bank}}"
+        "redirecting_to_bank": "Birbideratu {{bank}}",
+        "modal_notice": "{{paymentMethod}} zerbitzuarekin konektatzen ari gara"
       },
       "failed_payment": {
         "page_title": "Ezin izan da prozesatu ordainketa",
@@ -2337,7 +2734,10 @@
           "one": "erabilgarri ez dagoen elementua kentzen du",
           "other": "erabilgarri ez dauden elementuak kentzen ditu",
           "many": "erabilgarri ez dauden elementuak kentzen ditu"
-        }
+        },
+        "missing_country_fallback": "zure herrialdea",
+        "cart_updated": "Saskia eguneratu da.",
+        "empty_cart_action": "hustu saskia eta itzuli dendara"
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Ezin duzu gehiago B2B eskaerarik egin. %{logout_url} eskaera pertsonal bat egiteko.",
@@ -2364,376 +2764,29 @@
         "navigation": {
           "store_logo_accessibility_label": "Joan online dendara"
         }
-      }
-    },
-    "notices": {
-      "cart": {
-        "generic_error": "Saskiaren errorea",
-        "too_many_line_items_error": "Saskiak ezin du %{max} elementu baino gehiago izan.",
-        "link_expired": "Esteka iraungi da",
-        "link_no_longer_exists": "Esteka ez dago jada.",
-        "stock_problems_html": "Elementu bat edo gehiago ez daude eskuragarri. Zure <a href=\"%{link}\">saskia</a> eguneratu dugu.",
-        "changed": "Saskia aldatu egin da",
-        "items_changed": "Elementu bat edo gehiago aldatu dira.",
-        "product_sold_out": "'%{name}' elementua dagoeneko agortuta dago.",
-        "variant_not_found": "Aldaera ez da aurkitu",
-        "variant_requires_selling_plan": "Aldaera salmenta-plan batekin bakarrik eros daiteke.",
-        "shipping_address_not_required": "Saski honek ez du bidalketarik behar",
-        "shipping_address_invalid": "Arazo bat izan da bidalketa-tasak kalkulatzean. Jarraitu ordainketara bidalketa-tasa hautatzeko eskaera osatu aurretik.",
-        "selling_plan_not_applicable": "Ezin zaio salmenta-plana aplikatu aldaerari",
-        "selling_plan_not_available_for_company_locations": "Behin-behineko erosketak B2B eskaeretarako soilik onartzen dira.",
-        "digital_product_not_available_for_company_locations": "Elementu hau ezin da B2B eskaera batean gehitu",
-        "product_not_available": "Produktua ez dago eskuragarri",
-        "less_than_minimum": "Elementu honek %{min} gutxienez ditu.",
-        "more_than_maximum": "Elementu honek %{max} du gehienez.",
-        "not_respect_step": "Elementu hau %{step} zatitan bakarrik gehi dezakezu.",
-        "bundle_requires_components": "Paketearen %{name} produktua ezin da saskira gehitu.",
-        "gift_card_with_components_not_supported": "Paketearen %{name} produktua ezin da saskira gehitu.",
-        "view_lines_limit_reached": "Lerroek %{limit} baino txikiagoak izan behar dute.",
-        "merchandise_line_transformers": {
-          "run_error": "Errore bat gertatu da zure saskian."
-        },
-        "gift_card_price_must_be_greater_than_zero": "Paketearen %{name} produktua ezin da saskira gehitu.",
-        "only_n_items_available": "%{count} %{name} saskira soilik gehi dezakezu.",
-        "too_many_items_in_cart": "Ezin duzu %{name} gehiago gehitu saskian.",
-        "all_items_in_cart": "Zure saskia honako hau dauka: %{count} %{name}.",
-        "empty_update": "Ezin da saski hutsik eguneratu",
-        "missing_parameters": "ID baliogabea edo parametro lineala",
-        "cart_too_large": "Saskia handiegia da.",
-        "gift_card_recipient_validation_error": "Zehaztutako opari txartela ez da baliozkoa",
-        "invalid_input": "%{parameter} parametroa ez da baliozkoa.",
-        "buyer_cannot_purchase_for_company_locations": "Ezin duzu sukurtsal honetarako erosi",
-        "only_one_added_to_cart": "Eskuragarritasunagatik, elementu bakarra gehitu da saskira.",
-        "only_n_added_to_cart": "Eskuragarritasunagatik, %{quantity} elementu baino ez dira gehitu saskira.",
-        "maximum_available_quantity_reached": "Zure saskia dagoeneko elementu honetarako gehienezko kantitatea dauka.",
-        "cart_attributes_error": "Saskiaren atributuek datu baliogabeak dituzte."
       },
-      "storefront": {
-        "invalid_password": "Pasahitz okerra, saiatu berriro."
+      "payment_challenge_modal": {
+        "timer_message": "{{timeLeft}} dituzu ordaintzeko",
+        "copy_text": "Kopiatu {{paymentMethod}} kodea",
+        "header": "Ordaindu {{paymentMethod}} bidez",
+        "close": "Itxi erronka",
+        "open_app_text": "Ireki {{paymentMethod}} aplikazioa"
       },
-      "tags": {
-        "add_articles": "Modu bilaketa %{tag} etiketa duten artikuluetara",
-        "add_products": "Modu hautapena %{tag} etiketarekin bat datozen produktuetara",
-        "remove_articles": "Zabaldu bilaketa %{tag}-rekin etiketatuta ez dauden artikuluetara",
-        "remove_products": "Ezabatu %{tag} etiketa"
+      "review_address_modal": {
+        "use_saved_address": "Erabili beste helbide bat",
+        "return_to_cart": "Itzuli saskira"
       },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} gehitu da",
-          "increment_item": "%{delta} gehitu da",
-          "decrement_item": "%{delta} kendu da %{total}-tik",
-          "decrement_fulfilled_line_item": "%{total}-tik %{delta} itzuli da",
-          "decrement_return_line_item": "%{delta} itzuleratik kendu da"
+      "remote_merchandise_only": {
+        "return_to_store_label": "Itzuli dendara",
+        "detail_item_label": {
+          "one": "{{count}} elementu",
+          "other": "{{count}} elementu",
+          "many": "{{count}} elementu"
         }
       },
-      "customer": {
-        "password_reset_error": "Pasahitza berrezartzeko errorea",
-        "no_account_found": "Ez da konturik aurkitu helbide elektroniko honekin.",
-        "invalid_credentials": "Helbide elektronikoa edo pasahitza okerra.",
-        "denylisted_reset_password": "Ezin da zure kontua sartu zure uneko pasahitza segurua ez delako. Pasahitza eguneratzeko mezu elektroniko bat jasoko duzu.",
-        "signup_disabled": "Bezero-kontua sortzea desgaitu da.",
-        "subscribe_error": "Harpidetza errorea",
-        "unsubscribe_error": "Errorea harpidetza bertan behera uztean"
-      },
-      "address": {
-        "updated": "Helbidea behar bezala eguneratu da.",
-        "error_updating": "Errore bat gertatu da helbidea eguneratzean.",
-        "created": "Helbidea behar bezala sortu da",
-        "error_creating": "Errore bat gertatu da helbidea sortzean.",
-        "deleted": "Helbidea behar bezala kendu da.",
-        "error_deleting": "Errore bat gertatu da helbidea ezabatzean."
-      },
-      "order": {
-        "not_available": "Eskaera hau ez dago eskuragarri.",
-        "financial_status": {
-          "authorized": "Baimenduta",
-          "pending": "Belarritakoa",
-          "paid": "Ordaindua",
-          "unpaid": "Ordaindu gabe",
-          "voided": "Bertan behera utzita",
-          "partially_paid": "Partzialki ordainduta",
-          "partially_refunded": "Partzialki itzulita",
-          "refunded": "Itzulitakoa",
-          "expired": "Garaitua"
-        },
-        "fulfillment_status": {
-          "fulfilled": "Osatua",
-          "complete": "Osatu",
-          "partial": "Partziala",
-          "unfulfilled": "Ez da egin",
-          "restocked": "Ordezkoa"
-        },
-        "transaction_status": {
-          "success": "Arrakasta",
-          "pending": "Belarritakoa",
-          "failure": "Huts egin du",
-          "error": "Akatsa"
-        },
-        "cancel_reason": {
-          "declined": "Ordainketa baztertua",
-          "inventory": "Elementuak ez daude eskuragarri",
-          "fraud": "Iruzurrezko agindua",
-          "customer": "Bezeroak eskaera aldatu/ezeztatu zuen",
-          "other": "Bestela",
-          "many": "Bestela",
-          "staff": "Langilearen akatsa"
-        },
-        "cash_on_delivery": "Ordainketa entregatzean"
+      "too_many_requests": {
+        "return_to_cart": "Itzuli saskira"
       }
-    },
-    "page_titles": {
-      "products": "Produktuak",
-      "shopping_cart": "Zure saskia",
-      "account": "Kontua",
-      "create_account": "Sortu kontua",
-      "reset_account": "Berrezarri kontua",
-      "addresses": "Norabideak",
-      "order": "Eskaera%{name}",
-      "search": "Bilatu",
-      "collections": "Bildumak",
-      "not_found": "404 Ez da aurkitu",
-      "challenge": "Erronka",
-      "checkpoint": "kontrol-puntua",
-      "search_results": {
-        "one": "Bilaketa: %{count} emaitza aurkitu da \"%{terms}\"-rentzat",
-        "other": "Bilaketa: %{count} emaitza aurkitu dira \"%{terms}\"-rentzat",
-        "many": "Bilaketa: %{count} emaitza aurkitu dira \"%{terms}\"-rentzat"
-      },
-      "blog_or_article_with_error": "Errorea: %{title}"
-    },
-    "cart": {
-      "discounts_with_count": "%{count} deskontu aplikatu dira"
-    },
-    "challenge": {
-      "message": "Jarraitzeko, esan iezaguzu ez zarela robot bat.",
-      "error": "Zure erantzuna ez da zuzena, saiatu berriro.",
-      "submit_button_text": "Bidali"
-    },
-    "checkpoint": {
-      "message": "Ebatzi Captcha jarraitzeko",
-      "error": "Captcha baliozkotzeak huts egin du",
-      "submit_button_text": "Bidali"
-    },
-    "email_marketing": {
-      "subscribed": {
-        "confirmation": "Eskerrik asko gure posta-zerrendan harpidetzeagatik.",
-        "disclaimer": "Edonoiz kendu dezakezu harpidetza.",
-        "unsubscribe": "Harpidetza kendu"
-      },
-      "unsubscribed": {
-        "confirmation": "Gure posta-zerrendatik harpidetza kendu duzu.",
-        "disclaimer": "Ez dizugu marketin berri gehiago bidaliko. Edonoiz harpidetu zaitezke berriro.",
-        "preview": "Harpidetza kentzen dutenean bezeroek ikusiko dutenaren aurrebista berrikusten ari zara."
-      },
-      "open_tracking": {
-        "opt_in": {
-          "opted_in_html": "<b>Posta elektronikoaren jarraipena irekitzeko harpidetu zara.</b>",
-          "visibility": "Posta elektronikoaren irekitze tasak modu anonimoan jakinaraziko dira. Mezu elektroniko bat ireki duzun ala ez ikusiko dugu soilik irekitze-tasa baten barruan.",
-          "opt_out_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Harpidetza kendu</a> dezakezu irekitako mezu elektronikoen jarraipenari informazio hori partekatu nahi ez baduzu.",
-          "preview_bar": "Bezeroek mezu elektronikoen jarraipen irekian erregistratzen direnean ikusiko dutenaren aurrebista berrikusten ari zara."
-        },
-        "opt_out": {
-          "opted_out_html": "<b>Harpidetza kendu duzu irekitako mezu elektronikoen jarraipena egiteko.</b>",
-          "visibility": "Ez dugu ikusiko gure mezu elektronikoak ireki dituzun.",
-          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Onartu</a> irekitako mezu elektronikoen jarraipena.",
-          "preview_bar": "Bezeroek mezu elektronikoen jarraipena irekita ez egitea aukeratzen dutenean ikusiko dutenaren aurrebista berrikusten ari zara."
-        },
-        "no_longer_track": {
-          "status_html": "<b>Jada ez ditugu irekitako mezu elektronikoen jarraipena egiten.</b>",
-          "privacy_policy": "Mezu elektroniko hau bidali ondoren, gure pribatutasun-politika eguneratu dugu eta jada ez da pista irekitzen."
-        },
-        "track": {
-          "status_html": "<b>Irekitako mezu elektronikoen jarraipenaren berri ematen da.</b>",
-          "visibility": "Mezu elektronikoa ireki duzun ala ez ikusiko dugu soilik zure posta elektronikoaren irekitze tasaren zati gisa."
-        },
-        "updated_policy": {
-          "status_html": "<b>Irekitako mezu elektronikoen jarraipenaren berri ematen da.</b>",
-          "visibility": "Gure politika eguneratu dugu eta orain irekitako mezu elektronikoen jarraipena egin dugu. Posta elektronikoaren irekitze tasak modu anonimoan jakinaraziko dira. Mezu elektroniko bat ireki duzun ala ez ikusiko dugu zure posta elektronikoko irekitze tasaren zati gisa.",
-          "opt_out_html": "Informazio hau partekatu nahi ez baduzu, <a style=\"text-decoration:underline;\" href=\"%{link}\">harpidetza kendu</a> dezakezu."
-        }
-      }
-    },
-    "store_availability": {
-      "pick_up_time": {
-        "one_hour": "Normalean ordubetean prest dago",
-        "two_hours": "Normalean 2 ordutan prest dago",
-        "four_hours": "Normalean 4 ordutan prest dago",
-        "twenty_four_hours": "Normalean 24 orduko epean prest dago",
-        "two_to_four_days": "Normalean 2 eta 4 egunetan prest dago",
-        "five_or_more_days": "Normalean 5 egun edo gehiagotan prest dago",
-        "zero_to_two_hours": "Normalean 2 ordutan prest dago",
-        "two_to_four_hours": "Normalean 4 ordutan prest dago",
-        "immediately": "Jasotzeko prest",
-        "next_day": "Hurrengo egunean jasotzeko prest"
-      }
-    },
-    "filters": {
-      "availability": {
-        "value": {
-          "in_stock": "Stockan",
-          "out_of_stock": "Agortuta"
-        }
-      },
-      "boolean": {
-        "true_label": "Bai",
-        "false_label": "Ez"
-      }
-    },
-    "search": {
-      "sorting": {
-        "relevance": "Garrantzia",
-        "price_ascending": "Prezioa, baxutik gora",
-        "price_descending": "Prezioa, handienetik baxuena"
-      },
-      "error": "Arazo bat izan da bilaketa-emaitzak kargatzean. Mesedez, freskatu orria edo saiatu berriro geroago."
-    },
-    "forms_captcha": {
-      "badge_text": "hCaptcha-k babestuta",
-      "terms_link_text": "Baldintzak",
-      "privacy_link_text": "Pribatutasuna"
-    },
-    "pagination": {
-      "previous": "Lehengoa",
-      "next": "Jarraian"
-    },
-    "links": {
-      "powered_by_shopify": "Shopify Teknologia",
-      "learn_more": "Irakurri gehiago"
-    },
-    "feed": {
-      "more": "Aurrerago"
-    },
-    "attributes": {
-      "email": "posta elektronikoa",
-      "password": "pasahitza",
-      "password_confirmation": "pasahitza berrespena",
-      "first_name": "Izena",
-      "last_name": "Abizena",
-      "body": "mezua",
-      "signature": "Helbidea"
-    },
-    "addresses": {
-      "zip_code": "Posta kodea",
-      "postal_code": "Posta kodea",
-      "postcode": "Posta kodea",
-      "pincode": "Posta kodea",
-      "region": "Eskualdea",
-      "prefecture": "Prefektura",
-      "province": "Probintzia",
-      "state": "Estatua",
-      "state_and_territory": "Estatua/Lurraldea",
-      "county": "Konderria",
-      "emirate": "Emirerri",
-      "governorate": "Probintzia",
-      "confirm": "Ziur helbide hau ezabatu nahi duzula?"
-    },
-    "collections": {
-      "sorting": {
-        "manual": "Ezaugarriak",
-        "best_selling": "salduenak",
-        "az": "Alfabetikoki, AZ",
-        "za": "Alfabetikoki, ZA",
-        "price_ascending": "Prezioa, baxutik gora",
-        "price_descending": "Prezioa, handienetik baxuena",
-        "date_ascending": "Data: zaharretik berriki",
-        "date_descending": "Data: berritik zaharrera"
-      }
-    },
-    "errors": {
-      "blank": "ezin da hutsik egon",
-      "credit_card_session_expired": "Kreditu txartelaren baimena iraungi da. Mesedez, sartu zure ordainketa-informazioa berriro ere. Zure txartela ez da kobratu.",
-      "empty": "ezin da hutsik egon",
-      "invalid_email": "Baliozko helbide elektronikoa izan behar du",
-      "discount_disabled": "Deskontu hau desgaitu egin da",
-      "discount_expired": "Deskontu honek jada ez du balio",
-      "discount_limit_reached": "Deskontu hau erabilera mugara iritsi da",
-      "discount_not_found": "Ezin izan da sartutako kodearekin bat datorren deskontu baliozkorik aurkitu",
-      "customer_already_used_once_per_customer_discount_notice": "Deskontu hau erabilera mugara iritsi da",
-      "gift_card_already_applied": "Kodea dagoeneko aplikatu zaio zure eskaerari",
-      "gift_card_code_invalid": "Kode baliogabea",
-      "gift_card_currency_mismatch": "Zure opari-txartela %{gift_card_currency}-n dago. Jar zaitez gurekin harremanetan %{checkout_currency}-n berriro kaleratu ahal izateko.",
-      "gift_card_depleted": "Ez dago funtsik opari-txartel honetan",
-      "gift_card_disabled": "Opari txartela desgaituta dago",
-      "gift_card_expired": "Opari txartela iraungi da",
-      "invalid": "baliogabea",
-      "bad_domain": "domeinu-izen baliogabea dauka",
-      "taken": "hartu da dagoeneko",
-      "contains_html_tags": "ezin du HTML etiketarik izan",
-      "too_short": "laburregia da (%{count} karaktere izan behar ditu gutxienez)",
-      "too_long": "luzeegia da (gehienez %{count} karaktere)",
-      "password_mismatch": "emandako pasahitzarekin bat etorri behar da",
-      "contains_spaces": "espazioekin hasten edo bukatzen da.",
-      "email_domain_invalid": "hornitzailea ez da bateragarria",
-      "invalid_for_country": "ez du balio %{country}rentzat",
-      "invalid_for_country_and_province": "ez du balio %{province} eta %{country}",
-      "invalid_province_in_country": "ez da baliozko probintzia %{country}-n",
-      "invalid_state_in_country": "ez da baliozko egoera %{country}-n",
-      "invalid_region_in_country": "ez da baliozko eskualdea %{country}-n",
-      "less_than_or_equal_to": "%{count} baino txikiagoa edo berdina izan behar du",
-      "not_supported": "ez da onartzen",
-      "full_name_required": "Idatzi izen-abizenak",
-      "invalid_for_card_type": "ez du balio txartel mota honetarako",
-      "invalid_type": "Sentitzen dugu, ez dugu mota honetako txartelak onartzen",
-      "invalid_format": "ez da kreditu-txartelaren zenbakia",
-      "expired": "Kreditu txartela iraungi egin da",
-      "invalid_start_date_or_issue_number_for_debit": "Baliozko hasiera-data edo jaulkipen-zenbakia behar da",
-      "invalid_expiry_year": "ez baliozko iraungitze-urtea",
-      "reset_password_html": "Helbide elektroniko hau kontu batekin erlazionatuta dago jada. Kontua zurea bada, <a href=\"/account/login#recover\">hemen berrezar dezakezu pasahitza</a>",
-      "verify_email": "Mezu elektroniko bat bidali dugu %{customer_email} helbidera, egin klik sartutako estekan zure helbide elektronikoa egiaztatzeko.",
-      "blocked_address": "Kokapen hau ez da onartzen",
-      "product_not_available": "Produktua ez dago bezero honentzat argitaratua.",
-      "shop_404": {
-        "title": "Sortu merkataritza elektronikoko webgune bat eta saldu online! Shopify-k egindako merkataritza elektronikoko softwarea",
-        "heros": {
-          "store_unavailable": "Barkatu, denda hau ez dago erabilgarri une honetan.",
-          "store_not_exist": "Denda hau ez da existitzen.",
-          "no_storefront": "Denda honek ez du webgunerik oraindik."
-        },
-        "links": {
-          "explore_other_stores": "Arakatu beste denda batzuk",
-          "start_free_trial": "Hasi doako proba bat"
-        },
-        "owner_ctas": {
-          "header": "Dendaren jabea zara?",
-          "fix_domain": "Zure web-helbide berria konfiguratzen amaitzeko, joan %{domain_settings_link} helbidera. Sakatu \"Konektatu domeinua\" eta idatzi: %{domain}.<br> Dendan sartzeko arazoak badituzu, saiatu %{forgot_your_store_link} orria.",
-          "fix_domain_link_text": "zure domeinuaren konfigurazioa",
-          "forgot_your_store_link_text": "Zure denda ahaztu al duzu?",
-          "add_storefront": "Zure webgunea konfiguratzeko, %{admin_link} helbidean konfigura dezakezu dendaren kanala. Dendara sartzeko arazoak badituzu, saiatu %{forgot_your_store_link} orria.",
-          "admin_link_text": "kontrol panela"
-        },
-        "ctas": {
-          "sell_in_person": {
-            "header": "Saldu pertsonalki",
-            "caption": "Lortu zure denda fisikoa exekutatzeko behar dituzun funtzioak, hasi berria zaren edo hazten ari zaren ala ez.",
-            "link_text": "Hasi doako proba"
-          },
-          "open_a_store": {
-            "header": "Ireki Shopify denda berri bat",
-            "caption": "Hasi 3 eguneko doako proba bat eta jarraitu $ 1/hilean datozen 3 hilabeteetan.",
-            "link_text": "Eman izena orain"
-          },
-          "editions": {
-            "header": "Ezagutu Shopify Editions",
-            "caption": "100 produktuen eguneratze baino gehiagorekin, inoiz imajinatu baino produktiboagoa, sortzaileagoa eta indartsuagoa izan zaitezke merkataritzan.",
-            "link_text": "Arakatu Editions-en azken berriak"
-          },
-          "store_owner": {
-            "header": "Dendaren jabea zara?",
-            "caption": "Arazorik al duzu dendan sartzeko? Probatu %{forgot_your_store_link} funtzioa. Zure denda berriro aktibatu nahi baduzu, jarri harremanetan %{shopify_support_link}.",
-            "shopify_support_link_text": "Shopify bezeroarentzako laguntza"
-          }
-        }
-      }
-    },
-    "sentence": {
-      "words_connector": ",",
-      "two_words_connector": " eta",
-      "last_word_connector": ", eta"
-    },
-    "subscriptions": {
-      "buyer_consent_product": "Elementu hau erosketa errepikakorra edo geroratua da. Aurrera eginez gero, %{cancellationPolicyLink} onartzen dut eta baimentzen dut nire ordainketa-metodoa orrialde honetan adierazitako prezio, maiztasun eta datetan kobratzea nire eskaera bete arte edo bertan behera utzi arte, baimenduta badago.",
-      "buyer_consent_cart": "Zure saskiko elementu bat edo gehiago erosketa errepikakor edo geroratu baten parte dira. Aurrera eginez gero, %{cancellationPolicyLink} onartzen dut eta baimentzen dut nire ordainketa-metodoa orrialde honetan adierazitako prezio, maiztasun eta datetan kobratzea nire eskaera bete arte edo bertan behera utzi arte, baimenduta badago.",
-      "cancellation_policy": "bertan behera uzteko politika"
     }
   },
   "customer_accounts": {
@@ -2778,16 +2831,6 @@
     },
     "orders": {
       "order_status": {
-        "gift_card_resend_text": {
-          "many": "Birbidali testu-mezuak",
-          "one": "Birbidali testu-mezua",
-          "other": "Birbidali testu-mezuak"
-        },
-        "gift_card_resend_description_text": {
-          "one": "Jaso ez bada, bidali berriro testu-mezua edo",
-          "other": "Jaso ez badira, bidali berriro testu-mezuak edo",
-          "many": "Jaso ez badira, bidali berriro testu-mezuak edo"
-        },
         "confirmed_gift_card_additional_description_text": {
           "one": "Opari txartela beste testu-mezu batean bidaliko da.",
           "other": "Opari-txartel bakoitza testu-mezu bereizi batean bidaliko da.",
@@ -2816,11 +2859,6 @@
         "complete_label": "Bete",
         "multiple_statuses_label": "Hainbat eskaera-egoera",
         "status_timestamp": "Eguneratu zen {{date}}",
-        "delivered_description_digital": {
-          "one": "Artikulu hau osatu da.",
-          "other": "Elementu hauek osatu dira.",
-          "many": "Elementu hauek osatu dira."
-        },
         "delivery_promise": {
           "promise_line": {
             "single_brand_label": "Bidalketa babestua",
@@ -2851,40 +2889,28 @@
             "delivery_guarantee_label": "Bidalketa bermea"
           }
         },
-        "canceled_description": "Zure eskaera bertan behera utzi zen {{date}} egunean.",
         "canceled_label": "Bertan behera utzita",
         "canceled_title": "Zure eskaera bertan behera utzi da",
         "come_back": "Mesedez, itzuli orri honetara bidalketa-egoera eguneratzeko.",
         "company_tracking_number": "{{company}} jarraipen-zenbakia:",
         "confirmed_label": "Baieztatuta",
         "confirmed_title": "Zure eskaera berretsi da",
-        "delivered_description": "Bidalketa hau entregatu zen.",
         "delivered_label": "Entregatua",
-        "delivered_title": "Zure bidalketa entregatu zen",
         "estimated_delivery": "{{date}} rako estimatzen da",
-        "in_review_description": "Zurekin harremanetan jarriko gara informazio gehiago behar badugu edo eskaera baieztatu ondoren.",
         "in_review_label": "Berrikuspenean",
         "in_review_title": "Agindua berrikusten ari da",
         "no_tracking_number": "Ez dago bidalketa honetarako jarraipen-zenbakirik.",
         "on_its_way_label": "Bidean",
-        "on_its_way_title": "Zure bidalketa bidean da",
         "out_for_delivery_label": "Hartzaileari bidalia",
-        "out_for_delivery_title": "Zure bidalketa hartzaileari bidaltzen ari zaio",
         "resume_tracking": "Jarraipenari ekin",
         "submitted_label": "Bidali",
         "track_shipment": "Jarraitu bidalketa",
         "request_return": "Itzultzea eskatu",
         "attempted_delivery_label": "Bidalketa saiakera",
-        "attempted_delivery_description": "Bidalketa saiakera ez da behar bezala burutu.",
-        "confirmed_description": "Zure eskaera jaso da.",
-        "on_its_way_description": "Bidalketa hau bidean da.",
-        "out_for_delivery_description": "Bidalketa hau entregatzen ari da.",
         "preparing_for_shipping_label": "Bidalketa prestatzeko",
-        "preparing_for_shipping_description": "Elementu hauek bidaltzeko prestatzen ari dira.",
         "ready_for_pickup_label": "Erretirorako prest",
         "ready_for_pickup_description": "Elementu hauek jasotzeko prest daude. Ekarri zure eskaeraren berrespena hartzera etortzen zarenean.",
         "picked_up_label": "Erretiratua",
-        "picked_up_description": "Elementu hauek kendu egin ziren.",
         "submitted_description": "Berrikusi eskaeraren eta ordainketaren xehetasunak.",
         "last_updated": "Azken eguneratzea: {{date}}",
         "multiple_shipments_label": "Bidalketa anitz",
@@ -2899,16 +2925,6 @@
           "one": "Opari txartela",
           "other": "Opari txartelak",
           "many": "Opari txartelak"
-        },
-        "gift_card_resend": {
-          "one": "Birbidali mezu elektronikoa",
-          "other": "Birbidali mezu elektronikoak",
-          "many": "Birbidali mezu elektronikoak"
-        },
-        "gift_card_resend_description": {
-          "one": "Jaso ezean, bidali mezu elektronikoa berriro edo",
-          "other": "Jaso ez badira, bidali mezu elektronikoak berriro edo",
-          "many": "Jaso ez badira, bidali mezu elektronikoak berriro edo"
         },
         "ready_for_pickup_location": "Zure eskaera prest dago bulegoan jasotzeko",
         "confirmed_description_pickup": "Mezu elektroniko bat jasoko duzu eskaera jasotzeko prest dagoenean.",
@@ -2966,28 +2982,16 @@
         }
       },
       "status_mark_as_delivered": "Markatu entregatu bezala",
-      "status_title": "Eskaeraren egoera",
       "buy_again": "Berriro erostea",
       "buy_again_accessibility_label": "Erosi berriro {{orderId}} eskaera egiteko",
       "manage": "Kudeatu",
       "manage_accessiblity_label": "Kudeatu {{orderId}} eskaera",
       "group_title_label": "Honen parte: {{groupTitle}}",
-      "havent_received_your_delivery": "Ez al duzu zure entrega jaso?",
-      "didnt_pick_up_order": "Ez duzu zure eskaera jaso?",
-      "let_us_know": "iezaguzu",
-      "contact_us": "jarri gurekin harremanetan.",
-      "if_you_didnt_receive_this": "Ez baduzu jasotzen,",
-      "if_not_received": {
-        "one": "Jaso ez bada,",
-        "other": "Jaso ez balira,",
-        "many": "Jaso ez balira,"
-      },
       "list_layout_accessibility_label": "Diseinu aukerak",
       "list_title": "Aginduak",
       "order_list": {
         "column_headers": {
           "total": "Guztira",
-          "items": "Artikuluak",
           "order": "Agindu",
           "actions_accessibility_label": "Ekintzak",
           "products_accessibility_label": "Produktuak"
@@ -3002,7 +3006,6 @@
           "other": "{{count}} elementu",
           "many": "{{count}} elementu"
         },
-        "list_view": "Erakutsi zerrenda ikuspegia",
         "order_link": "Ikusi eskaera {{name}}",
         "order_number": "Eska ezazu {{name}}",
         "orders_title": "Baieztatuta",
@@ -3037,7 +3040,6 @@
             "descending": "Eskaera osoa (handienetik txikienera)"
           }
         },
-        "table_view": "Erakutsi taularen ikuspegia",
         "one_images_accessibility_label": "Eskaerak {{lineItemName1}} barne hartzen du.",
         "two_images_accessibility_label": "Eskaerak {{lineItemName1}} eta {{lineItemName2}} ditu.",
         "three_images_accessibility_label": "Eskaerak {{lineItemName1}} , {{lineItemName2}} eta {{lineItemName3}} ditu.",
@@ -3054,16 +3056,6 @@
             "due_on_fulfillment": "Ordainketa eskaera prestatzerakoan egin behar da",
             "pay_to_confirm": "Ordaindu berresteko",
             "payment_not_due": "Oraindik ordaindu gabe dago"
-          },
-          "table_view": {
-            "overdue": "Garaitua",
-            "due": "{{date}} -n iraungiko da",
-            "due_today": "Gaur iraungiko da",
-            "paid": "Ordaindua",
-            "due_without_date": "Belarritakoa",
-            "due_on_fulfillment": "Eskaera prestatzerakoan ordaindu beharrekoa",
-            "pay_to_confirm": "Ordaindu berresteko",
-            "payment_not_due": "Oraindik garaitu gabe"
           }
         },
         "sort_currently_sorted_by_accessibility_label": "Une honetan, honela daude ordenatuta: {{option}}",
@@ -3228,7 +3220,6 @@
       "company": "Enpresa",
       "no_data_provided_accessibility_label": "{{fieldName}} hutsik dago",
       "marketing_section_title": "Berriak eta eskaintzak",
-      "marketing_description": "Marketin-mezuak jasoko dituzu. Edonoiz kendu dezakezu harpidetza.",
       "marketing_checkbox_label": "Bidali albisteak eta eskaintzak posta elektronikoz",
       "marketing_checkmark_label": "Harpidetuta zaude albisteak eta eskaintzak posta elektronikoz jasotzeko",
       "image_gallery": {
@@ -3372,7 +3363,6 @@
       "default": "Lehenetsia",
       "store_credit": {
         "label": "Dendako kreditua",
-        "accesibility_label": "Dendako kreditua: {{formattedBalance}}",
         "expirable_amounts_button": "Ikusi iraungi daitezkeen zenbatekoak",
         "details_modal": {
           "title": "Iraungi daitekeen kreditua gordetzeko",
@@ -3581,11 +3571,6 @@
       },
       "removeItem": "Ezabatu {{label}}",
       "removeTag": "Ezabatu etiketa",
-      "month": {
-        "one": "hilabetea",
-        "other": "hilabeteak",
-        "many": "hilabeteak"
-      },
       "mapClusterTitle": {
         "one": "{{number}} markatzaile talde",
         "other": "{{number}} markatzaile talde",
@@ -3674,7 +3659,7 @@
         "load_more_accessibility_label": "Kargatu helbide gehiago"
       },
       "save_new_address_accessibility_label": "Gorde helbidea",
-      "title": "Norabideak",
+      "title": "Helbideak",
       "delete_confirmation_title": "Helbidea ezabatu?",
       "delete_confirmation_description": "Lehendik dauden aginduek ez dute eraginik izango.",
       "edit_modal_title": {
@@ -3973,15 +3958,6 @@
         "generic": "Eskaerak huts egin du"
       }
     },
-    "shop_policies": {
-      "shipping_policy": "Bidalketa-politika",
-      "privacy_policy": "Pribatutasun-politika",
-      "refund_policy": "Itzulketa-politika",
-      "subscription_policy": "Baliogabetze politika",
-      "terms_of_sale": "Salmenta baldintzak",
-      "terms_of_service": "Zerbitzu-baldintzak",
-      "legal_notice": "Lege-oharra"
-    },
     "shop_ads": {
       "previous_button": "Lehengoa",
       "next_button": "Jarraian",
@@ -4039,16 +4015,16 @@
     "product": {
       "unavailable": "Ez dago eskuragarri",
       "vendor": "Hornitzailea",
-      "video_exit_message": "{{ title }} -k bideoa pantaila osoan irekitzen du leiho berean.",
+      "video_exit_message": "{{ title }}(e)k bideoa pantaila osoan irekitzen du leiho berean.",
       "xr_button": "Ikusi zure espazioan",
       "xr_button_label": "Ikusi zure espazioan, kargatu artikulua errealitate areagotuko leihoan",
       "pickup_availability": {
         "view_store_info": "Ikusi dendaren informazioa",
         "check_other_stores": "Egiaztatu erabilgarritasuna beste dendetan",
-        "pick_up_available": "Erretiratzea eskuragarri",
+        "pick_up_available": "Jasotzeko aukera",
         "pick_up_available_at_html": "Jaso daiteke <span class=\"color-foreground\">{{ location_name }}</span> helbidean",
         "pick_up_unavailable_at_html": "Momentu honetan ez dago jasotzeko aukera <span class=\"color-foreground\">{{ location_name }}</span> helbidean",
-        "unavailable": "Ezin izan da erretiratzeko erabilgarritasuna kargatu",
+        "unavailable": "Ezin izan da jasotzeko aukera kargatu",
         "refresh": "Eguneratu"
       },
       "media": {
@@ -4062,52 +4038,55 @@
         "image_available": "{{ index }} irudia galeria ikuspegian eskuragarri dago orain"
       },
       "view_full_details": "Ikusi xehetasun guztiak",
-      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Bidalketa-gastuak</a> ordainketa egitean kalkulatzen dira.",
-      "choose_options": "Aukeratu aukerak",
-      "choose_product_options": "Aukeratu {{ product_name }} rako aukerak",
-      "value_unavailable": "{{ option_value }} : ez dago erabilgarri",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Bidalketa-gastuak</a> ordainketa egitean kalkulatzen dira.",
+      "choose_options": "Hautatu aukerak",
+      "choose_product_options": "Hautatu {{ product_name }}(r)entzako aukerak",
+      "value_unavailable": "{{ option_value }}: ez dago erabilgarri",
       "variant_sold_out_or_unavailable": "Aldaera stock gabe edo ez dago eskuragarri",
-      "inventory_in_stock": "Stockan",
+      "inventory_in_stock": "Stockean",
       "inventory_in_stock_show_count": "{{ quantity }} stockean",
       "inventory_low_stock": "Stock gutxi",
       "inventory_low_stock_show_count": "Stock gutxi: {{ quantity }} geratzen da",
       "inventory_out_of_stock": "Agortuta",
-      "inventory_out_of_stock_continue_selling": "Stockan",
+      "inventory_out_of_stock_continue_selling": "Stockean",
       "volume_pricing": {
         "title": "Bolumenaren prezioa",
-        "note": "Eskuragarri dauden bolumen prezioak",
+        "note": "Bolumen-prezioak eskuragarri",
         "minimum": "{{ quantity }} baino gehiago",
-        "price_at_each": "{{ price }} unitate bakoitzeko",
-        "price_at_each_html": "{{ price }} unitate bakoitzeko"
+        "price_at_each_html": "{{ price }} unitate bakoitzeko",
+        "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "Produktuen aldaerak",
       "taxes_included": "Zergak barne.",
-      "duties_included": "Tarifak barne.",
-      "duties_and_taxes_included": "Zerga eta zergak barne.",
+      "duties_included": "Arantzelak barne.",
+      "duties_and_taxes_included": "Arantzelak eta zergak barne.",
       "add_to_cart": "Gehitu saskira",
       "description": "Deskribapena",
       "on_sale": "Eskaintza",
       "quantity": {
-        "label": "Zenbatekoa",
-        "input_label": "{{ product }} ren kantitatea",
-        "increase": "Handitu kantitatea {{ product }}",
-        "decrease": "Murriztu {{ product }} ren kantitatea",
+        "label": "Kopurua",
+        "input_label": "{{ product }}(r)en kopurua",
+        "increase": "Handitu {{ product }}(r)en kopurua",
+        "decrease": "Murriztu {{ product }}(r)en kopurua",
         "minimum_of": "Gutxienez {{ quantity }}",
         "maximum_of": "{{ quantity }} gehienez",
         "multiples_of": "{{ quantity }} gehikuntza",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> saskian",
         "note": "Ikusi kantitate arauak",
         "min_of": "Min.: {{ quantity }}",
-        "max_of": "Gehienez: {{ quantity }}"
+        "max_of": "Gehienez: {{ quantity }}",
+        "in_cart_aria_label": "Kopurua ({{ quantity }} saskian)"
       },
       "price": {
-        "from_price_html": "{{ price }} tik hasita",
+        "from_price_html": "{{ price }}(e)tik hasita",
         "regular_price": "Ohiko prezioa",
         "sale_price": "Eskaintzaren prezioa",
         "unit_price": "Unitatearen prezioa"
       },
       "share": "Partekatu produktu hau",
-      "sold_out": "Agortuta"
+      "sold_out": "Agortuta",
+      "sku": "SKU",
+      "nested_label": "{{ title }} {{ parent_title }}(r)entzat"
     },
     "modal": {
       "label": "Multimedia galeria"
@@ -4117,8 +4096,8 @@
       "clear": "Ezabatu",
       "clear_all": "Ezabatu guztiak",
       "filter_and_sort": "Iragazi eta ordenatu",
-      "filter_by_label": "Iragazkia:",
-      "filter_button": "Iragazkia",
+      "filter_by_label": "Iragazi:",
+      "filter_button": "Iragazi",
       "filters_selected": {
         "one": "{{ count }} hautatuta",
         "other": "{{ count }} hautatuta",
@@ -4130,20 +4109,26 @@
         "other": "{{ count }} produktu",
         "many": "{{ count }} produktu"
       },
-      "reset": "Berreskuratu",
-      "sort_button": "Agindu",
+      "reset": "Berrezarri",
+      "sort_button": "Ordenatu",
       "sort_by_label": "Ordenatu:",
-      "to": "Izan ere",
+      "to": "Gehienez",
       "clear_filter": "Ezabatu iragazkia",
-      "filter_selected_accessibility": "{{ type }} ( {{ count }} hautatutako iragazkiak)",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} iragazki hautatuta)",
       "show_more": "Erakutsi gehiago",
       "show_less": "Erakutsi gutxiago",
-      "filter_and_operator_subtitle": "Hautatu guztiak"
+      "filter_and_operator_subtitle": "Hautatu guztiak",
+      "from": "Gutxienez",
+      "product_count": {
+        "one": "{{ count }}(e)tik {{ product_count }} produktu",
+        "other": "{{ count }}(e)tik {{ product_count }} produktu",
+        "many": "{{ count }}(e)tik {{ product_count }} produktu"
+      }
     }
   },
   "templates": {
     "search": {
-      "no_results": "Ez da emaitzarik aurkitu “ {{ terms }} ”-rentzat Egiaztatu ortografia edo erabili beste hitz edo esaldi bat.",
+      "no_results": "Ez da emaitzarik aurkitu “{{ terms }}”(r)entzat. Egiaztatu ortografia edo erabili beste hitz edo esaldi bat.",
       "results_with_count": {
         "one": "{{ count }} emaitza",
         "other": "{{ count }} emaitza",
@@ -4152,14 +4137,14 @@
       "title": "Bilaketa-emaitzak",
       "page": "Orria",
       "products": "Produktuak",
-      "search_for": "Bilatu “ {{ terms }} ”",
+      "search_for": "Bilatu “{{ terms }}”",
       "results_with_count_and_term": {
-        "one": "{{ count }} emaitza aurkitu da \" {{ terms }} \"-rako",
-        "other": "{{ count }} emaitza aurkitu dira \" {{ terms }} \"rentzat",
-        "many": "{{ count }} emaitza aurkitu dira \" {{ terms }} \"rentzat"
+        "one": "{{ count }} emaitza aurkitu da “{{ terms }}”(r)entzat",
+        "other": "{{ count }} emaitza aurkitu dira “{{ terms }}”(r)entzat",
+        "many": "{{ count }} emaitza aurkitu dira “{{ terms }}”(r)entzat"
       },
       "results_pages_with_count": {
-        "one": "{{ count }}",
+        "one": "{{ count }} orrialde",
         "other": "{{ count }} orrialde",
         "many": "{{ count }} orrialde"
       },
@@ -4192,7 +4177,8 @@
       }
     },
     "404": {
-      "title": "Ez da orria aurkitu"
+      "title": "Ez da orria aurkitu",
+      "subtext": "404"
     }
   },
   "localization": {
@@ -4216,9 +4202,9 @@
     },
     "cart": {
       "title": "Zure saskia",
-      "caption": "Saskian dauden gauzak",
+      "caption": "Saskiko artikuluak",
       "remove_title": "Ezabatu {{ title }}",
-      "note": "Agindu bereziak",
+      "note": "Eskaerarako jarraibide bereziak",
       "checkout": "Ordaindu eskaera",
       "empty": "Zure saskia hutsik dago",
       "cart_error": "Errore bat gertatu da erosketa saskia eguneratzean. Saiatu berriro.",
@@ -4227,23 +4213,23 @@
         "product": "Produktua",
         "price": "Prezioa",
         "total": "Guztira",
-        "quantity": "Zenbatekoa",
+        "quantity": "Kopurua",
         "image": "Produktuaren irudia"
       },
       "update": "Eguneratu",
       "login": {
         "title": "Ba al duzu konturik?",
-        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link underlined-link\">Hasi saioa</a> zure erosketak azkarrago osatzeko."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Hasi saioa</a> zure erosketak azkarrago osatzeko."
       },
-      "estimated_total": "Guztira zenbatetsia",
-      "new_estimated_total": "Guztira estimatu berria",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Zerga eta zergak barne. Deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Zerga eta zergak barne. Deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Zergak barne. Deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "estimated_total": "Zenbatetsitako guztizkoa",
+      "new_estimated_total": "Zenbatetsitako guztizko berria",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Arantzelak eta zergak barne. Deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Arantzelak eta zergak barne. Deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Zergak barne. Deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
       "taxes_included_shipping_at_checkout_without_policy": "Zergak barne. Deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tarifak barne. Zergak, deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tarifak barne. Zergak, deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Zergak, deskontuak eta <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Arantzelak barne. Zergak, deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Arantzelak barne. Zergak, deskontuak eta bidalketak ordainketa egitean kalkulatzen dira.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Zergak, deskontuak eta <a href=\"{{ link }}\">bidalketak</a> ordainketa egitean kalkulatzen dira.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Zergak, deskontuak eta bidalketak ordainketa egitean kalkulatzen dira."
     },
     "footer": {
@@ -4251,7 +4237,7 @@
     },
     "featured_blog": {
       "view_all": "Ikusi guztiak",
-      "onboarding_title": "blogeko artikulua",
+      "onboarding_title": "Blogeko artikulua",
       "onboarding_content": "Eman zure bezeroei zure blogeko artikuluaren laburpena"
     },
     "featured_collection": {
@@ -4264,7 +4250,7 @@
     "collection_template": {
       "title": "Bilduma",
       "empty": "Ez da produkturik aurkitu",
-      "use_fewer_filters_html": "Erabili iragazki gutxiago edo <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">kendu guztiak</a>"
+      "use_fewer_filters_html": "Erabili iragazki gutxiago edo <a class=\"{{ class }}\" href=\"{{ link }}\">kendu guztiak</a>"
     },
     "video": {
       "load_video": "Kargatu bideoa: {{ description }}"
@@ -4291,7 +4277,7 @@
     "quick_order_list": {
       "product_total": "Produktuen azpi-totala",
       "view_cart": "Ikusi saskia",
-      "each": "{{ money }} /unitatea",
+      "each": "{{ money }}/unitatea",
       "product": "Produktua",
       "variant": "Aldaera",
       "variant_total": "Aldaerak guztira",
@@ -4334,15 +4320,21 @@
         "share_on_pinterest": "Gorde Pinterest-en"
       },
       "links": {
-        "instagram": "instagram",
-        "tumblr": "tumblr",
-        "snapchat": "snapchat"
+        "instagram": "Instagram",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "twitter": "X (Twitter)",
+        "facebook": "Facebook",
+        "pinterest": "Pinterest",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
       }
     },
     "continue_shopping": "Jarraitu erosketak",
     "pagination": {
       "label": "Paginazioa",
-      "page": "{{ number }} orria",
+      "page": "{{ number }}. orrialdea",
       "next": "Hurrengo orrialdea",
       "previous": "Aurreko orrialdea"
     },
@@ -4351,8 +4343,8 @@
       "reset": "Ezabatu bilaketa-terminoa"
     },
     "cart": {
-      "view": "Ikusi saskia ( {{ count }} )",
-      "item_added": "Zure saskian gehitutako elementua",
+      "view": "Ikusi saskia ({{ count }})",
+      "item_added": "Elementua saskira gehitu da",
       "view_empty_cart": "Ikusi saskia"
     },
     "share": {
@@ -4364,7 +4356,8 @@
     "slider": {
       "next_slide": "Irristatu eskuinera",
       "previous_slide": "Irristatu ezkerrera",
-      "name": "Karrusela"
+      "name": "Karrusela",
+      "of": "/"
     }
   },
   "newsletter": {
@@ -4375,7 +4368,7 @@
   "accessibility": {
     "skip_to_text": "Joan zuzenean edukira",
     "close": "Itxi",
-    "unit_price_separator": "arabera",
+    "unit_price_separator": "bakoitzeko",
     "vendor": "Hornitzailea:",
     "error": "Akatsa",
     "refresh_page": "Aukera bat hautatzeak orrialde osoa freskatzen du.",
@@ -4386,13 +4379,13 @@
     "loading": "Kargatzen...",
     "skip_to_product_info": "Joan zuzenean produktuaren informaziora",
     "total_reviews": "iritziak guztira",
-    "star_reviews_info": "{{ rating_value }} {{ rating_max }} izar",
+    "star_reviews_info": "{{ rating_max }} izarretik {{ rating_value }}",
     "collapsible_content_title": "Goitibeherako edukia",
     "complementary_products": "Produktu osagarriak"
   },
   "blogs": {
     "article": {
-      "blog": "bloga",
+      "blog": "Bloga",
       "read_more_title": "Informazio gehiago: {{ title }}",
       "comments": {
         "one": "{{ count }} iruzkin",
@@ -4419,7 +4412,7 @@
     "account": {
       "title": "Kontua",
       "details": "Kontuaren xehetasunak",
-      "view_addresses": "Ikusi jarraibideak",
+      "view_addresses": "Ikusi helbideak",
       "return": "Itzuli kontuaren xehetasunetara"
     },
     "account_fallback": "Kontua",
@@ -4432,7 +4425,7 @@
       "cancel": "Baztertu gonbidapena"
     },
     "addresses": {
-      "title": "Norabideak",
+      "title": "Helbideak",
       "default": "Lehenetsia",
       "add_new": "Gehitu helbide berri bat",
       "edit_address": "Editatu helbidea",
@@ -4454,7 +4447,7 @@
       "delete": "Ezabatu",
       "delete_confirm": "Ziur helbide hau ezabatu nahi duzula?"
     },
-    "log_in": "Saioa hasi",
+    "log_in": "Hasi saioa",
     "log_out": "Amaitu saioa",
     "login_page": {
       "cancel": "Utzi",
@@ -4465,12 +4458,13 @@
       "guest_title": "Jarraitu gonbidatu gisa",
       "password": "Pasahitza",
       "title": "Saioa hasi",
-      "sign_in": "Saioa hasi",
-      "submit": "Bidali"
+      "sign_in": "Hasi saioa",
+      "submit": "Bidali",
+      "alternate_provider_separator": "edo"
     },
     "orders": {
       "title": "Eskaeren historia",
-      "order_number": "Agindu",
+      "order_number": "Eskaera",
       "order_number_link": "Eskaera-zenbakia {{ number }}",
       "date": "Data",
       "payment_status": "Ordainketa egoera",
@@ -4500,43 +4494,44 @@
     },
     "order": {
       "title": "Eskaera {{ name }}",
-      "date_html": "{{ date }} -n egina",
+      "date_html": "{{ date }}-(e)an egina",
       "cancelled_html": "Eskaera bertan behera utzi zen {{ date }}",
       "cancelled_reason": "Arrazoia: {{ reason }}",
       "billing_address": "Fakturazio helbidea",
       "payment_status": "Ordainketa egoera",
-      "shipping_address": "Posta helbidea",
+      "shipping_address": "Bidalketa-helbidea",
       "fulfillment_status": "Eskaerak prestatzeko egoera",
       "discount": "Deskontua",
       "shipping": "Bidalketa",
       "tax": "Zerga",
       "product": "Produktua",
       "price": "Prezioa",
-      "quantity": "Zenbatekoa",
+      "quantity": "Kopurua",
       "total": "Guztira",
-      "fulfilled_at_html": "{{ date }} -n prestatua",
+      "fulfilled_at_html": "{{ date }}-(e)an prestatua",
       "track_shipment": "Jarraitu bidalketa",
       "tracking_url": "Jarraipen-esteka",
-      "tracking_company": "garraio enpresa",
+      "tracking_company": "Garraio-enpresa",
       "tracking_number": "Jarraipen-zenbakia",
       "subtotal": "Azpitotala",
-      "total_duties": "Betebeharra",
-      "total_refunded": "Itzulitakoa"
+      "total_duties": "Arantzelak",
+      "total_refunded": "Itzulitakoa",
+      "sku": "SKU"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Hau da zure {{ value }} opari-txartelaren saldoa {{ shop }} rentzat.",
+      "title": "Hau da zure {{ value }} opari-txartelaren saldoa {{ shop }}(r)entzat.",
       "subtext": "Zure opari txartela",
       "gift_card_code": "Opari txartelaren kodea",
       "shop_link": "Bisitatu online denda",
       "add_to_apple_wallet": "Gehitu Apple Wallet-era",
       "qr_image_alt": "QR kodea: eskaneatu opari txartela trukatzeko",
       "copy_code": "Kopiatu opari txartelaren kodea",
-      "expired": "Garaitua",
+      "expired": "Iraungita",
       "copy_code_success": "Kodea behar bezala kopiatu da",
       "how_to_use_gift_card": "Erabili opari txartelaren kodea linean edo QR kodea dendan",
-      "expiration_date": "{{ expires_on }} -n iraungiko da"
+      "expiration_date": "{{ expires_on }}-(e)an iraungiko da"
     }
   },
   "recipient": {
@@ -4548,12 +4543,33 @@
       "name": "Izena",
       "message_label": "Mezua (aukerakoa)",
       "message": "Mezua",
-      "max_characters": "{{ max_chars }} gehienez karaktere",
+      "max_characters": "Gehienez {{ max_chars }} karaktere",
       "email_label_optional_for_no_js_behavior": "Hartzailearen posta elektronikoa (aukerakoa)",
       "send_on": "UUAA-MM-DD",
       "send_on_label": "Bidali (aukerakoa)",
-      "expanded": "Opari Txartelaren Hartzailearen Inprimakia",
-      "collapsed": "Tolestutako opari-txartelaren hartzailearen inprimakia"
+      "expanded": "Opari-txartelaren hartzailearen inprimakia zabalduta",
+      "collapsed": "Opari-txartelaren hartzailearen inprimakia tolestuta"
+    }
+  },
+  "custom": {
+    "product": {
+      "stock": {
+        "vitoria_label": "Stocka Gasteizen",
+        "alemania_label": "Stocka Alemanian",
+        "available": "Eskuragarri",
+        "out_of_stock": "Stockik gabe",
+        "not_available": "ez dago eskuragarri",
+        "status_ok": "Eskuragarri",
+        "status_warn": "Stock gutxi",
+        "status_out": "Agortuta"
+      },
+      "dimensions": {
+        "title": "Pisua eta neurriak",
+        "weight": "Pisua:",
+        "length": "Luzera:",
+        "width": "Zabalera:",
+        "height": "Altuera:"
+      }
     }
   }
 }

@@ -559,6 +559,13 @@
         "status_ok": "Disponible",
         "status_warn": "Stock bajo",
         "status_out": "Agotado"
+      },
+      "dimensions": {
+        "title": "Peso y dimensiones",
+        "weight": "Peso:",
+        "length": "Longitud:",
+        "width": "Anchura:",
+        "height": "Altura:"
       }
     }
   }
